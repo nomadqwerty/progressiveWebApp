@@ -1,0 +1,29 @@
+what is a pwa - refers to any feature added to a webapp to make it feel like a mobile app.
+
+// modern browsers support some of these mobile like apis
+// push notify, geolocation, offline mode, camera, speaker, bluetooth.
+
+// pwa are to more reliable, fast execution, engaging for the users.
+
+// webApp pwa vs native app
+
+why user like native apps?
+1. push notify: constant popups rengage users.
+2. home screen icon
+3. access to native app
+4. offline
+
+why users dont like native apps
+1. need multi languages to build:swift- objective-c, android- java .\
+2. users engage more with top three app.
+3. dowload app size.
+
+why user might like pwa
+wider audience reach,
+
+
+// core pwa building blocks:
+1. service worker: caching and offline support, pwa feats
+2. webpush - push notifications
+3.app mainifest- add pwa to home screen.
+4. bgSync- send request when back online

@@ -1,0 +1,3 @@
+mainifest file is a single file added to browser:
+
+it helps adding webapp to phone homescreen
