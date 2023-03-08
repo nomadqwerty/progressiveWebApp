@@ -1,3 +1,58 @@
-mainifest file is a single file added to browser:
-
+mainifest file is a single file added to browser, tells the bbroser how to display things in our app
 it helps adding webapp to phone homescreen
+
+adding to the hoempage makes it more accessible, a single tap vs searching for a url.
+
+adding manifest file:
+add manifest.json to root of the public dir.
+
+add link tag in html that points to manifest.json file.
+
+
+///////////////////////////////////////
+manifest properties:
+name: the full name of our app: when the app is to be loaded. Prospecter smart outreach tool.
+
+short_name: the shourt name of the app to be diplayed below the home screen icon: Prospecter
+
+start_url: what page of our web app to load on startup. usually we load the index.html. the root of our website.
+
+scope: the pages that are included in the pwa. usually "." means all pages
+
+display: specifies how our pwa should work. 'standalone' means it should run just like a native app and not in the browser. others(minimal ui, browser, fullscreen)
+
+background_color: the background color shown when our app is loaded.
+
+theme_color: theme color
+
+dir: ltr, specifies the read direction of our app.
+
+lang: en-Us, specifies your app default language used more by the browser.
+
+oriention: portrait-primary: specify how you want users to use and view the app.
+
+icons:[], configuration of icons, like the homescreen icon.
+
+///// icons config: 
+icons:[
+    {
+        "src":'' icon path,
+        "type": "image/png", image type,
+        "sizes":"48x48", icon size. 
+    }
+
+    // specify the same icon but with different sizes the browser will set it accordingly to the phones resolution.
+
+    {
+        "src":'' icon path,
+        "type": "image/png", image type,
+        "sizes":"96x96", icon size. 
+    }
+
+    {
+        "src":'' icon path,
+        "type": "image/png", image type,
+        "sizes":"120x120", icon size. 
+    }
+]
+
