@@ -1,0 +1,46 @@
+why service workers.
+service worker are specicial becaus it gives our web app a native feel. the servive worker makes our web app have a next feel.
+
+// offline mode
+// background sync 
+// web push notify
+
+// javascript is executed in a single thread. 
+// when the browser loads the javascript. all the code is executed on a single thread. all the functions, dom manipulations, input prompts , alert s. synchronous operations. but it also has event loop to schedule asynchrous functions and operations(io bound tasks).
+
+
+// service workers. are like worker threads, mimicing a form multithreading but for the browser. workers have their own threads wher they execution their own javascript. this is useful for cpu heavy tasks and they are run in the background off the main thread for the webapp.
+
+// server workers. are decoupled from html
+// it accessible to all html pages rendered
+// service workers live on after the browser is closed. they are background processes in the browsers
+
+
+/////////////////////////////////////////////////////////////////
+// we use server workers with events architecure.
+
+// server workers events.
+1 fetch : fetch request.
+
+2 push Notifications : browsers have their own push notifications server and we can prompt our service worker to push our notifications to the client by pushing the notifications from our server to the browsers push server.
+
+3 notifications interaction from user; we can listen to this event and perfome an opertion needed.
+
+4 background sync: in the event of a failed post request. the request can be stores and then remade once the client has better internet connectivity.
+
+5 life cycle events.
+
+
+/////////////////////////////////////////////////////////
+life cycle of a service worker: how the registered.
+
+1 our app is load normally: htmls and js files are loaded, now in our js file we register a service worker( service workers have their own js file). while our main js registers the service worker, two events will be triggered:
+        i: install event: when the browsr installs the service worker. doesnt always re-install on refresh, it will always reinstall if our js file changes in size.
+
+        ii: activate event: fires when its ready to be activated.(more on this). the service worker is activated if the is no service worker running in the background.
+
+        once activate, it will go into idle mode and the service will wait for events, if no event occurs in a specified time it will terminate not the deleted, it can re awaken and put into idle mode.
+
+        // practice register, install and activate service workers.
+
+

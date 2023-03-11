@@ -56,3 +56,6 @@ icons:[
     }
 ]
 
+//////////////////////////////
+meta tags alternative for no app manifest(safari)
+<meta name='apple-mobile-web-app-capable' content ='yes' >
