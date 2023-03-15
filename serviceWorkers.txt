@@ -1,5 +1,5 @@
 why service workers.
-service worker are specicial becaus it gives our web app a native feel. the servive worker makes our web app have a next feel.
+service worker are specicial becaus it gives our web app a native feel. the service worker makes our web app have a next generation app feel.
 
 // offline mode
 // background sync 
@@ -17,7 +17,7 @@ service worker are specicial becaus it gives our web app a native feel. the serv
 
 
 /////////////////////////////////////////////////////////////////
-// we use server workers with events architecure.
+// we use service workers with events architecure.
 
 // server workers events.
 1 fetch : fetch request.
@@ -39,8 +39,61 @@ life cycle of a service worker: how the registered.
 
         ii: activate event: fires when its ready to be activated.(more on this). the service worker is activated if the is no service worker running in the background.
 
-        once activate, it will go into idle mode and the service will wait for events, if no event occurs in a specified time it will terminate not the deleted, it can re awaken and put into idle mode.
+        once activate, it will go into idle mode and the service will wait for events, if no event occurs in a specified time it will terminate not that its deleted, it can re awaken and put into idle mode.
 
         // practice register, install and activate service workers.
 
+////////////////////////////////////////////
+// service worker file scope: the service worker js file is scoped only to the pages in the directory the worker is contained, to enable a worker to be accessible to all pages(html files), add the worker to the root of the project directory. and it should be registered globally. ie app.js is used in all html pages to registering worker from app.js is a good idea.
 
+//////////////////////////////////////////////
+// register service workerjs: create service worker js file.
+// in file check if service worker exists in the browser.
+// the register method has a second param, it is an options object where one can specify the scope the service worker covers.
+
+// add this to app.js
+(async () => {
+  if (navigator.serviceWorker) {
+    const swReg = await navigator.serviceWorker.register("../../sw.js",{scope:'pathToPage'});
+
+    if (swReg.active) {
+      console.log("registered service worker");
+    }
+  }
+})();
+
+// nb: service workers can only work when served over https. service worker can sniff and intercept data packets, for security reasons it has to srved on https because data is encrypted. local host is an exeption because of development reasons
+
+/////////////////////////////////////////
+// listening for events on service workers. 
+in the service we have access to self(similar to window on aregular js file). here we can attach event listeners to the self object
+// add this to app.js
+
+// listen to installing event:
+
+oninstall = function (e) {
+  console.log("service worker installing....", e);
+};
+
+// nb, to activate serviceWorker close the tab and open a new tab. this might be needed if we make changes to our serviceWorker code.
+
+
+// listen to activating event:
+onactivate = function (e) {
+  console.log("service worker activating....", e);
+};
+
+
+//////////////////////////////////////////////
+// listen to events that arent concerned with life cycle events.
+// fetch: this occurs when ever our app uses the fetch api. the fetch api is used by our image components or when used by us to fetch data from a host.
+// from the fetch listeners when can intercept requests and respond to requests. from here we can perform bgSyncing.
+
+// fetch is done from and by our web app, while the other events are handled by the browser
+
+onfetch = function (e) {
+  console.log("service worker fetching....", e);
+};
+
+//////////////////////////////////////////////////
+// install banner
