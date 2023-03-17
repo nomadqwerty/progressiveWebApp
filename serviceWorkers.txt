@@ -66,7 +66,7 @@ life cycle of a service worker: how the registered.
 
 /////////////////////////////////////////
 // listening for events on service workers. 
-in the service we have access to self(similar to window on aregular js file). here we can attach event listeners to the self object
+in the service we have access to self(similar to window on a regular js file). here we can attach event listeners to the self object
 // add this to app.js
 
 // listen to installing event:
@@ -96,4 +96,37 @@ onfetch = function (e) {
 };
 
 //////////////////////////////////////////////////
-// install banner
+// install banner:
+set up remote debbugging:
+// follow.
+Connecting Chrome Developer Tools to a Real/ Emulated Device
+It's easy to connect your Chrome Developer Tools with a Real or Emulated Android Device (event though the latter unfortunately never worked for me).
+
+The following article explains it step-by-step and by using helpful images: https://developers.google.com/web/tools/chrome-devtools/remote-debugging/
+
+Make sure you enabled "Developer Mode" on your Device! You do that by tapping your Android Build Number (in the Settings) 7 times. Yes, this is no joke ;-
+
+// trigger banner install at a later point.
+
+in app.js
+listen to the 'beforeinstallprompt' event, 
+in the event handler. prevent the default behavior of the 'beforeinstallprompt' event. this will prevent chrome from prompting the install option.
+
+window.promptEvent = null;
+
+onbeforeinstallprompt = (e) => {
+  console.log("before install prompt triggered");
+  e.preventDefault();
+  window.promptEvent = e;
+};
+
+
+add this code to the function where we want to trigger install.
+if (window.promptEvent) {
+    promptEvent.prompt();
+
+    const choice = await promptEvent.userChoice;
+    if (choice.outcome === "dismissed") {
+      console.log("user dismissed install");
+    }
+  }
