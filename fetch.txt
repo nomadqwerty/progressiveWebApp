@@ -1,0 +1,17 @@
+fetch('urlStr'), by default fetch will always use the get method. when using fetch function for get it is common practice to con ert the result of the request to json(easy data format for human consumption).
+
+fetch('urlStr').then((res)=>{ return res.json()}).then((res)=>{ return res}).catch((err)=>{ err})
+
+// using fetch for post request is pretty straight forward. teh fetch function also accepts a second argument which is a javascript options object. this objects has a bunch of properties that can be set for post request or any othe method(patch,delete,connect).
+
+fetch('urlStr',{
+    method:'post',
+    headers:{
+        'Content-Type': 'application/json',
+    }
+}).then().catch((err)=>{})
+
+// cors: cross origin resource sharing. this is a security mechanism that is set to prevent access of data by request made outside of a domain. prevents data consumption.
+
+// ajax: is an old verbose method of making http requests. it takes alot of code to make it work. this doesnt work with service workers wcich requires asyn data fetching.
+

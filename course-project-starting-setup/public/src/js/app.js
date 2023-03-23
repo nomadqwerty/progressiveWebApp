@@ -1,4 +1,9 @@
 window.promptEvent = null;
+// add polyfills ffrom app.js
+if (!window.Promise) {
+  window.Promise = Promise;
+}
+
 (async () => {
   try {
     if (navigator.serviceWorker) {
