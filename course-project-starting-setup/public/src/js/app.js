@@ -7,7 +7,9 @@ if (!window.Promise) {
 (async () => {
   try {
     if (navigator.serviceWorker) {
-      const swReg = await navigator.serviceWorker.register("../../sw.js");
+      const swReg = await navigator.serviceWorker.register("../../sw.js", {
+        scope: "/",
+      });
 
       if (swReg.active) {
         console.log("registered service worker");
@@ -23,24 +25,3 @@ onbeforeinstallprompt = (e) => {
   window.promptEvent = e;
 };
 console.log(window.promptEvent);
-
-const prom = new Promise((res, rej) => {
-  let a = false;
-  if (!a) {
-    res("resolved promise");
-  }
-
-  rej(new Error("error"));
-});
-
-Promise.resolve(prom).then((res) => {
-  console.log(res);
-});
-
-Promise.reject(prom)
-  .then((res) => {
-    console.log(res);
-  })
-  .catch((err) => {
-    console.log(err);
-  });

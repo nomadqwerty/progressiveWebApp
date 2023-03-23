@@ -1,11 +1,15 @@
-oninstall = function (e) {
-  console.log("service worker installing....", e);
+oninstall = async function (e) {
+  try {
+    const swCache = await caches.open("static");
+    console.log(swCache);
+    swCache.add("./src/js/app.js");
+  } catch (error) {
+    console.log(error.message);
+  }
 };
 onactivate = function (e) {
-  console.log("service worker activating....", e);
   clients.claim();
 };
 onfetch = function (e) {
-  console.log("service worker fetching....", e);
   e.respondWith(fetch(e.request));
 };

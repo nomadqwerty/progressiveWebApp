@@ -1,0 +1,45 @@
+why caching. when we use service workers one of the main reasons is offline support for a web app.
+
+by caching data the service worker can provide offline support for a webapp.
+
+caching data is important for modern day webapps. for example the app i plan to build will have data such as messages(sms and emails) from clients, in a normal web app if i have no internet connection, i wont be able to access old messages(as i would in a native app). but cahing gives it that leverage. So by caching messages sent from clients i can access old messages with no internet connection.
+
+also good for poor connections.
+
+// the cache api. the api is an abstraction for developers to cache data that a web app will need.
+
+// the browser has a cache but as developers we cant access the cache, we cant tell it what data to cache. so we need the cache api.
+
+
+// cache consists of a key value pair data store.
+// the key is the request and the value is the response.
+
+// what is good for cacching.
+// static cache
+// dynamic cache.
+
+// the primary and most important, part to cache in website is the static part(html,css). this is known as static content. this contents are what the user always expects to see(navigation, footer, body hmtl, with css). so we need to cache the static content(website structure) so the user can view the static content even if the have no internet connection.
+// static content can be cache at any point in a service worker, but its better to cache the static content at the "service worker life cycles". withen the live cycles events functions can be set to perform caching.
+
+// two main life cycles: oninstall and onactivate. now using on activate isnt a good idea because this event is triggered after installation.
+
+// so the most optimal place to store the static content is in the install life cycle. the service worker is installed once and lives in the browser until a new service worker is registered. so once a user loads our page and the service worker is installed. the app can always served the static content even with no internet connection.
+
+oninstall = async function (e) {
+  try {
+    // create a cache store is async so use async await functions.
+    // create cache with the caches object(global)
+    // use caches.open('cacheName')
+
+    const swCache = await caches.open("static");
+    console.log(swCache);
+
+    // caches have many methods. but the most common is the add('path to static file')
+    swCache.add("./src/js/app.js");
+  } catch (error) {
+    console.log(error.message);
+  }
+};
+
+// NB: cache store has a limited space so its good to conserve  memory. if its full the browser can also clear the cache stoore.
+
