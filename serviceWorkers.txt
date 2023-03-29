@@ -9,9 +9,9 @@ service worker are specicial becaus it gives our web app a native feel. the serv
 // when the browser loads the javascript. all the code is executed on a single thread. all the functions, dom manipulations, input prompts , alert s. synchronous operations. but it also has event loop to schedule asynchrous functions and operations(io bound tasks).
 
 
-// service workers. are like worker threads, mimicing a form multithreading but for the browser. workers have their own threads wher they execution their own javascript. this is useful for cpu heavy tasks and they are run in the background off the main thread for the webapp.
+// service workers. are like worker threads, mimicing a form multithreading but for the browser. workers have their own threads wher they execution their own javascript. this is useful for cpu heavy tasks and network proxy task, they are run in the background off the main thread for the webapp not block are main javascript execution.
 
-// server workers. are decoupled from html
+// service workers. are decoupled from html
 // it accessible to all html pages rendered
 // service workers live on after the browser is closed. they are background processes in the browsers
 

@@ -29,7 +29,7 @@ oninstall = async function (e) {
   try {
     // create a cache store is async so use async await functions.
     // create cache with the caches object(global)
-    // use caches.open('cacheName')
+    // use caches.open('cacheName') ie caches.open('static)
 
     const swCache = await caches.open("static");
     console.log(swCache);
@@ -43,3 +43,129 @@ oninstall = async function (e) {
 
 // NB: cache store has a limited space so its good to conserve  memory. if its full the browser can also clear the cache stoore.
 
+
+// retrieving data from cache. Note that the cache has a key(request) and a value(response), which means that the data can be retrieved in the onfetch event because it will still make a request to the server the files are store(even if its hosted on the same server). so use fetch event handler.
+
+// cache retrieved methods. 
+// match: match is use to find a match of the request we need from the cache store
+// e.respondWith is synchronous, so we need to execute async caches match method inside the respondWith method. 
+// promise based(then,catch)
+ e.respondWith(
+    caches
+      .match(e.request)
+      .then((res) => {
+        if (res) {
+          return res;
+        } else {
+          return fetch(e.request);
+        }
+      })
+      .catch((err) => console.log(err.message))
+  );
+// promise based (async IIFE){
+    e.respondWith(
+      // execute iife in respondWith() call
+    (async () => {
+      // await matching request from cache store
+      const cacheStore = await caches.match(e.request);
+
+      // static cache
+      if (cacheStore) {
+        // if response is found in cache return the cache response
+        console.log(cacheStore);
+        return cacheStore;
+      } else {
+        // if response not found in cache continue with fetching requests as usaull
+        const res = await fetch(e.request);
+        console.log(res);
+        return res;
+      }
+    })()
+  );
+}
+
+// when adding files, its best to add them like url and not file path.
+ie if we cache /index.html , if a user visits the root of our site / they will get no static content(html)
+
+so add request as if it was our site
+
+add('/')
+add('/index.html')
+add('/styles.css')
+add('/app.js')
+
+
+//adding one by one is tedious.
+// make use of addAll([array of urls])
+
+// caching polyfils. polifils are needed by mostly older browsers, and oldr browsers do not support service workers. so caching polyfils might not be necessary. but rarely modern browsers maybe need these polyfils so for perfomance sake it can be added its up to the developer.
+
+// we can also cache data/ files from remote servers. cache the link(this are request that are made as the app is loaded, not after it is loaded ie a request that is made dynamically maybe in the js files or even a request that ends up making another request from another remote server)
+
+// since static files are to be cached at install handler.
+// dynamic files are to be cached at fetch handler.
+
+// why fetch? we want to store data that might not be available on the load of our server(when install event is fired), so any later data returned from any future request is best handled in the fetch handler(when ever fetch is triggered).
+
+    e.respondWith(
+      // execute iife in respondWith() call
+    (async () => {
+      // await matching request from cache store
+      const cacheStore = await caches.match(e.request);
+
+      // static cache
+      if (cacheStore) {
+        // if response is found in cache return the cache response
+        console.log(cacheStore);
+        return cacheStore;
+      } else {
+        // if response not found in cache continue with fetching requests as usaull
+        const res = await fetch(e.request);
+        console.log(res);
+        return res;
+      }
+    })()
+  );
+// dynamically cache data
+onfetch = function (e) {
+  e.respondWith(
+    (async () => {
+      // await matching request from cache store
+      const cacheStore = await caches.match(e.request);
+
+      // static cache
+      if (cacheStore) {
+        // if response is found in cache return the cache response
+        console.log(cacheStore);
+        return cacheStore;
+      }  else if (!cacheStore) {
+        // dynamically cache data.
+
+        // check if url has chrome extension
+        if (!e.request.url.includes("chrome-extension")) {
+          
+          // if it doesnt have chrome extension in it, create new cache for dynamic data.
+          const newCacheStore = await caches.open("dynamic");
+
+          // add request to dynamic cache.
+          newCacheStore.add(e.request.url);
+
+          // retrieved added request's response
+          const newCacheData = await newCacheStore.match(e.request);
+
+
+          if (newCacheData) {
+            // if response is found, return that response.
+
+            return newCacheData;
+          }
+        } else {
+          // if url has chrome extension continue with fetch as usual.
+
+          const res = await fetch(e.request);
+          return res;
+        }
+      }
+    })()
+  );
+};
