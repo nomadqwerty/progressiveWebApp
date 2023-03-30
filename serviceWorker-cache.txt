@@ -25,26 +25,41 @@ also good for poor connections.
 
 // so the most optimal place to store the static content is in the install life cycle. the service worker is installed once and lives in the browser until a new service worker is registered. so once a user loads our page and the service worker is installed. the app can always served the static content even with no internet connection.
 
-oninstall = async function (e) {
-  try {
-    // create a cache store is async so use async await functions.
-    // create cache with the caches object(global)
-    // use caches.open('cacheName') ie caches.open('static)
+// static cacching
+oninstall = (e) => {
+  console.log("[Service Worker] Installing Service Worker ...", e);
 
-    const swCache = await caches.open("static");
-    console.log(swCache);
+  // tell browser to wait for operation to complete before continuing.
+  e.waitUntil(
+    (async () => {
+      // create cache
+      const staticStore = await caches.open("static");
 
-    // caches have many methods. but the most common is the add('path to static file')
-    swCache.add("./src/js/app.js");
-  } catch (error) {
-    console.log(error.message);
-  }
+      // add file one by one or add all
+      // addAll
+      staticStore.addAll([
+        "/",
+        "/index.html",
+        "/src/js/app.js",
+        "/src/js/feed.js",
+        "/src/js/promise.js",
+        "/src/js/fetch.js",
+        "/src/js/material.min.js",
+        "/src/css/app.css",
+        "/src/css/feed.css",
+        "/src/images/main-image.jpg",
+        "https://fonts.googleapis.com/css?family=Roboto:400,700",
+        "https://fonts.googleapis.com/icon?family=Material+Icons",
+        "https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css",
+      ]);
+    })()
+  );
 };
 
 // NB: cache store has a limited space so its good to conserve  memory. if its full the browser can also clear the cache stoore.
 
-
-// retrieving data from cache. Note that the cache has a key(request) and a value(response), which means that the data can be retrieved in the onfetch event because it will still make a request to the server the files are store(even if its hosted on the same server). so use fetch event handler.
+/////////////////////////////////////////////////////////////////////////
+// retrieving data from cache. in retrieving the data from the cache, note that cache store request and response. we now know that all our fetch requests can be intercepted in the onfetch handler. so if we check and find that there is a particular request has been stored in the cache we just pull the response from the cache rather pulling the response from a remote server. saves time and can enable offline capabilties.
 
 // cache retrieved methods. 
 // match: match is use to find a match of the request we need from the cache store
@@ -127,45 +142,63 @@ add('/app.js')
     })()
   );
 // dynamically cache data
-onfetch = function (e) {
+onfetch = (e) => {
   e.respondWith(
     (async () => {
-      // await matching request from cache store
+      // check if cache has response
       const cacheStore = await caches.match(e.request);
 
-      // static cache
       if (cacheStore) {
-        // if response is found in cache return the cache response
-        console.log(cacheStore);
+        // if so return the cache response
         return cacheStore;
-      }  else if (!cacheStore) {
-        // dynamically cache data.
+      } else {
+        // else not in static cache store. we cache dynamically
+        // dynamic caching
 
-        // check if url has chrome extension
-        if (!e.request.url.includes("chrome-extension")) {
-          
-          // if it doesnt have chrome extension in it, create new cache for dynamic data.
-          const newCacheStore = await caches.open("dynamic");
+        // fetch request if request not cached.
+        const fetchRes = await fetch(e.request);
 
-          // add request to dynamic cache.
-          newCacheStore.add(e.request.url);
+        // create new cache store
+        const dynamicStore = await caches.open("dynamic");
 
-          // retrieved added request's response
-          const newCacheData = await newCacheStore.match(e.request);
+        // manually put request url and and response clone from the above fetch into cache.
+        dynamicStore.put(e.request.url, fetchRes.clone());
 
-
-          if (newCacheData) {
-            // if response is found, return that response.
-
-            return newCacheData;
-          }
-        } else {
-          // if url has chrome extension continue with fetch as usual.
-
-          const res = await fetch(e.request);
-          return res;
-        }
+        // return response
+        return fetchRes;
       }
     })()
   );
+};
+
+
+//////////////////////////////////////////////////////////////////////////
+// cache versioning: this is needed to update cache data. to return new data instead old cache data so we need to create new sub caches. 
+if changes are made to the app, we need to update cache so that the changes can reflect in the app.
+
+// now creating multiple sub caches isnt optimal, so any time we create a new cache its best to delete old cache.
+
+as we know static cache is best stored in the install event. as soon as our serviceWorker is registered we cache the data, we also know that dynamic cache are best made in the fetch event because the data to cached arent made during the install but much later. so we get that done in the fetch event, fetch is triggered any time our app in one way or the other uses fetch api to request for data.
+
+// with the above stated, the best place to clear cache is in the activate event. the activate event is fired when the serviceWorker is activated and running.so serviceWorker is registered and the new cache has been created in the install event(so its already available in the app) once the serviceWorker is then activated we now have to two caches available so we delete the old one. deleting old cache in install event is unpredictable becaue we could be delete the old cache when our app needs it and there is no new cache to fallback on. the best bet is in activate event.
+
+// delete cache.
+onactivate = (e) => {
+  console.log("[Service Worker] Activating Service Worker ....");
+  e.waitUntil(
+    (async () => {
+      // get list of all our cache(returns keys for all caches)(async operation)
+      const cacheArray = await caches.keys();
+
+      // loop over array.
+      cacheArray.forEach((key, i) => {
+        // if key is not a match with new cache store name, then delete it
+        if (key !== cacheName && key !== dynamicName) {
+          console.log(key);
+          caches.delete(key);
+        }
+      });
+    })()
+  );
+  return self.clients.claim();
 };

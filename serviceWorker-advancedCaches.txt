@@ -1,0 +1,17 @@
+// cache data on user interactions. caching on demand is possibel because, we can accces the cache api in any of our js app files.
+
+// check if caches is in window object first.
+
+// somewhere in js app files
+  if (window.caches) {
+    const btn = document.createElement("button");
+    btn.textContent = "save";
+    btn.addEventListener("click", async function (e) {
+      const userCache = await caches.open("userV1");
+      userCache.addAll([
+        "https://httpbin.org/get",
+        "../../src/images/main-image-sm.jpg",
+      ]);
+    });
+    cardSupportingText.appendChild(btn);
+  }
