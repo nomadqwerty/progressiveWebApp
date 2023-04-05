@@ -117,7 +117,7 @@ if (!networkData) {
 }
 
 // the service worker we can still intercecpt the fetch request made in the app files, so we can easily store the updated requests in the cache.
-// this will stratergy will cache things twice, requests cached in during install will all be recached during fetch event.
+// this will stratergy will cache things twice, this is because we originally check if response is in caceh(from serviceWorker) and if its not in store we make request, we arent checking for any response in the cache now we just make the request then cache it in serviceWorker
 // network first with cache fallback version2(better).
 onfetch = (e) => {
   e.respondWith(
