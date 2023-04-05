@@ -1,4 +1,4 @@
-// cache data on user interactions. caching on demand is possibel because, we can accces the cache api in any of our js app files.
+// cache data on user interactions. caching on demand is possible because, we can accces the cache api in any of our js app files.
 
 // check if caches is in window object first.
 
@@ -15,3 +15,123 @@
     });
     cardSupportingText.appendChild(btn);
   }
+
+/////////////////////////////////////////////////////////////////////
+// providing offline fallback.
+// if the client is offline, any fetch to get data not stored in cache will fail and throw an error. in a try catch block we can then catch errors and handle errors that happen due to failed fetch calls, we handle this fetch error by returned an already catch html page to notify the client of the error. by default the browser will tell the client but we need to make it look more like our app so we add a html offline page.
+
+ catch (error) {
+        // open cache store(where the offline html is stored)
+        const staticStore = await caches.open(cacheName);
+
+        // find a match for the offline response stored in cache
+        const match = await staticStore.match("/offline.html");
+
+        // return the response
+        return match;
+      }
+
+/////////////////////////////////////////////////////////////////////////// caching strategy:
+
+// so far we started caching with a network fallback strategy. where our page makes a request and our serviceWorker intercepts the request and then checks the cache store if request is in it, if it is in the cache store serviceWorker responds with the cached response and if the serviceWorker doesnt find the request in the cache store it will proceed with the fetch request as usual.
+
+// cache only stratergy: the cache only strategy works by depending solely on the cache store. for any request not in cache store they will be no response. no dynamic caching is performed to. all the data we need is gotten on during the service worker install.
+
+// by responding with only what is in the cache the app will be very limited, cache only is used in very specific conditions.
+
+onfetch = (e) => {
+  e.respondWith(
+    (async () => {
+      const cacheStore = await caches.match(e.request);
+      return cacheStore;
+    })()
+  );
+};
+
+
+// network only strategy: this is the complete opposite of the cache only, here the serviceworker intercepts the request and continues with the request as usual. its a very redundant techniques and should be avoid if thats all we need to do, because the app perfoms request as usual.
+
+// onfetch = (e) => {
+//   e.respondWith(
+//     (async () => {
+//       const res = await fetch(e.request);
+//       return res;
+//     })()
+//   );
+// };
+
+// network then cache fallback: this strategy will first make the request then cache the response and if request fails we then reach into cache to find response. this doesnt take the full advantage of caching which is a faster response if response was in cache rather then making a request then if it fails we then check the cache for responds and if responds doesnt fail but takes time this will leave the user waiting for long time.
+onfetch = (e) => {
+  e.respondWith(
+    (async () => {
+      try {
+        const res = await fetch(e.request);
+
+        if (res) {
+          if (!e.request.url.includes("chrome-extension")) {
+            const dynamicStore = await caches.open(dynamicName);
+            dynamicStore.put(e.request.url, res.clone());
+          }
+        }
+
+        return res;
+      } catch (error) {
+        const cacheStore = await caches.match(e.request);
+        return cacheStore;
+      }
+    })()
+  );
+};
+
+// the cache first then network fallback strategy is very power ful. it will first check the cache for responses if it has a response it will return the response, but at the same time it will also make the request as usual when the response is returned we then update the cache data will the new. the first part of this technique is done directly in the app file/s. there is a condition in which the fetch responds faster than the cache. in that case we can make use of a bool value. we set the value to true if once the request is done and perform caching only if bool is false(meaning fetch hasnt responded). 
+
+
+// in app files
+let networkData = false;
+
+fetch("https://httpbin.org/get")
+  .then(function (res) {
+    return res.json();
+  })
+  .then(function (data) {
+    console.log("from web", data);
+    clearcard();
+    createCard();
+  });
+
+if (!networkData) {
+  if (window.caches) {
+    window.caches
+      .match("https://httpbin.org/get")
+      .then((res) => {
+        if (res) {
+          return res.json();
+        }
+      })
+      .then((res) => {
+        console.log("from cache", res);
+        clearcard();
+        createCard();
+      });
+  }
+}
+
+// the service worker we can still intercecpt the fetch request made in the app files, so we can easily store the updated requests in the cache.
+// this will stratergy will cache things twice, requests cached in during install will all be recached during fetch event.
+// network first with cache fallback version2(better).
+onfetch = (e) => {
+  e.respondWith(
+    (async () => {
+      const res = await fetch(e.request);
+
+      if (res) {
+        if (!e.request.url.includes("chrome-extension")) {
+          const dynamicStore = await caches.open(dynamicName);
+          dynamicStore.put(e.request.url, res.clone());
+        }
+      }
+
+      return res;
+    })()
+  );
+};

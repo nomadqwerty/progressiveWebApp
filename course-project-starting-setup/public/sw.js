@@ -1,4 +1,4 @@
-const cacheName = "staticV1";
+const cacheName = "staticV5";
 const dynamicName = "dynamicV1";
 
 oninstall = (e) => {
@@ -10,6 +10,7 @@ oninstall = (e) => {
       console.log("[Service Worker] Precaching App Shell");
       staticStore.addAll([
         "/",
+        "/offline.html",
         "/index.html",
         "/src/js/app.js",
         "/src/js/feed.js",
@@ -42,18 +43,95 @@ onactivate = (e) => {
   return self.clients.claim();
 };
 
+// cache first then network fallback
+
+// onfetch = (e) => {
+//   e.respondWith(
+//     (async () => {
+//       try {
+//         const cacheStore = await caches.match(e.request);
+//         if (cacheStore) {
+//           return cacheStore;
+//         } else {
+//           const fetchRes = await fetch(e.request);
+//           if (
+//             !e.request.url.includes("chrome-extension") &&
+//             !e.request.url.includes("/help") &&
+//             !e.request.url.includes("/feed")
+//           ) {
+//             const dynamicStore = await caches.open(dynamicName);
+//             dynamicStore.put(e.request.url, fetchRes.clone());
+//           }
+//           return fetchRes;
+//         }
+//       } catch (error) {
+//         const staticStore = await caches.open(cacheName);
+
+//         const match = await staticStore.match("/offline.html");
+
+//         return match;
+//       }
+//     })()
+//   );
+// };
+
+// cache only
+// onfetch = (e) => {
+//   e.respondWith(
+//     (async () => {
+//       const cacheStore = await caches.match(e.request);
+//       return cacheStore;
+//     })()
+//   );
+// };
+
+// network only
+// onfetch = (e) => {
+//   e.respondWith(
+//     (async () => {
+//       const res = await fetch(e.request);
+//       return res;
+//     })()
+//   );
+// };
+
+// network first with cache fallback.
+// onfetch = (e) => {
+//   e.respondWith(
+//     (async () => {
+//       try {
+//         const res = await fetch(e.request);
+
+//         if (res) {
+//           if (!e.request.url.includes("chrome-extension")) {
+//             const dynamicStore = await caches.open(dynamicName);
+//             dynamicStore.put(e.request.url, res.clone());
+//           }
+//         }
+
+//         return res;
+//       } catch (error) {
+//         const cacheStore = await caches.match(e.request);
+//         return cacheStore;
+//       }
+//     })()
+//   );
+// };
+
+// network first with cache fallback version2(better).
 onfetch = (e) => {
   e.respondWith(
     (async () => {
-      const cacheStore = await caches.match(e.request);
-      if (cacheStore) {
-        return cacheStore;
-      } else {
-        const fetchRes = await fetch(e.request);
-        const dynamicStore = await caches.open(dynamicName);
-        dynamicStore.put(e.request.url, fetchRes.clone());
-        return fetchRes;
+      const res = await fetch(e.request);
+
+      if (res) {
+        if (!e.request.url.includes("chrome-extension")) {
+          const dynamicStore = await caches.open(dynamicName);
+          dynamicStore.put(e.request.url, res.clone());
+        }
       }
+
+      return res;
     })()
   );
 };
