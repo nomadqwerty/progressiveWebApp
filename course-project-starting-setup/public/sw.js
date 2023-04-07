@@ -137,31 +137,98 @@ onactivate = (e) => {
 // };
 
 // network first with cache fallback version3(hybrid).
+const staticArr = [
+  "/",
+  "/offline.html",
+  "/index.html",
+  "/src/js/app.js",
+  "/src/js/feed.js",
+  "/src/js/promise.js",
+  "/src/js/fetch.js",
+  "/src/js/material.min.js",
+  "/src/css/app.css",
+  "/src/css/feed.css",
+  "/src/images/main-image.jpg",
+  "https://fonts.googleapis.com/css?family=Roboto:400,700",
+  "https://fonts.googleapis.com/icon?family=Material+Icons",
+  "https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css",
+];
+
+const staticRes = async (e) => {
+  console.log("static");
+  let isStatic = false;
+  if (e.request.url.includes("chrome-extension")) {
+    return;
+  }
+  if (e.request.url.endsWith(".html")) {
+    isStatic = true;
+  }
+  if (e.request.url.endsWith(".css")) {
+    isStatic = true;
+  }
+  if (e.request.url.endsWith(".js")) {
+    isStatic = true;
+  }
+  if (e.request.url.endsWith("/")) {
+    isStatic = true;
+  }
+  if (e.request.url.endsWith(".jpg")) {
+    isStatic = true;
+  }
+  // if (e.request.url.endsWith(".png")) {
+  //   isStatic = true;
+  // }
+  console.log(isStatic);
+  if (isStatic) {
+    const cacheStore = await caches.match(e.request);
+    if (cacheStore) {
+      return cacheStore;
+    }
+  }
+};
+const dynamicRes = async (e) => {
+  console.log("dynamic");
+
+  const res = await fetch(e.request);
+  if (e.request.url.indexOf("https://httpbin.org/get") > -1) {
+    if (!e.request.url.includes("chrome-extension")) {
+      const dynamicStore = await caches.open(dynamicName);
+      dynamicStore.put(e.request.url, res.clone());
+    }
+  }
+  return res;
+};
+
+const offlineRes = async (e) => {
+  const cacheStore = await caches.match(e.request);
+  if (cacheStore) {
+    return;
+  } else {
+    const staticStore = await caches.open(cacheName);
+
+    const match = await staticStore.match("/offline.html");
+
+    return match;
+  }
+};
 onfetch = (e) => {
   e.respondWith(
     (async () => {
       try {
-        const res = await fetch(e.request);
-        if (e.request.url.indexOf("https://httpbin.org/get") > -1) {
-          if (!e.request.url.includes("chrome-extension")) {
-            const dynamicStore = await caches.open(dynamicName);
-            dynamicStore.put(e.request.url, res.clone());
-          }
+        const static = await staticRes(e);
+
+        if (static) {
+          return static;
         }
 
-        return res;
+        if (!static) {
+          console.log(e.request.url);
+          return await dynamicRes(e);
+        }
       } catch (error) {
         console.log(error);
-        const cacheStore = await caches.match(e.request);
-        if (cacheStore) {
-          return cacheStore;
-        } else {
-          const staticStore = await caches.open(cacheName);
 
-          const match = await staticStore.match("/offline.html");
-
-          return match;
-        }
+        return await offlineRes(e);
       }
     })()
   );
