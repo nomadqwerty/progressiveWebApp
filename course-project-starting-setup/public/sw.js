@@ -118,20 +118,51 @@ onactivate = (e) => {
 //   );
 // };
 
-// network first with cache fallback version2(better).
+// // network first with cache fallback version2(better).
+// onfetch = (e) => {
+//   e.respondWith(
+//     (async () => {
+//       const res = await fetch(e.request);
+
+//       if (res) {
+//         if (!e.request.url.includes("chrome-extension")) {
+//           const dynamicStore = await caches.open(dynamicName);
+//           dynamicStore.put(e.request.url, res.clone());
+//         }
+//       }
+
+//       return res;
+//     })()
+//   );
+// };
+
+// network first with cache fallback version3(hybrid).
 onfetch = (e) => {
   e.respondWith(
     (async () => {
-      const res = await fetch(e.request);
+      try {
+        const res = await fetch(e.request);
+        if (e.request.url.indexOf("https://httpbin.org/get") > -1) {
+          if (!e.request.url.includes("chrome-extension")) {
+            const dynamicStore = await caches.open(dynamicName);
+            dynamicStore.put(e.request.url, res.clone());
+          }
+        }
 
-      if (res) {
-        if (!e.request.url.includes("chrome-extension")) {
-          const dynamicStore = await caches.open(dynamicName);
-          dynamicStore.put(e.request.url, res.clone());
+        return res;
+      } catch (error) {
+        console.log(error);
+        const cacheStore = await caches.match(e.request);
+        if (cacheStore) {
+          return cacheStore;
+        } else {
+          const staticStore = await caches.open(cacheName);
+
+          const match = await staticStore.match("/offline.html");
+
+          return match;
         }
       }
-
-      return res;
     })()
   );
 };

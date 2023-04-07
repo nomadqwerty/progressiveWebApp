@@ -18,7 +18,7 @@
 
 /////////////////////////////////////////////////////////////////////
 // providing offline fallback.
-// if the client is offline, any fetch to get data not stored in cache will fail and throw an error. in a try catch block we can then catch errors and handle errors that happen due to failed fetch calls, we handle this fetch error by returned an already catch html page to notify the client of the error. by default the browser will tell the client but we need to make it look more like our app so we add a html offline page.
+// if the client is offline, any fetch to get data not stored in cache will fail and throw an error. in a try catch block we can then catch errors and handle errors that happen due to failed fetch calls, we handle this fetch error by returning an already cached html page to notify the client of the error. by default the browser will tell the client but we need to make it look more like our app so we add a html offline page.
 
  catch (error) {
         // open cache store(where the offline html is stored)
@@ -35,7 +35,7 @@
 
 // so far we started caching with a network fallback strategy. where our page makes a request and our serviceWorker intercepts the request and then checks the cache store if request is in it, if it is in the cache store serviceWorker responds with the cached response and if the serviceWorker doesnt find the request in the cache store it will proceed with the fetch request as usual.
 
-// cache only stratergy: the cache only strategy works by depending solely on the cache store. for any request not in cache store they will be no response. no dynamic caching is performed to. all the data we need is gotten on during the service worker install.
+// cache only stratergy: the cache only strategy works by depending solely on the cache store. for any request not in cache store they will be no response. no dynamic caching is performed to. all the data the app may need is gotten on during the service worker install.
 
 // by responding with only what is in the cache the app will be very limited, cache only is used in very specific conditions.
 
@@ -49,7 +49,7 @@ onfetch = (e) => {
 };
 
 
-// network only strategy: this is the complete opposite of the cache only, here the serviceworker intercepts the request and continues with the request as usual. its a very redundant techniques and should be avoid if thats all we need to do, because the app perfoms request as usual.
+// network only strategy: this is the complete opposite of the cache only, here the serviceworker intercepts the request and continues with the request as usual. its a very redundant technique and should be avoided if thats all we need to do, because the app perfoms request as usual.
 
 // onfetch = (e) => {
 //   e.respondWith(
@@ -60,7 +60,7 @@ onfetch = (e) => {
 //   );
 // };
 
-// network then cache fallback: this strategy will first make the request then cache the response and if request fails we then reach into cache to find response. this doesnt take the full advantage of caching which is a faster response if response was in cache rather then making a request then if it fails we then check the cache for responds and if responds doesnt fail but takes time this will leave the user waiting for long time.
+// network then cache fallback: this strategy will first make the request then cache the response and if request fails we then reach into cache to find response. this doesnt take the full advantage of caching which is a faster response if response was in cache rather then making a request then if it fails we then check the cache for respond and if responds doesnt fail but takes time(slow network connection) this will leave the user waiting for long time.
 onfetch = (e) => {
   e.respondWith(
     (async () => {
@@ -116,8 +116,8 @@ if (!networkData) {
   }
 }
 
-// the service worker we can still intercecpt the fetch request made in the app files, so we can easily store the updated requests in the cache.
-// this will stratergy will cache things twice, this is because we originally check if response is in caceh(from serviceWorker) and if its not in store we make request, we arent checking for any response in the cache now we just make the request then cache it in serviceWorker.
+// the service worker will still intercecpt the fetch request made from the app files it will add the new response to the cache store, so we can easily store the updated requests in the cache.
+// this stratergy will cache things twice, this is because we originally check if response is in caceh(from serviceWorker) and if its not in store we make request, we arent checking for any response in the cache now we just make the request then cache it in serviceWorker.
 // network first with cache fallback version2(better).
 onfetch = (e) => {
   e.respondWith(
@@ -132,6 +132,39 @@ onfetch = (e) => {
       }
 
       return res;
+    })()
+  );
+};
+
+// the above technique can be improved upon to have offline support. by parsing the url property on the event request object (event.request.url) we can use logic blocks to perfom certain caching technique based the url.
+
+// when in offline mode we can still cathc the error(failed to fetch) and then respond with our cache data. this to say if the network request fails we can catch the error and use our cache as a fallback. we can also then add the offline page for pages not in cache.
+onfetch = (e) => {
+  e.respondWith(
+    (async () => {
+      try {
+        const res = await fetch(e.request);
+
+        if (e.request.url.indexOf("https://httpbin.org/get") > -1) {
+          if (!e.request.url.includes("chrome-extension")) {
+            const dynamicStore = await caches.open(dynamicName);
+            dynamicStore.put(e.request.url, res.clone());
+          }
+        }
+
+        return res;
+      } catch (error) {
+        const cacheStore = await caches.match(e.request);
+        if (cacheStore) {
+          return cacheStore;
+        } else {
+          const staticStore = await caches.open(cacheName);
+
+          const match = await staticStore.match("/offline.html");
+
+          return match;
+        }
+      }
     })()
   );
 };

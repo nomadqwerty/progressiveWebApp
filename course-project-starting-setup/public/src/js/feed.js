@@ -32,7 +32,7 @@ const clearcard = () => {
   }
 };
 
-function createCard() {
+function createCard(color) {
   var cardWrapper = document.createElement("div");
   cardWrapper.className = "shared-moment-card mdl-card mdl-shadow--2dp";
   var cardTitle = document.createElement("div");
@@ -44,7 +44,7 @@ function createCard() {
   var cardTitleTextElement = document.createElement("h2");
   cardTitleTextElement.className = "mdl-card__title-text";
   cardTitleTextElement.textContent = "west Francisco Trip";
-  cardTitleTextElement.style.color = "yellow";
+  cardTitleTextElement.style.color = color;
   cardTitle.appendChild(cardTitleTextElement);
   var cardSupportingText = document.createElement("div");
   cardSupportingText.className = "mdl-card__supporting-text";
@@ -77,7 +77,7 @@ fetch("https://httpbin.org/get")
   .then(function (data) {
     console.log("from web", data);
     clearcard();
-    createCard();
+    createCard("blue");
   });
 
 if (!networkData) {
@@ -91,8 +91,10 @@ if (!networkData) {
       })
       .then((res) => {
         console.log("from cache", res);
-        clearcard();
-        createCard();
+        if (res) {
+          clearcard();
+          createCard("red");
+        }
       });
   }
 }
