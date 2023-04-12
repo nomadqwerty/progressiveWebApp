@@ -68,14 +68,12 @@ function createCard(color) {
   sharedMomentsArea.appendChild(cardWrapper);
 }
 
-console.log(window);
 let networkData = false;
 fetch("https://httpbin.org/get")
   .then(function (res) {
     return res.json();
   })
   .then(function (data) {
-    console.log("from web", data);
     clearcard();
     createCard("blue");
   });
@@ -90,7 +88,6 @@ if (!networkData) {
         }
       })
       .then((res) => {
-        console.log("from cache", res);
         if (res) {
           clearcard();
           createCard("red");

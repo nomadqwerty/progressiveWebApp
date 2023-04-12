@@ -168,3 +168,22 @@ onfetch = (e) => {
     })()
   );
 };
+
+
+/////////////////////////////////////////////////////////////////////////// caching post requests. post requests really cant be cached because it used to send data to a web server, and if the web server is remote we will need internet connectivity to be able to send data. so offline caching is not needed. but we are still able to cache initial responses for post request done earlier.
+
+
+// trimming cache store to prevent maxing out cache storage.
+const trimCache = async (cacheName, maxLimit) => {
+  const cacheStore = await caches.open(cacheName);
+  const keys = await cacheStore.keys();
+  // console.log(keys);
+
+  if (keys.length > maxLimit) {
+    const keysHalf = keys.length / 2;
+    console.log(keysHalf);
+    for (let i = 0; i < keysHalf; i++) {
+      await cacheStore.delete(keys[i]);
+    }
+  }
+};

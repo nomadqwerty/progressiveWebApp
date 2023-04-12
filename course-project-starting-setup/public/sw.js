@@ -1,6 +1,20 @@
 const cacheName = "staticV5";
 const dynamicName = "dynamicV1";
 
+const trimCache = async (cacheName, maxLimit) => {
+  const cacheStore = await caches.open(cacheName);
+  const keys = await cacheStore.keys();
+  // console.log(keys);
+
+  if (keys.length > maxLimit) {
+    const keysHalf = keys.length / 2;
+    console.log(keysHalf);
+    for (let i = 0; i < keysHalf; i++) {
+      await cacheStore.delete(keys[i]);
+    }
+  }
+};
+
 oninstall = (e) => {
   console.log("[Service Worker] Installing Service Worker ...");
 
@@ -41,6 +55,101 @@ onactivate = (e) => {
     })()
   );
   return self.clients.claim();
+};
+
+// optimal caching technique
+const staticArr = [
+  "/",
+  "/offline.html",
+  "/index.html",
+  "/src/js/app.js",
+  "/src/js/feed.js",
+  "/src/js/promise.js",
+  "/src/js/fetch.js",
+  "/src/js/material.min.js",
+  "/src/css/app.css",
+  "/src/css/feed.css",
+  "/src/images/main-image.jpg",
+  "https://fonts.googleapis.com/css?family=Roboto:400,700",
+  "https://fonts.googleapis.com/icon?family=Material+Icons",
+  "https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css",
+];
+
+const staticRes = async (e) => {
+  let isStatic = false;
+  if (e.request.url.includes("chrome-extension")) {
+    return;
+  }
+  if (e.request.url.endsWith(".html")) {
+    isStatic = true;
+  }
+  if (e.request.url.endsWith(".css")) {
+    isStatic = true;
+  }
+  if (e.request.url.endsWith(".js")) {
+    isStatic = true;
+  }
+  if (e.request.url.endsWith("/")) {
+    isStatic = true;
+  }
+  if (e.request.url.endsWith(".jpg")) {
+    isStatic = true;
+  }
+  // if (e.request.url.endsWith(".png")) {
+  //   isStatic = true;
+  // }
+
+  if (isStatic) {
+    const cacheStore = await caches.match(e.request);
+    if (cacheStore) {
+      console.log(cacheStore);
+      return cacheStore;
+    }
+  }
+};
+const dynamicRes = async (e) => {
+  const res = await fetch(e.request);
+  if (!e.request.url.includes("chrome-extension")) {
+    const dynamicStore = await caches.open(dynamicName);
+    dynamicStore.put(e.request.url, res.clone());
+  }
+  return res;
+};
+
+const offlineRes = async (e) => {
+  const cacheStore = await caches.match(e.request);
+
+  if (cacheStore) {
+    return cacheStore;
+  } else {
+    const staticStore = await caches.open(cacheName);
+
+    const match = await staticStore.match("/offline.html");
+    if (e.request.headers.get("accept").includes("text/html")) {
+      return match;
+    }
+  }
+};
+onfetch = (e) => {
+  e.respondWith(
+    (async () => {
+      try {
+        await trimCache(dynamicName, 10);
+
+        const static = await staticRes(e);
+
+        if (static) {
+          return static;
+        }
+
+        if (!static) {
+          return await dynamicRes(e);
+        }
+      } catch (error) {
+        return await offlineRes(e);
+      }
+    })()
+  );
 };
 
 // cache first then network fallback
@@ -137,99 +246,3 @@ onactivate = (e) => {
 // };
 
 // network first with cache fallback version3(hybrid).
-const staticArr = [
-  "/",
-  "/offline.html",
-  "/index.html",
-  "/src/js/app.js",
-  "/src/js/feed.js",
-  "/src/js/promise.js",
-  "/src/js/fetch.js",
-  "/src/js/material.min.js",
-  "/src/css/app.css",
-  "/src/css/feed.css",
-  "/src/images/main-image.jpg",
-  "https://fonts.googleapis.com/css?family=Roboto:400,700",
-  "https://fonts.googleapis.com/icon?family=Material+Icons",
-  "https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css",
-];
-
-const staticRes = async (e) => {
-  console.log("static");
-  let isStatic = false;
-  if (e.request.url.includes("chrome-extension")) {
-    return;
-  }
-  if (e.request.url.endsWith(".html")) {
-    isStatic = true;
-  }
-  if (e.request.url.endsWith(".css")) {
-    isStatic = true;
-  }
-  if (e.request.url.endsWith(".js")) {
-    isStatic = true;
-  }
-  if (e.request.url.endsWith("/")) {
-    isStatic = true;
-  }
-  if (e.request.url.endsWith(".jpg")) {
-    isStatic = true;
-  }
-  // if (e.request.url.endsWith(".png")) {
-  //   isStatic = true;
-  // }
-  console.log(isStatic);
-  if (isStatic) {
-    const cacheStore = await caches.match(e.request);
-    if (cacheStore) {
-      return cacheStore;
-    }
-  }
-};
-const dynamicRes = async (e) => {
-  console.log("dynamic");
-
-  const res = await fetch(e.request);
-  if (e.request.url.indexOf("https://httpbin.org/get") > -1) {
-    if (!e.request.url.includes("chrome-extension")) {
-      const dynamicStore = await caches.open(dynamicName);
-      dynamicStore.put(e.request.url, res.clone());
-    }
-  }
-  return res;
-};
-
-const offlineRes = async (e) => {
-  const cacheStore = await caches.match(e.request);
-  if (cacheStore) {
-    return;
-  } else {
-    const staticStore = await caches.open(cacheName);
-
-    const match = await staticStore.match("/offline.html");
-
-    return match;
-  }
-};
-onfetch = (e) => {
-  e.respondWith(
-    (async () => {
-      try {
-        const static = await staticRes(e);
-
-        if (static) {
-          return static;
-        }
-
-        if (!static) {
-          console.log(e.request.url);
-          return await dynamicRes(e);
-        }
-      } catch (error) {
-        console.log(error);
-
-        return await offlineRes(e);
-      }
-    })()
-  );
-};
