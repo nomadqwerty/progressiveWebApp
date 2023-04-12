@@ -187,3 +187,23 @@ const trimCache = async (cacheName, maxLimit) => {
     }
   }
 };
+
+
+/////////////////////////////////////////////////////////////////////////
+// delete old service workers.
+// @TODO: follow this code to delete old service workers.
+
+// get array of registered service workers.
+const regArray = await navigator.serviceWorker.getRegistrations();
+
+// loop over array
+if (regArray.length > 0) {
+  for (let i = 0; i < regArray.length; i++) {
+
+    // for each registration call the unregister() method on it.
+    // unregister() returns boolean.
+    const didUnregister = await regArray[i].unregister();
+         
+  }
+}
+

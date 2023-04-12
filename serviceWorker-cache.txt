@@ -178,7 +178,7 @@ if changes are made to the app, we need to update cache so that the changes can 
 
 // now creating multiple sub caches isnt optimal, so any time we create a new cache its best to delete old cache.
 
-as we know static cache is best stored in the install event. as soon as our serviceWorker is registered we cache the data, we also know that dynamic cache are best made in the fetch event because the data to cached arent made during the install but much later. so we get that done in the fetch event, fetch is triggered any time our app in one way or the other uses fetch api to request for data.
+as we know static cache is best stored during the install event. as soon as our serviceWorker is registered and installed we cache the static data, we also know that dynamic caches are best made during the fetch event because the data to be cached arent made during the install but much later. so we get that done in the fetch event, fetch is triggered any time our app in one way or the other uses fetch api to request for data.
 
 // with the above stated, the best place to clear cache is in the activate event. the activate event is fired when the serviceWorker is activated and running.so serviceWorker is registered and the new cache has been created in the install event(so its already available in the app) once the serviceWorker is then activated we now have to two caches available so we delete the old one. deleting old cache in install event is unpredictable becaue we could be delete the old cache when our app needs it and there is no new cache to fallback on. the best bet is in activate event.
 

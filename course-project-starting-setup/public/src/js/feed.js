@@ -32,23 +32,23 @@ const clearcard = () => {
   }
 };
 
-function createCard(color) {
+function createCard(color, data) {
   var cardWrapper = document.createElement("div");
   cardWrapper.className = "shared-moment-card mdl-card mdl-shadow--2dp";
   var cardTitle = document.createElement("div");
   cardTitle.className = "mdl-card__title";
-  cardTitle.style.backgroundImage = 'url("../../src/images/main-image-sm.jpg")';
+  cardTitle.style.backgroundImage = `url(${data?.image})`;
   cardTitle.style.backgroundSize = "cover";
   cardTitle.style.height = "180px";
   cardWrapper.appendChild(cardTitle);
   var cardTitleTextElement = document.createElement("h2");
   cardTitleTextElement.className = "mdl-card__title-text";
-  cardTitleTextElement.textContent = "west Francisco Trip";
+  cardTitleTextElement.textContent = data.title;
   cardTitleTextElement.style.color = color;
   cardTitle.appendChild(cardTitleTextElement);
   var cardSupportingText = document.createElement("div");
   cardSupportingText.className = "mdl-card__supporting-text";
-  cardSupportingText.textContent = "In San Francisco";
+  cardSupportingText.textContent = data.location;
   cardSupportingText.style.textAlign = "center";
   if (window.caches) {
     const btn = document.createElement("button");
@@ -69,19 +69,26 @@ function createCard(color) {
 }
 
 let networkData = false;
-fetch("https://httpbin.org/get")
+let urlLink = "https://impactapi-default-rtdb.firebaseio.com/posts.json";
+fetch(urlLink)
   .then(function (res) {
     return res.json();
   })
   .then(function (data) {
     clearcard();
-    createCard("blue");
+    const dataArr = [];
+    for (let key in data) {
+      dataArr.push(data[key]);
+    }
+    for (let i = 0; i < dataArr.length; i++) {
+      createCard("blue", dataArr[i]);
+    }
   });
 
 if (!networkData) {
   if (window.caches) {
     window.caches
-      .match("https://httpbin.org/get")
+      .match(urlLink)
       .then((res) => {
         if (res) {
           return res.json();

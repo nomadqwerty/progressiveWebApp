@@ -1,4 +1,4 @@
-const cacheName = "staticV5";
+const cacheName = "staticV2";
 const dynamicName = "dynamicV1";
 
 const trimCache = async (cacheName, maxLimit) => {
@@ -8,7 +8,6 @@ const trimCache = async (cacheName, maxLimit) => {
 
   if (keys.length > maxLimit) {
     const keysHalf = keys.length / 2;
-    console.log(keysHalf);
     for (let i = 0; i < keysHalf; i++) {
       await cacheStore.delete(keys[i]);
     }
@@ -102,7 +101,6 @@ const staticRes = async (e) => {
   if (isStatic) {
     const cacheStore = await caches.match(e.request);
     if (cacheStore) {
-      console.log(cacheStore);
       return cacheStore;
     }
   }
