@@ -1,0 +1,62 @@
+indexDb vs caches api.
+
+// we have used cache to store data earlier, cache store is best used to store static content(html,css,js,imgs) of our pwa, but in the case of dynamic content(content that changes frequently) and json content we have a better way to store them, we use indexedDb to store. this is full database avaible to the browser and is used to store data in a key/value format.
+
+// the previous cache techiques are still valid and will still be used but we will replace the cache store with the indexedDB.
+
+// indexedDb is more flexible and powerful than the regular cache store. good for dynamic content and json content.
+
+
+// indexedDb: indexedDb is a transactional key/value database that runs in the browser.
+
+// nb: transactional db means if one action(write/read) fails, none of the other actions will be executed. ie if we are writing ten objects to the db and one fails, the rest will fail automatically.
+
+// indexedDb isnt used for json, but we can also store files and blobs.
+
+// indexedDb also has a promise wrapper making it asynchronous, which makes it good to use for serviceWorker.
+
+// we have a database(can be more than 1), in that database we have object store( sort of like a collection) and in the store we then have the objects( sort of like a document)
+
+
+// importScripts('/script'), used to import scripts into serviceWorkers.
+
+// how to use indexedDB.
+// step1: create a database.
+    // 1A: open up a new database, use idb.open('name of database',version number, cb)
+
+    let dbPromise = idb.open("posts-store", 1, (db) => {
+        // 1B: the cb will be passed a database object representing the newly opened database
+
+        // 1C: check if the database already has the object store you want to create.
+
+        if (!db.objectStoreNames.contains("post")) {
+
+            // 1D: if object store doesnt exist in the database, create a store with. db.createObjectStore('store name',{KeyPath:'primary key all objects will have'})
+
+            db.createObjectStore("posts", { KeyPath: "id" });
+
+            }
+    });
+            
+// step 2: store data in the database.
+
+    // execute the db promise, returns our db.
+    const db = await dbPromise;
+
+    // start a transaction with the object store we want to write data to.
+    // specify the operation(read, write, readwrite). 
+
+    ie: db.transaction('store name', 'operation').
+
+    const tx = db.transaction("posts", "readwrite");
+
+    // after initiationg the transaction, use the returned object to retrieve the objectstore we need.
+    ie. tx.objectStore('nameof store')
+    const store = tx.objectStore("posts");
+
+    // add data to store, store.put(item, key).
+    store.put(data[key], key);
+
+    // complete operation.
+    await tx.complete;
+    

@@ -1,10 +1,11 @@
-const cacheName = "staticV2";
+importScripts("/src/js/idb.js");
+
+const cacheName = "staticV1";
 const dynamicName = "dynamicV1";
 
 const trimCache = async (cacheName, maxLimit) => {
   const cacheStore = await caches.open(cacheName);
   const keys = await cacheStore.keys();
-  // console.log(keys);
 
   if (keys.length > maxLimit) {
     const keysHalf = keys.length / 2;
@@ -14,6 +15,30 @@ const trimCache = async (cacheName, maxLimit) => {
   }
 };
 
+const staticFilesArray = [
+  "/",
+  "/offline.html",
+  "/index.html",
+  "/src/js/app.js",
+  "/src/js/feed.js",
+  "/src/js/promise.js",
+  "/src/js/fetch.js",
+  "/src/js/material.min.js",
+  "/src/js/idb.js",
+  "/src/css/app.css",
+  "/src/css/feed.css",
+  "/src/images/main-image.jpg",
+  "https://fonts.googleapis.com/css?family=Roboto:400,700",
+  "https://fonts.googleapis.com/icon?family=Material+Icons",
+  "https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css",
+];
+
+let dbPromise = idb.open("posts-store", 1, (db) => {
+  if (!db.objectStoreNames.contains("post")) {
+    db.createObjectStore("posts", { KeyPath: "id" });
+  }
+});
+
 oninstall = (e) => {
   console.log("[Service Worker] Installing Service Worker ...");
 
@@ -21,22 +46,7 @@ oninstall = (e) => {
     (async () => {
       const staticStore = await caches.open(cacheName);
       console.log("[Service Worker] Precaching App Shell");
-      staticStore.addAll([
-        "/",
-        "/offline.html",
-        "/index.html",
-        "/src/js/app.js",
-        "/src/js/feed.js",
-        "/src/js/promise.js",
-        "/src/js/fetch.js",
-        "/src/js/material.min.js",
-        "/src/css/app.css",
-        "/src/css/feed.css",
-        "/src/images/main-image.jpg",
-        "https://fonts.googleapis.com/css?family=Roboto:400,700",
-        "https://fonts.googleapis.com/icon?family=Material+Icons",
-        "https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css",
-      ]);
+      staticStore.addAll(staticFilesArray);
     })()
   );
 };
@@ -108,8 +118,30 @@ const staticRes = async (e) => {
 const dynamicRes = async (e) => {
   const res = await fetch(e.request);
   if (!e.request.url.includes("chrome-extension")) {
-    const dynamicStore = await caches.open(dynamicName);
-    dynamicStore.put(e.request.url, res.clone());
+    if (
+      e.request.url.indexOf(
+        "https://impactapi-default-rtdb.firebaseio.com/posts.json"
+      ) > -1
+    ) {
+      const cloneRes = res.clone();
+      const data = await cloneRes.json();
+      for (let key in data) {
+        try {
+          // TODO: turn to function.
+          const db = await dbPromise;
+          const tx = db.transaction("posts", "readwrite");
+          const store = tx.objectStore("posts");
+          store.put(data[key], key);
+          await tx.complete;
+          console.log("done");
+        } catch (error) {
+          console.log(error);
+        }
+      }
+    } else {
+      const dynamicStore = await caches.open(dynamicName);
+      dynamicStore.put(e.request.url, res.clone());
+    }
   }
   return res;
 };

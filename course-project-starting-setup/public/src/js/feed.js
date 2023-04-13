@@ -70,20 +70,25 @@ function createCard(color, data) {
 
 let networkData = false;
 let urlLink = "https://impactapi-default-rtdb.firebaseio.com/posts.json";
-fetch(urlLink)
-  .then(function (res) {
-    return res.json();
-  })
-  .then(function (data) {
-    clearcard();
-    const dataArr = [];
-    for (let key in data) {
-      dataArr.push(data[key]);
-    }
-    for (let i = 0; i < dataArr.length; i++) {
-      createCard("blue", dataArr[i]);
-    }
-  });
+
+try {
+  fetch(urlLink)
+    .then(function (res) {
+      return res.json();
+    })
+    .then(function (data) {
+      clearcard();
+      const dataArr = [];
+      for (let key in data) {
+        dataArr.push(data[key]);
+      }
+      for (let i = 0; i < dataArr.length; i++) {
+        createCard("blue", dataArr[i]);
+      }
+    });
+} catch (error) {
+  console.log(error);
+}
 
 if (!networkData) {
   if (window.caches) {
