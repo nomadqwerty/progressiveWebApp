@@ -1,9 +1,24 @@
+console.log(window.idb);
+
+let idb = window.idb;
+console.log(idb);
+
 var shareImageButton = document.querySelector("#share-image-button");
 var createPostArea = document.querySelector("#create-post");
 var closeCreatePostModalButton = document.querySelector(
   "#close-create-post-modal-btn"
 );
 var sharedMomentsArea = document.querySelector("#shared-moments");
+
+let dataBase;
+if (idb) {
+  let dbPromise = idb.open("posts-store", 1, (db) => {
+    if (!db.objectStoreNames.contains("posts")) {
+      db.createObjectStore("posts", { KeyPath: "id" });
+    }
+  });
+  dataBase = dbPromise;
+}
 
 console.log(window.promptEvent);
 async function openCreatePostModal() {
@@ -90,20 +105,22 @@ try {
   console.log(error);
 }
 
-if (!networkData) {
-  if (window.caches) {
-    window.caches
-      .match(urlLink)
-      .then((res) => {
-        if (res) {
-          return res.json();
-        }
-      })
-      .then((res) => {
-        if (res) {
-          clearcard();
-          createCard("red");
-        }
-      });
+(async () => {
+  if (!networkData) {
+    if (window.idb) {
+      console.log("no net");
+      const db = await dataBase;
+      const tx = db.transaction("posts", "readonly");
+
+      const store = tx.objectStore("posts");
+
+      const data = await store.getAll();
+
+      for (let i = 0; i < data.length; i++) {
+        createCard("red", data[i]);
+      }
+
+      console.log(data);
+    }
   }
-}
+})();

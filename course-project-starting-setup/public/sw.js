@@ -19,12 +19,12 @@ const staticFilesArray = [
   "/",
   "/offline.html",
   "/index.html",
+  "/src/js/idb.js",
   "/src/js/app.js",
   "/src/js/feed.js",
   "/src/js/promise.js",
   "/src/js/fetch.js",
   "/src/js/material.min.js",
-  "/src/js/idb.js",
   "/src/css/app.css",
   "/src/css/feed.css",
   "/src/images/main-image.jpg",
@@ -125,10 +125,15 @@ const dynamicRes = async (e) => {
     ) {
       const cloneRes = res.clone();
       const data = await cloneRes.json();
+
+      const db = await dbPromise;
+      const txDelete = db.transaction("posts", "readwrite");
+      const storeToClear = txDelete.objectStore("posts");
+      await storeToClear.clear();
+      txDelete.complete;
       for (let key in data) {
         try {
           // TODO: turn to function.
-          const db = await dbPromise;
           const tx = db.transaction("posts", "readwrite");
           const store = tx.objectStore("posts");
           store.put(data[key], key);

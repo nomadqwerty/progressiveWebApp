@@ -11,7 +11,7 @@ indexDb vs caches api.
 
 // nb: transactional db means if one action(write/read) fails, none of the other actions will be executed. ie if we are writing ten objects to the db and one fails, the rest will fail automatically.
 
-// indexedDb isnt used for json, but we can also store files and blobs.
+// indexedDb isnt just used for json, but we can also store files and blobs.
 
 // indexedDb also has a promise wrapper making it asynchronous, which makes it good to use for serviceWorker.
 
@@ -39,7 +39,6 @@ indexDb vs caches api.
     });
             
 // step 2: store data in the database.
-
     // execute the db promise, returns our db.
     const db = await dbPromise;
 
@@ -60,3 +59,31 @@ indexDb vs caches api.
     // complete operation.
     await tx.complete;
     
+    
+// step 3: read from the database
+// initialize the database, do the transaction retrieve store
+const db = await dataBase;
+const tx = db.transaction("posts", "readonly");
+
+const store = tx.objectStore("posts");
+
+// with store use the getAll() method to retrieve all objects in the store.
+const data = await store.getAll();
+
+// with store use the get(primaryKey) method to retrieve an object in the store.
+const data = await store.get('id');
+
+
+
+// step 4: delete from the database, 
+// initialize the database, do the transaction and retrieve store
+const db = await dataBase;
+const tx = db.transaction("posts", "readwrite");
+
+const store = tx.objectStore("posts");
+
+// with store use the .clear() method to delete all objects in the store.
+const data = await store.clear();
+
+// with store use the .delete(primaryKey) method to delete an object in the store.
+const data = await store.delete(id);
