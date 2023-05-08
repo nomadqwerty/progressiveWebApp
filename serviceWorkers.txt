@@ -1,3 +1,5 @@
+// service workers. are like worker threads, mimicing a form multithreading but for the browser. workers have their own threads wher they execution their own javascript. this is useful for cpu heavy tasks and network proxy task, they are run in the background off the main thread for the webapp not block are main javascript execution.
+
 why service workers.
 service worker are specicial becaus it gives our web app a native feel. the service worker makes our web app have a next generation app feel.
 

@@ -89,6 +89,7 @@ let urlLink = "https://impactapi-default-rtdb.firebaseio.com/posts.json";
 try {
   fetch(urlLink)
     .then(function (res) {
+      networkData = true;
       return res.json();
     })
     .then(function (data) {
