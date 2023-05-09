@@ -1,3 +1,5 @@
+// offline support.
+
 why caching. when we use service workers one of the main reasons is offline support for a web app.
 
 by caching data the service worker can provide offline support for a webapp.
@@ -23,7 +25,7 @@ also good for poor connections.
 
 // two main life cycles: oninstall and onactivate. now using on activate isnt a good idea because this event is triggered after installation.
 
-// so the most optimal place to store the static content is in the install life cycle. the service worker is installed once and lives in the browser until a new service worker is registered. so once a user loads our page and the service worker is installed. the app can always served the static content even with no internet connection.
+// so the most optimal place to store the static content is in the install life cycle. the service worker is installed once and lives in the browser until a new service worker is registered. so once a user loads our page and the service worker is installed. the app can always serve the static content even with no internet connection.
 
 // static cacching
 oninstall = (e) => {

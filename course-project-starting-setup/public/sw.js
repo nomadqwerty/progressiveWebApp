@@ -1,7 +1,7 @@
 importScripts("/src/js/idb.js");
 
-const cacheName = "staticV1";
-const dynamicName = "dynamicV1";
+const cacheName = "staticV2";
+const dynamicName = "dynamicV2";
 
 const trimCache = async (cacheName, maxLimit) => {
   const cacheStore = await caches.open(cacheName);
@@ -36,6 +36,9 @@ const staticFilesArray = [
 let dbPromise = idb.open("posts-store", 1, (db) => {
   if (!db.objectStoreNames.contains("post")) {
     db.createObjectStore("posts", { KeyPath: "id" });
+  }
+  if (!db.objectStoreNames.contains("sync-post")) {
+    db.createObjectStore("sync-post", { KeyPath: "id" });
   }
 });
 

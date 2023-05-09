@@ -9,12 +9,18 @@ var closeCreatePostModalButton = document.querySelector(
   "#close-create-post-modal-btn"
 );
 var sharedMomentsArea = document.querySelector("#shared-moments");
+let form = document.querySelector("form");
+let titleInput = document.querySelector("#title");
+let locationInput = document.querySelector("#location");
 
 let dataBase;
 if (idb) {
   let dbPromise = idb.open("posts-store", 1, (db) => {
     if (!db.objectStoreNames.contains("posts")) {
       db.createObjectStore("posts", { KeyPath: "id" });
+    }
+    if (!db.objectStoreNames.contains("sync-post")) {
+      db.createObjectStore("sync-post", { KeyPath: "id" });
     }
   });
   dataBase = dbPromise;
@@ -125,3 +131,71 @@ try {
     }
   }
 })();
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  console.log("submitted");
+  if (titleInput.value.trim() === "" || locationInput.value.trim() === "") {
+    alert("Please enter valid data");
+    return;
+  }
+  closeCreatePostModal();
+
+  // bg from user interaction.
+  if (navigator.serviceWorker) {
+    if (window.SyncManager) {
+      const sw = await navigator.serviceWorker.ready;
+      console.log(sw);
+      const post = {
+        id: new Date().toISOString(),
+        title: titleInput.value,
+        location: locationInput.value,
+      };
+
+      if (window.idb) {
+        const db = await dataBase;
+        const tx = db.transaction("sync-post", "readwrite");
+        const store = tx.objectStore("sync-post");
+        console.log(store);
+        store.put(post, "formData");
+        tx.complete;
+        sw.sync.register("sync-task-postreq");
+        alert("save req data for bgSync");
+      }
+    } else {
+      // if syncmanager not supported.
+      const post = {
+        id: new Date().toISOString(),
+        title: titleInput.value,
+        location: locationInput.value,
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/impactapi.appspot.com/o/sanfranBridge.jpg?alt=media&token=72665174-c13b-4411-b4c3-128dc3855d5e",
+      };
+      const res = await fetch(urlLink, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: post,
+      });
+    }
+  } else {
+    // if service worker not supported.
+    const post = {
+      id: new Date().toISOString(),
+      title: titleInput.value,
+      location: locationInput.value,
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/impactapi.appspot.com/o/sanfranBridge.jpg?alt=media&token=72665174-c13b-4411-b4c3-128dc3855d5e",
+    };
+    const res = await fetch(urlLink, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: post,
+    });
+  }
+});

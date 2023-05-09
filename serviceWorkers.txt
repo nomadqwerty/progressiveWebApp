@@ -34,14 +34,14 @@ service worker are specicial becaus it gives our web app a native feel. the serv
 
 
 /////////////////////////////////////////////////////////
-life cycle of a service worker: how the registered.
+life cycle of a service worker: how the sw is registered.
 
 1 our app is load normally: htmls and js files are loaded, now in our js file we register a service worker( service workers have their own js file). while our main js registers the service worker, two events will be triggered:
         i: install event: when the browsr installs the service worker. doesnt always re-install on refresh, it will always reinstall if our js file changes in size.
 
         ii: activate event: fires when its ready to be activated.(more on this). the service worker is activated if the is no service worker running in the background.
 
-        once activate, it will go into idle mode and the service will wait for events, if no event occurs in a specified time it will terminate not that its deleted, it can re awaken and put into idle mode.
+        once activated, it will go into idle mode and the service will wait for events, if no event occurs in a specified time it will terminate not that its deleted, it can re awaken and put into idle mode.
 
         // practice register, install and activate service workers.
 

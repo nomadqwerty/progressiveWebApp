@@ -28,8 +28,8 @@ offline mode.
 
 // core pwa building blocks:
 1. service worker: caching and offline support, pwa feats
-2. webpush - push notifications
-3. app mainifest- add pwa to home screen.
-4. bgSync- send request when back online
+2. bgSync- send request when back online
+3. webpush - push notifications
+4. app mainifest- add pwa to home screen.
 5. media apis
 6. geoloc api
