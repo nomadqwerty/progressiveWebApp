@@ -1,7 +1,7 @@
 importScripts("/src/js/idb.js");
 
-const cacheName = "staticV2";
-const dynamicName = "dynamicV2";
+const cacheName = "staticV1";
+const dynamicName = "dynamicV1";
 
 const trimCache = async (cacheName, maxLimit) => {
   const cacheStore = await caches.open(cacheName);
@@ -41,7 +41,7 @@ let dbPromise = idb.open("posts-store", 1, (db) => {
     db.createObjectStore("sync-post", { KeyPath: "id" });
   }
 });
-
+console.log(self);
 oninstall = (e) => {
   console.log("[Service Worker] Installing Service Worker ...");
 
@@ -190,6 +190,51 @@ onfetch = (e) => {
   );
 };
 
+onsync = (e) => {
+  console.log("backgroud synching");
+
+  e.waitUntil(
+    (async () => {
+      if (e.tag === "sync-task-postreq") {
+        console.log(e.tag);
+        // read req obj stored in idb.
+        const db = await dbPromise;
+        const tx = db.transaction("sync-post", "readwrite");
+
+        const store = tx.objectStore("sync-post");
+
+        const data = await store.getAll();
+        tx.complete;
+
+        const cloneData = [...data];
+        console.log(cloneData);
+
+        // // send post request.
+
+        let urlLink =
+          "https://impactapi-default-rtdb.firebaseio.com/posts.json";
+        const res = await fetch(urlLink, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify(cloneData[cloneData.length - 1]),
+        });
+        console.log(res);
+        if (res.ok) {
+          console.log("res was 200");
+          const db = await dbPromise;
+          const tx = db.transaction("sync-post", "readwrite");
+
+          const storeClear = tx.objectStore("sync-post");
+          await storeClear.clear();
+          tx.complete;
+        }
+      }
+    })()
+  );
+};
 // cache first then network fallback
 
 // onfetch = (e) => {

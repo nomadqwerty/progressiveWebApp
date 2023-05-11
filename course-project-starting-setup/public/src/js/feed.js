@@ -160,7 +160,7 @@ form.addEventListener("submit", async (e) => {
         store.put(post, "formData");
         tx.complete;
         sw.sync.register("sync-task-postreq");
-        alert("save req data for bgSync");
+        console.log("added to sync");
       }
     } else {
       // if syncmanager not supported.
