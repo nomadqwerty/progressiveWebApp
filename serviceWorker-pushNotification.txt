@@ -1,0 +1,62 @@
+// module:
+
+push notification for PWAs.
+
+// why push notification?
+
+1. adding push notifications. push notification increases user engagement.
+2. makes pwa feel more native. 
+3. gives user fast access to content that they want.
+
+
+// how does it work.
+
+this action involves two parts.
+1. push, data sent from remote server to our webapp.
+2. notification, are what we send to the user.
+
+// we need to always ask for permission from client.
+
+// whats the service workers role?
+we need this to run push notificstion even when the browser is closed. so thats one critical reasons fro using serviceWorkers
+
+// subscriptions?
+what a subscriptions? this refers to a browser on a given device(user agent). we can create a subscription with js in our serviceWorker.
+subscriptions are used to subscribe to certain browser vendor push servers. because we need the notification to run when our app is closed.
+
+so we need a back end to send a push notification to the browser vendors push server. and in turn the push server will trigger the push event and alert my service worker because the service worker was subscribed.
+
+
+///////////////////////////////////////////
+// requesting permission from the client.
+to request for permission from the client, we need to make use of the notification api. like so.  
+
+const isGranted = await window.Notification.requestPermission();
+
+// this method is callback based and also promise based, so use any preferred approach.
+
+
+///////////////////////////////////////////
+// displaying notifications.
+// we can display notifications from our app js file and also from the service worker.
+
+for app file notifications:
+// create new instance of the notification class.
+// new Notification('message',optionsObject)
+new window.Notification("notification permission granted");
+
+
+for serviceWorker notification:
+// get access to the currentluy register serviceWorker managing the APP.
+const swreg = await navigator.serviceWorker.ready();
+
+const notificationObject = {
+    body: "you have subcribed to get notification from this app",
+};
+
+// on the registered serviceWorker we have access to the showNotification method which an extention of the Notification constructor.
+
+swreg.showNotification("notification permission granted",notificationObject);
+
+
+/////////////////////////////////////////////////////////////////////////// notification options object.

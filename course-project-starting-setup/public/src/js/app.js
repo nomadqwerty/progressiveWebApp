@@ -1,4 +1,6 @@
 window.promptEvent = null;
+const enableNotification = document.querySelectorAll(".enable-notifications");
+
 // add polyfills ffrom app.js
 if (!window.Promise) {
   window.Promise = Promise;
@@ -39,3 +41,35 @@ onbeforeinstallprompt = (e) => {
   window.promptEvent = e;
 };
 console.log(window.promptEvent);
+
+const showNotification = async () => {
+  if (navigator.serviceWorker) {
+    const swreg = await navigator.serviceWorker.ready;
+    const notificationObject = {
+      body: "you have subcribed to get notification from this app",
+    };
+    swreg.showNotification(
+      "notification permission granted from service worker",
+      notificationObject
+    );
+  }
+};
+
+const getNotificationPermission = async (e) => {
+  console.log("here");
+  const isGranted = await window.Notification.requestPermission();
+  if (isGranted === "granted") {
+    console.log("permision granted");
+    e.target.style.display = "none";
+    showNotification();
+  }
+};
+
+console.log(enableNotification);
+if (window.Notification) {
+  for (let i = 0; i < enableNotification.length; i++) {
+    enableNotification[i].addEventListener("click", getNotificationPermission);
+  }
+} else {
+  enableNotification.style.display = "none";
+}

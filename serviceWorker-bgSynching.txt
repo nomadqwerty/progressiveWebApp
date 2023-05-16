@@ -1,6 +1,6 @@
 backgroundSynching is a techinque used for handling offline post/put requests. as in the previous section we handled offline support for get requests( data that the client needs to display or the basic frame of the application), but we couldnt do this for post requests(data that the clients sends and a remote server needs). so bgSynch saves the day. with bgsynching i can store post requests, still send the request is the client has no internet connection, and if the user is offline i can then register a synch Task to run when ever the client has internet connection or even when the client has closed down the application. the synch Task will the send the post request with out the need for the user to resend the same post request.
 
-to register a sync task we do so on our service worker but not from our service worker, this is because want to perform bgSync on operations(requests) initiated by the user. so we can access the registered service worker from the navigator api.
+to register a sync task we do so on our service worker but not from our service worker, this is because want to perform bgSync on operations(requests) initiated by the user and the serviceworker file cant access the dom. but we can access the registered service worker from the navigator api.
 
 so bgSync is used on forms(post requests).
 
@@ -17,6 +17,7 @@ store.put(post, "formData");
 tx.complete;
 
 // once sw is returned from the service worker sync interface(prototype of syncManager) and we have store the form data we can register and event(tag).
+
 sw.sync.register("sync-task-postreq");
 
 
@@ -37,3 +38,8 @@ sw.sync.register("sync-task-postreq");
         },
         body: post,
       });
+
+
+
+
+
