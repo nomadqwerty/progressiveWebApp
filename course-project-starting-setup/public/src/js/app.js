@@ -47,6 +47,18 @@ const showNotification = async () => {
     const swreg = await navigator.serviceWorker.ready;
     const notificationObject = {
       body: "you have subcribed to get notification from this app",
+      icon: "../images/icons/app-icon-384x384.png",
+      image: "../images/main-image-lg.jpg",
+      dir: "ltr",
+      lang: "eng-US",
+      vibrate: [100, 50, 100],
+      badge: "../images/icons/app-icon-96x96.png",
+      tag: "subcriptionTag",
+      renotify: false,
+      actions: [
+        { action: "confirm", title: "confirm" },
+        { action: "cancel", title: "cancel" },
+      ],
     };
     swreg.showNotification(
       "notification permission granted from service worker",

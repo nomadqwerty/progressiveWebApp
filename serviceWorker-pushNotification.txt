@@ -59,4 +59,30 @@ const notificationObject = {
 swreg.showNotification("notification permission granted",notificationObject);
 
 
-/////////////////////////////////////////////////////////////////////////// notification options object.
+//////////////////////////////////////////////////////////////////////////// notification options object.
+// it is good to note that the notification will be displayed by the device and not the browser. for example if im on a mac book, it will be the mac os responsible for showing the notification. notications are a device feature.
+
+// not all options object properties can be shown by all devices.
+
+body:'text',
+icon:'pathToIconfile',
+image:'pathToImagefile',
+dir:'direction of text:ltr,rtl.'
+lang:'language code',
+vibrate:[100,50,200],[vibrateTime,pauseTime,vibrateTime,...].
+badge:'a black a white image or icon of the app',
+
+// advanced options.
+tag:'uniqueIdentify for a notification',
+
+// if notification have the same tag, the newer one will over write the older one.
+// with out tag the notications will stack, like cnn headlines.
+
+renotify:'bool'.
+// used to renotify as a user, for evry new notication.
+
+// try to not make notifications spammy.
+
+// the next options is the actions option, this is used for adding actions to the notification. ie, confirm, close, cancel.
+
+// actions:[{action:'confirm',title:'okay},{action:'cancel',title:'okay}]
