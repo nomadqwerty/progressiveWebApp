@@ -61,14 +61,33 @@ swreg.showNotification("notification permission granted",notificationObject);
 
 //////////////////////////////////////////////////////////////////////////// notification options object.
 // it is good to note that the notification will be displayed by the device and not the browser. for example if im on a mac book, it will be the mac os responsible for showing the notification. notications are a device feature.
+// i.e
+  const notificationObject = {
+      body: "you have subcribed to get notification from this app",
+      icon: "../images/icons/app-icon-384x384.png",
+      image: "../images/main-image-lg.jpg",
+      dir: "ltr",
+      lang: "eng-US",
+      vibrate: [100, 50, 100],
+      badge: "../images/icons/app-icon-96x96.png",
+      tag: "subcriptionTag",
+      renotify: false,
+      actions: [
+        { action: "confirm", title: "confirm" },
+        { action: "cancel", title: "cancel" },
+      ],
+    };
 
 // not all options object properties can be shown by all devices.
 
+// core options.
 body:'text',
 icon:'pathToIconfile',
 image:'pathToImagefile',
 dir:'direction of text:ltr,rtl.'
 lang:'language code',
+
+// extra options
 vibrate:[100,50,200],[vibrateTime,pauseTime,vibrateTime,...].
 badge:'a black a white image or icon of the app',
 
@@ -86,3 +105,78 @@ renotify:'bool'.
 // the next options is the actions option, this is used for adding actions to the notification. ie, confirm, close, cancel.
 
 // actions:[{action:'confirm',title:'okay},{action:'cancel',title:'okay}]
+
+
+// interactions with the notification.
+// what happens when the notification gets clicked on or what happens when the notification action is clicked(confirmed or cancled).
+
+// this happens in the service worker.
+// why the service worker, the service worker runs in the background. and remember that the notification is a system feature and not a browser feature.
+
+// because the service worker is still running in the background, if the user interacts with the notification but our website is closed, the service worker is still available to respond to the user interactions.
+
+
+//// LISTENING FOR USER CLICKS.
+listen to the notification click with the onnotificationclick event.
+
+the notification event object gives access to.
+
+NotificationEvent object, (details about the user interaction), notification(about the notification crafted by the webapp), currentTarget:(object with details about the current service worker).
+
+// based on the user action we can perform certain operations.
+// because the event gives us access to the notification, this is an instance of the Notification class.
+
+we can make use of the close instance method, after completing operations.
+
+// notification.close()
+
+// i.e
+onnotificationclick = (e) => {
+// an operation
+  notification.close();
+};
+
+
+//// LISTENING TO CLOSE ACTIONS.
+listen to the notification close evant with the onnotificationclose.
+
+the notification event object gives access to.
+
+NotificationEvent object, (details about the user interaction), notification(about the notification crafted by the webapp), currentTarget:(object with details about the current service worker).
+
+// based on the user closing the notification we can perform certain operations, like store the notification to be analyzed to understand why the user didnt interact with the notification.
+
+// because the event gives us access to the notification, this is an instance of the Notification class.
+
+// ie
+onnotificationclose = (e) => {
+// an operation
+  notification.close();
+};
+
+///////////////////////////////////////////////
+// PUSHING THE DATA.
+
+// previously we have gained permissions to show notifications. we have alse been able to display the notification to the user and we have also listen for usr interactions on notication.
+
+// now let use create a new subscription.
+// we use the service worker because it will ne the service worker that will react to incoming push messages.
+
+but because we create new subscriptions based on the user interaction(dom). ie we create subscribe for push messages only if the user clicks on the enable notification button.
+ because is user interaction based will use the serviceWorker instance exposed to the web page.
+
+// once we get acces to the serviceWorker, there is the pushManger prop. this exposes the pushManger api to us, so we can create new subs and get old subs
+// ie
+const pushSubscription = async () => {
+  if (navigator.serviceWorker) {
+    if (window.Notification) {
+      const swReg = await navigator.serviceWorker.ready;
+      const subs = await swReg.pushManager.getSubscription();
+
+      console.log(subs);
+    }
+  }
+};
+
+
+

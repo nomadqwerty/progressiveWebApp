@@ -67,13 +67,29 @@ const showNotification = async () => {
   }
 };
 
+const pushSubscription = async () => {
+  if (navigator.serviceWorker) {
+    if (window.Notification) {
+      const swReg = await navigator.serviceWorker.ready;
+      const subs = await swReg.pushManager.getSubscription();
+
+      console.log(subs);
+      if (!subs) {
+        // create a new subscription.
+      } else {
+        // use the existing subscription.
+      }
+    }
+  }
+};
+
 const getNotificationPermission = async (e) => {
   console.log("here");
   const isGranted = await window.Notification.requestPermission();
   if (isGranted === "granted") {
     console.log("permision granted");
     e.target.style.display = "none";
-    showNotification();
+    await showNotification();
   }
 };
 

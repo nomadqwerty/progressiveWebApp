@@ -235,6 +235,20 @@ onsync = (e) => {
     })()
   );
 };
+
+onnotificationclick = (e) => {
+  console.log("notification click");
+  const { notification, isTrusted, action } = e;
+  console.log(notification, action, isTrusted);
+  notification.close();
+};
+
+onnotificationclose = (e) => {
+  console.log("notification closed");
+  const { notification, isTrusted, action } = e;
+  console.log(notification, action, isTrusted);
+  notification.close();
+};
 // cache first then network fallback
 
 // onfetch = (e) => {
