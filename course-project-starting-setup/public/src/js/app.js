@@ -122,7 +122,7 @@ const pushSubscription = async () => {
     }
   }
 };
-
+console.log("change");
 const getNotificationPermission = async (e) => {
   console.log("here");
   const isGranted = await window.Notification.requestPermission();
