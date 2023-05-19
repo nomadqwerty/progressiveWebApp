@@ -88,7 +88,7 @@ const pushSubscription = async () => {
       const subs = await swReg.pushManager.getSubscription();
 
       console.log(subs);
-      if (true) {
+      if (!subs) {
         try {
           // create a new subscription.
           const pubKey =
