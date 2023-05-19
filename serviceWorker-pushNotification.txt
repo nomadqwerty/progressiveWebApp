@@ -160,7 +160,7 @@ onnotificationclose = (e) => {
 // previously we have gained permissions to show notifications. we have alse been able to display the notification to the user and we have also listen for usr interactions on notication.
 
 // now let use create a new subscription.
-// we use the service worker because it will ne the service worker that will react to incoming push messages.
+// we use the service worker because it will be the service worker that will react to incoming push messages.
 
 but because we create new subscriptions based on the user interaction(dom). ie we create subscribe for push messages only if the user clicks on the enable notification button.
  because is user interaction based will use the serviceWorker instance exposed to the web page.
@@ -174,9 +174,71 @@ const pushSubscription = async () => {
       const subs = await swReg.pushManager.getSubscription();
 
       console.log(subs);
+      if(!subs){
+        // create new sub
+      }else{
+        // use old sub
+      }
     }
   }
 };
 
+// creating new subscription.
+// step one use the pushManager.suscribe(), this creates a new sub.
 
+// subcribeing to push vendor server is best done in a secure way, because all a hacker needs is the url to which we send notifications to our app, once they have it, its easy for them to start sending unsolicitated messages to users.
 
+// to secure the subscription.
+// when calling the .suscribe() method, it also accepts a config object.
+{
+  userVisibleOnly:'bool'. (push sent to vendor server is only visible by this user/ current client)
+}
+
+// to secure the subscription, we try to validate the user with 2 key.
+// a public and a private key.
+// install the web push package, the webPush package will generate public and private keys.
+// like so,
+const webPush = require('web-push')
+const keys = webPush.generateVAPIDKeys()
+
+returns an object of keys.
+
+{
+  publicKey: 'BJTnb4WHULLLnmRmPOhqrf6rQGJ7KYmcQ3XNzieAvFqtomw47Je3uFJnLtI1UIzekfLRjm3stdOejndX81vKUqs',
+  privateKey: 'Eg8zE5OhxZQeR5vQfO_mCGfc6sMLqIORptj93_FQpPQ'
+}
+
+// algo to properly set up a secure subscription
+    try {
+          // create a new subscription.
+          const pubKey =
+            "pubKeyString";
+
+// convert to 8 bit array
+          let pubKeyConvert = url64To8bitArr(pubKey);
+
+// create a new subscription with pushManager and configur the options object.
+          const subscription = await swReg.pushManager.subscribe({
+            userVisibleOnly: true,
+            applicationServerKey: pubKeyConvert,
+          });
+
+// send the subscription details object to our backend.
+
+          const res = await fetch("http://192.168.8.148:3000/subs", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+              "Access-Control-Allow-Headers": "*",
+            },
+            body: JSON.stringify(subscription),
+          });
+
+          console.log(res);
+          await showNotification();
+        } catch (error) {
+          console.log(error);
+        }
+
+//////// push: server side implementation.
