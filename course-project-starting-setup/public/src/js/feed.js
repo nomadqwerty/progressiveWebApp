@@ -1,7 +1,7 @@
-console.log(window.idb);
+// console.log(window.idb);
 
 let idb = window.idb;
-console.log(idb);
+// console.log(idb);
 
 var shareImageButton = document.querySelector("#share-image-button");
 var createPostArea = document.querySelector("#create-post");
@@ -115,7 +115,7 @@ try {
 (async () => {
   if (!networkData) {
     if (window.idb) {
-      console.log("no net");
+      // console.log("no net");
       const db = await dataBase;
       const tx = db.transaction("posts", "readonly");
 
@@ -127,7 +127,7 @@ try {
         createCard("red", data[i]);
       }
 
-      console.log(data);
+      // console.log(data);
     }
   }
 })();

@@ -11,7 +11,7 @@ const url64To8bitArr = (url64) => {
   for (let i = 0; i < rawData.length; i++) {
     outPutArr[i] = rawData.charCodeAt(i);
   }
-  console.log(outPutArr);
+  // console.log(outPutArr);
   return outPutArr;
 };
 
@@ -23,19 +23,19 @@ if (!window.Promise) {
 (async () => {
   try {
     if (navigator.serviceWorker) {
-      const regArray = await navigator.serviceWorker.getRegistrations();
-      let unregistered;
-      if (regArray.length > 0) {
-        for (let i = 0; i < regArray.length; i++) {
-          const didUnregister = await regArray[i].unregister();
-          unregistered = didUnregister;
-          if (!didUnregister) {
-            console.log("failed to unregister old service worker!!!");
-            return;
-          }
-          console.log("unregistering old service worker...");
-        }
-      }
+      // const regArray = await navigator.serviceWorker.getRegistrations();
+      // let unregistered;
+      // if (regArray.length > 0) {
+      //   for (let i = 0; i < regArray.length; i++) {
+      //     const didUnregister = await regArray[i].unregister();
+      //     unregistered = didUnregister;
+      //     if (!didUnregister) {
+      //       console.log("failed to unregister old service worker!!!");
+      //       return;
+      //     }
+      //     console.log("unregistering old service worker...");
+      //   }
+      // }
 
       const swReg = await navigator.serviceWorker.register("../../sw.js", {
         scope: "/",
@@ -50,11 +50,11 @@ if (!window.Promise) {
   }
 })();
 onbeforeinstallprompt = (e) => {
-  console.log("before install prompt triggered");
+  // console.log("before install prompt triggered");
   e.preventDefault();
   window.promptEvent = e;
 };
-console.log(window.promptEvent);
+// console.log(window.promptEvent);
 
 const showNotification = async () => {
   if (navigator.serviceWorker) {
@@ -88,20 +88,20 @@ const pushSubscription = async () => {
       const subs = await swReg.pushManager.getSubscription();
 
       console.log(subs);
-      if (!subs) {
+      if (true) {
         try {
           // create a new subscription.
           const pubKey =
-            "BJTnb4WHULLLnmRmPOhqrf6rQGJ7KYmcQ3XNzieAvFqtomw47Je3uFJnLtI1UIzekfLRjm3stdOejndX81vKUqs";
+            "BG9dVArZzNYaX3tzQ1stnwd1fN5Oluj5-SypfucipzyuVpWxAePsWQuHV2pjPnIGz2JZbcMMystFwcQraddDQKs";
 
           let pubKeyConvert = url64To8bitArr(pubKey);
 
           const subscription = await swReg.pushManager.subscribe({
             userVisibleOnly: true,
-            applicationServerKey: pubKeyConvert,
+            applicationServerKey: pubKey,
           });
-
-          const res = await fetch("http://192.168.8.148:3000/subs", {
+          console.log("created subscription", subscription);
+          const res = await fetch("http://192.168.8.148:3000/addSub", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -110,9 +110,23 @@ const pushSubscription = async () => {
             },
             body: JSON.stringify(subscription),
           });
-
           console.log(res);
-          await showNotification();
+          if (res.status === 200) {
+            setTimeout(async () => {
+              console.log("sub was sent to backend");
+              const resPush = await fetch("http://192.168.8.148:3000/subs", {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                  Accept: "application/json",
+                  "Access-Control-Allow-Headers": "*",
+                },
+              });
+              console.log(resPush);
+            }, 2000);
+          }
+
+          // await showNotification();
         } catch (error) {
           console.log(error);
         }
@@ -122,18 +136,18 @@ const pushSubscription = async () => {
     }
   }
 };
-console.log("change");
+// console.log("change");
 const getNotificationPermission = async (e) => {
-  console.log("here");
+  // console.log("here");
   const isGranted = await window.Notification.requestPermission();
   if (isGranted === "granted") {
-    console.log("permision granted");
+    // console.log("permision granted");
     e.target.style.display = "none";
     await pushSubscription();
   }
 };
 
-console.log(enableNotification);
+// console.log(enableNotification);
 if (window.Notification) {
   for (let i = 0; i < enableNotification.length; i++) {
     enableNotification[i].addEventListener("click", getNotificationPermission);

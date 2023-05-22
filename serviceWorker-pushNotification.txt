@@ -204,6 +204,11 @@ const keys = webPush.generateVAPIDKeys()
 returns an object of keys.
 
 {
+  publicKey: 'BG9dVArZzNYaX3tzQ1stnwd1fN5Oluj5-SypfucipzyuVpWxAePsWQuHV2pjPnIGz2JZbcMMystFwcQraddDQKs',
+  privateKey: 'Z9F2rUNRatbOhBaU6_jgTT3AbGh5ay7stZkeDJ4r34c'
+}
+
+{
   publicKey: 'BJTnb4WHULLLnmRmPOhqrf6rQGJ7KYmcQ3XNzieAvFqtomw47Je3uFJnLtI1UIzekfLRjm3stdOejndX81vKUqs',
   privateKey: 'Eg8zE5OhxZQeR5vQfO_mCGfc6sMLqIORptj93_FQpPQ'
 }
@@ -218,6 +223,7 @@ returns an object of keys.
           let pubKeyConvert = url64To8bitArr(pubKey);
 
 // create a new subscription with pushManager and configur the options object.
+
           const subscription = await swReg.pushManager.subscribe({
             userVisibleOnly: true,
             applicationServerKey: pubKeyConvert,
@@ -248,8 +254,42 @@ returns an object of keys.
 // with the webpush api i can access the setVapidDetails() method.
 // it takes 3 params, valid email, public key and private key.
 
+   webPush.setVapidDetails(
+      "mailto:support@prowebdev-consultants.com",
+      "BJTnb4WHULLLnmRmPOhqrf6rQGJ7KYmcQ3XNzieAvFqtomw47Je3uFJnLtI1UIzekfLRjm3stdOejndX81vKUqs",
+      "Eg8zE5OhxZQeR5vQfO_mCGfc6sMLqIORptj93_FQpPQ"
+    );
+
 // step 2 retrieve subs from db.
 
 // step 3 craft the push config object.
+    pushConfig = {
+      endpoint: subFromStore.endpoint,
+      keys: {
+        auth: subFromStore.keys.auth,
+        p256dh: subFromStore.keys.p256dh,
+      },
+    };
 
-step 4, we can send the notification by calling , webPush.sendNotification(pushConfigobject, string/json payload)
+step 4, we can send the notification by calling , webPush.sendNotification(pushConfigobject, string/json push payload).
+
+    webPush.sendNotification(pushConfig,JSON.stringify({
+          title: "push notification",
+          content: "testing new push notification",
+        })
+      ).catch((err) => {
+        console.log(err);
+      });
+
+
+/////////////////////////////////////////////////////////////////////////// listening for push notifications.
+// in serviceWorker add a handler to the onpush listener.
+
+onpush = (e)=>{
+  // some operation, showing the push notification to client.
+}
+
+// once push is evet is fired,
+// we then show the push notification, from the serviceWorker.
+
+self.registration.showNotification('title', notificationObject)

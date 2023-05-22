@@ -141,7 +141,7 @@ const dynamicRes = async (e) => {
           const store = tx.objectStore("posts");
           store.put(data[key], key);
           await tx.complete;
-          console.log("done");
+          // console.log("done");
         } catch (error) {
           console.log(error);
         }
@@ -240,6 +240,25 @@ onnotificationclick = (e) => {
   console.log("notification click");
   const { notification, isTrusted, action } = e;
   console.log(notification, action, isTrusted);
+
+  if (e.action === "confirm") {
+    e.waitUntil(
+      (async () => {
+        const clientPages = await clients.matchAll();
+        console.log(clientPages);
+        const clientPage = clientPages.find((c) => {
+          return c.visibilityState === "visible";
+        });
+        console.log(clientPage);
+        if (clientPage) {
+          clientPage.navigate("http://localhost:8080");
+          clientPage.focus();
+        } else {
+          clients.openWindow("http://localhost:8080");
+        }
+      })()
+    );
+  }
   notification.close();
 };
 
@@ -248,6 +267,37 @@ onnotificationclose = (e) => {
   const { notification, isTrusted, action } = e;
   console.log(notification, action, isTrusted);
   notification.close();
+};
+
+onpush = (e) => {
+  console.log("push notification received", e);
+  const data = e.data;
+  const notificationObject = {
+    body: "you have subcribed to get notification from this app",
+    icon: "../images/icons/app-icon-384x384.png",
+    image: "../images/main-image-lg.jpg",
+    dir: "ltr",
+    lang: "eng-US",
+    vibrate: [100, 50, 100],
+    badge: "../images/icons/app-icon-96x96.png",
+    tag: "subcriptionTag",
+    renotify: false,
+    actions: [
+      { action: "confirm", title: "confirm" },
+      { action: "cancel", title: "cancel" },
+    ],
+  };
+  e.waitUntil(
+    (() => {
+      if (data.title && data.content) {
+        notificationObject.body = data.content;
+        self.registration.showNotification(data.title, notificationObject);
+      } else {
+        console.log("no data");
+        self.registration.showNotification("something new", notificationObject);
+      }
+    })()
+  );
 };
 // cache first then network fallback
 

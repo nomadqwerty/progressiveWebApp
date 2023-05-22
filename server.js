@@ -54,39 +54,63 @@ const getLatestSub = async () => {
   return subscriptions[subscriptions.length - 1];
 };
 
+const webPusher = async (sub, payload) => {
+  webPush
+    .sendNotification(sub, "new notification")
+    .then((data) => {
+      console.log(data);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+};
+
+const setConfigAndPush = async () => {
+  webPush.setVapidDetails(
+    "mailto:michaels.david@abuad.edu.ng",
+    "BG9dVArZzNYaX3tzQ1stnwd1fN5Oluj5-SypfucipzyuVpWxAePsWQuHV2pjPnIGz2JZbcMMystFwcQraddDQKs",
+    "Z9F2rUNRatbOhBaU6_jgTT3AbGh5ay7stZkeDJ4r34c"
+  );
+
+  const subFromStore = await getLatestSub();
+  console.log(subFromStore);
+
+  const pushConfig = {
+    endpoint: subFromStore.endpoint,
+    keys: {
+      auth: subFromStore.keys.auth,
+      p256dh: subFromStore.keys.p256dh,
+    },
+  };
+
+  const jsonPush = JSON.stringify({
+    title: "push notification",
+    content: "testing new push notification",
+  });
+  console.log();
+
+  await webPusher(pushConfig, jsonPush);
+};
+
+app.post("/addSub", async (req, res) => {
+  try {
+    console.log("incoming request, add to sub");
+    const subObj = req.body;
+    const lastSub = await addToStore(subObj);
+
+    res.end("sub added");
+  } catch (error) {
+    console.log(error);
+    return res.end("error");
+  }
+});
+
 app.post("/subs", async (req, res) => {
   try {
-    const subObj = req.body;
-    await addToStore(subObj);
+    console.log("incoming request, send push");
 
-    webPush.setVapidDetails(
-      "mailto:support@prowebdev-consultants.com",
-      "BJTnb4WHULLLnmRmPOhqrf6rQGJ7KYmcQ3XNzieAvFqtomw47Je3uFJnLtI1UIzekfLRjm3stdOejndX81vKUqs",
-      "Eg8zE5OhxZQeR5vQfO_mCGfc6sMLqIORptj93_FQpPQ"
-    );
-
-    const subFromStore = await getLatestSub();
-
-    const pushConfig = {
-      endpoint: subFromStore.endpoint,
-      keys: {
-        auth: subFromStore.keys.auth,
-        p256dh: subFromStore.keys.p256dh,
-      },
-    };
-
-    webPush
-      .sendNotification(
-        pushConfig,
-        JSON.stringify({
-          title: "push notification",
-          content: "testing new push notification",
-        })
-      )
-      .catch((err) => {
-        console.log(err);
-      });
-    return res.end("recieved");
+    await setConfigAndPush();
+    res.end("push sent");
   } catch (error) {
     console.log(error);
     return res.end("error");
