@@ -12,6 +12,33 @@ var sharedMomentsArea = document.querySelector("#shared-moments");
 let form = document.querySelector("form");
 let titleInput = document.querySelector("#title");
 let locationInput = document.querySelector("#location");
+let videoPlayer = document.querySelector("#player");
+let canvasEl = document.querySelector("#canvas");
+let captureBtn = document.querySelector("#capture-btn");
+let imagePicker = document.querySelector("#image-picker");
+let imagePickerArea = document.querySelector("#pick-image");
+
+// creating a polyfill.
+// this is a polyfill that will create suport for the media devices feature on older browsers.
+
+const initMedia = () => {
+  if (!navigator.mediaDevices) {
+    navigator.mediaDevices = {};
+  }
+  if (!navigator.mediaDevices.getUserMedia) {
+    navigator.mediaDevices.getUserMedia = (constriants) => {
+      let getUserMedia =
+        navigator.webKitGetUserMedia || navigator.mozGetUserMedia;
+
+      if (!getUserMedia) {
+        return Promise.reject(new Error("failed to get user media"));
+      }
+      return new Promise((resolve, reject) => {
+        getUserMedia.call(navigator, constriants, resolve, reject);
+      });
+    };
+  }
+};
 
 let dataBase;
 if (idb) {
