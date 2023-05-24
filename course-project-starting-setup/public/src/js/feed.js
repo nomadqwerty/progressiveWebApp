@@ -21,22 +21,34 @@ let imagePickerArea = document.querySelector("#pick-image");
 // creating a polyfill.
 // this is a polyfill that will create suport for the media devices feature on older browsers.
 
-const initMedia = () => {
-  if (!navigator.mediaDevices) {
-    navigator.mediaDevices = {};
-  }
-  if (!navigator.mediaDevices.getUserMedia) {
-    navigator.mediaDevices.getUserMedia = (constriants) => {
-      let getUserMedia =
-        navigator.webKitGetUserMedia || navigator.mozGetUserMedia;
+const initMedia = async () => {
+  try {
+    if (!navigator.mediaDevices) {
+      navigator.mediaDevices = {};
+    }
+    if (!navigator.mediaDevices.getUserMedia) {
+      navigator.mediaDevices.getUserMedia = (constriants) => {
+        let getUserMedia =
+          navigator.webKitGetUserMedia || navigator.mozGetUserMedia;
 
-      if (!getUserMedia) {
-        return Promise.reject(new Error("failed to get user media"));
-      }
-      return new Promise((resolve, reject) => {
-        getUserMedia.call(navigator, constriants, resolve, reject);
-      });
-    };
+        if (!getUserMedia) {
+          return Promise.reject(new Error("failed to get user media"));
+        }
+        return new Promise((resolve, reject) => {
+          getUserMedia.call(navigator, constriants, resolve, reject);
+        });
+      };
+    }
+
+    const stream = await navigator.mediaDevices.getUserMedia({
+      video: true,
+      audio: true,
+    });
+
+    videoPlayer.srcObject = stream;
+    videoPlayer.style.display = "block";
+  } catch (error) {
+    imagePickerArea.style.display = "block";
   }
 };
 
@@ -68,6 +80,9 @@ async function openCreatePostModal() {
 
 function closeCreatePostModal() {
   createPostArea.style.display = "none";
+  imagePickerArea.style.display = "none";
+  videoPlayer.style.display = "none";
+  canvasEl.style.display = "none";
 }
 
 shareImageButton.addEventListener("click", openCreatePostModal);

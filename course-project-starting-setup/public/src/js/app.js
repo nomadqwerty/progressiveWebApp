@@ -37,7 +37,7 @@ if (!window.Promise) {
       //   }
       // }
 
-      const swReg = await navigator.serviceWorker.register("../../sw.js", {
+      const swReg = await navigator.serviceWorker.register("../../service.js", {
         scope: "/",
       });
 
