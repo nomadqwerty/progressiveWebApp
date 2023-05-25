@@ -1,6 +1,33 @@
 importScripts("workbox-sw.prod.v2.1.3.js");
 
+let routeMatch = /.*(?:googleapis|gstatic)\.com.*$/;
+let fireBaseRouteMatch = /.*(?:firebasestorage\.googleapis)\.com.*$/;
+
 const workboxSW = new self.WorkboxSW();
+
+workboxSW.router.registerRoute(
+  routeMatch,
+  workboxSW.strategies.staleWhileRevalidate({
+    cacheName: "cdnFonts",
+    cacheExpiration: {
+      maxEntries: 10,
+      maxAgeSeconds: 60 * 60 * 24 * 30,
+    },
+  })
+);
+workboxSW.router.registerRoute(
+  fireBaseRouteMatch,
+  workboxSW.strategies.staleWhileRevalidate({
+    cacheName: "firebaseImages",
+  })
+);
+workboxSW.router.registerRoute(
+  "https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css",
+  workboxSW.strategies.staleWhileRevalidate({
+    cacheName: "cdnCss",
+  })
+);
+
 workboxSW.precache([
   {
     "url": "dbUtils.js",
@@ -23,8 +50,12 @@ workboxSW.precache([
     "revision": "070fa9b17534ff6b4dec8006619cd892"
   },
   {
+    "url": "service.js",
+    "revision": "ccac700879724a93acca03c50fe42234"
+  },
+  {
     "url": "servicebase.js",
-    "revision": "a7aae57e688e3c3efb7c8cd7c64fe4f3"
+    "revision": "60af2abb2aeb039e539f55828cb4b98b"
   },
   {
     "url": "src/css/app.css",

@@ -124,3 +124,31 @@ module.exports = {
 };
 
 run inject script rather than generate scripts.
+
+//// routing for dynamic precache(cdn links), when using the workbox api, we can dynamically cache requests. 
+
+// ie:
+
+let routeMatch = /.*(?:googleapis|gstatic)\.com.*$/;
+
+const workboxSW = new self.WorkboxSW();
+
+// call router.registerRoute('route to register',cache strategy), this method will cache a dynamic request, create a cache store it and will also perfomr a cache first then network strategy. it will reach out to the cache then make the request.
+
+workboxSW.router.registerRoute(
+  routeMatch,
+  workboxSW.strategies.staleWhileRevalidate({
+    cacheName: "cdnCache",
+  })
+);
+
+// cache options,
+
+
+the object passed into staleWhileRevalidate(), can be further configured.
+// cache lifespan, we can specify how long a cache should exist, how much entries it can take.
+
+cacheExpiration:{
+  maxEntries:10,
+  maxAgeSeconds:60*60*24*30
+}
