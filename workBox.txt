@@ -152,3 +152,77 @@ cacheExpiration:{
   maxEntries:10,
   maxAgeSeconds:60*60*24*30
 }
+
+
+
+////////////////////////////////////////////////////////////////////////
+// custom handlers the above method "registerRoute", can take in an anonymous function, this function will run when a fetch event is triggered for the registered route. 
+this function will run instead of any default strategies.
+
+// https://impactapi-default-rtdb.firebaseio.com/posts.json
+router.registerRoute('url path',(args)=>{
+  // args is an object passed into the function when executed. like event objects
+
+  return {}
+})
+
+router.registerRoute('https://impactapi-default-rtdb.firebaseio.com/posts.json',(args)=>{
+  // args is an object passed into the function when executed. like event objects
+  console.log(args)
+  const res = await fetch(args.event.request);
+   const cloneRes = res.clone();
+      const data = await cloneRes.json();
+
+    const db = await dbPromise;
+      const txDelete = db.transaction("posts", "readwrite");
+      const storeToClear = txDelete.objectStore("posts");
+      await storeToClear.clear();
+      txDelete.complete;
+
+ for (let key in data) {
+        try {
+          // TODO: turn to function.
+          const tx = db.transaction("posts", "readwrite");
+          const store = tx.objectStore("posts");
+          store.put(data[key], key);
+          await tx.complete;
+          // console.log("done");
+        } catch (error) {
+          console.log(error);
+        }
+      }
+
+  return res
+})
+
+
+
+////////////////////////////////////////////////////////////////////////
+// adding offline support with workbox.
+the registerRoute() first args is usually a string but in specific cases it can be a fucntion that has to return a bool.
+
+registerRoute((routeData)=>{
+// function is called with a route data object.
+
+const match = routeData.event.request.headers.get("accept).includes("text/html")
+
+return match
+},async (args)=>{
+  try{
+    const res = await fetch(args.event.request)
+
+    return res
+  }catch{
+      const cacheStore = await caches.match(args.event.request);
+
+  if (cacheStore) {
+    return cacheStore;
+  } else {
+    const staticStore = await caches.open('workbox-precaching-revisioned-v1-http://127.0.0.1:8080/');
+
+    const match = await staticStore.match("/offline.html");
+      return match;
+    
+  }
+  }
+})
