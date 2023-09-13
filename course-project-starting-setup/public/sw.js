@@ -1,6 +1,6 @@
 importScripts("/src/js/idb.js");
 
-const cacheName = "staticV3";
+const cacheName = "staticV2";
 const dynamicName = "dynamicV1";
 
 const trimCache = async (cacheName, maxLimit) => {
