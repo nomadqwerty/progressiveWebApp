@@ -21,7 +21,7 @@ service worker are specicial becaus it gives our web app a native feel. the serv
 /////////////////////////////////////////////////////////////////
 // we use service workers with events architecure.
 
-// server workers events.
+// server workers events(non life cycle).
 1 fetch : fetch request.
 
 2 push Notifications : browsers have their own push notifications server and we can prompt our service worker to push our notifications to the client by pushing the notifications from our server to the browsers push server.
@@ -30,10 +30,10 @@ service worker are specicial becaus it gives our web app a native feel. the serv
 
 4 background sync: in the event of a failed post request. the request can be stores and then remade once the client has better internet connectivity.
 
-5 life cycle events.
 
 
 /////////////////////////////////////////////////////////
+life cycle events.
 life cycle of a service worker: how the sw is registered.
 
 1 our app is load normally: htmls and js files are loaded, now in our js file we register a service worker( service workers have their own js file). while our main js registers the service worker, two events will be triggered:
