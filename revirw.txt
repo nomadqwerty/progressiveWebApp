@@ -1,0 +1,1525 @@
+{
+    "description": "The Keurig K-Classic Coffee Maker is a versatile and easy-to-use appliance perfect for any coffee lover. This single-serve coffee maker brews K-Cup pods in multiple sizes (6, 8, 10 ounces), allowing you to choose the strength of your brew. The Keurig K-Classic is equipped with a large 48-ounce water reservoir, enabling you to brew over 6 cups before needing a refill. Moreover, the water reservoir is removable, simplifying the refilling process. \n\nThis coffee maker also features a descaling process which assists in the removal of calcium deposits or scale that accumulates over time inside the coffee maker. An auto-off feature is inculcated to conserve energy by turning off the coffee maker after 2 hours of inactivity. The simple button controls make it effortless to brew a cup of coffee under a minute, simply by inserting a pod and selecting the desired brew size. \n\nThe Keurig K-Classic is made of black plastic, adding a sleek and modern touch to your kitchen counter. It has an impressive average customer rating of 4.6 out of 5 stars, based on 97,258 ratings, demonstrating its high-quality performance and customer satisfaction. The Keurig K-Classic Coffee Maker is on sale for $109.99, down from its original price of $149.99, and includes free shipping. With its programmable and energy-saving features, the Keurig K-Classic Coffee Maker is fantastic value for money and a great addition to any kitchen.",
+    "context": "title: Keurig K-Classic Coffee Maker K-Cup Pod, Single Serve, Programmable, 6 to 10 oz. Brew Sizes, Black, \n  \n  Related Keywords: Keurig,K-Classic,Coffee,Maker,K-Cup,Pod,,Single,Serve,,Programmable,,6,to,10,oz.,Brew,Sizes,,Black \n  \n Brand Name: Keurig \n  \n Product Category: This product is Usually related to products in the \"Home & Kitchen & garden\" catergory \n  \n This product can be further categorised under the following: Home & Kitchen,Kitchen & Dining,Coffee, Tea & Espresso,Coffee Makers,Single-Serve Brewers,\n  \n Product Protection: 3 Year Kitchen Protection Plan at $21.99, 4-Year Protection at $29.99,\n  \n A+ Content (description): undefined \n \n A+ Content (title): undefined \n \n Other products sold by this brand are \n \n List of Faqs provided by this seller. \n \n \n  \n Promotional Content: undefined, \n  \n Description: undefined, \n  \n Average Customer Rating: 4.6 (out of 5 stars)\n Total Customer Ratings: 97258 ratings\n five-star Ratings: \"77806 out of 97258\" customers rated this product five out of five stars\n four-star Ratings: \"10698 out of 97258\" customers rated this product four out of five stars\n three-star Ratings: \"3890 out of 97258\" customers rated this product three out of five stars\n two-star Ratings: \"972 out of 97258\" customers rated this product two out of five stars\n one-star Ratings: \"3890 out of 97258\" customers rated this product one out of five stars\n \n  \n Product features:  Note: 1)Too coarse a grind, too little coffee, or insufficiently tamping the grounds before brewing can all lead to inadequate pressure for a proper brew. 2)It is important to note that the amount of espresso extracted will vary depending on the grind size and amount and reprogramming may be needed when the size and amount are adjusted.Please refer to user guide or user manual or user guide (provided below in PDF) before first use \n  Brews multiple k-cup pod sizes: (6, 8, 10 ounce) – the most popular k-cup pod brew sizes. Use the 6 ounce brew size to achieve the strongest brew. \n  Large 48 ounce water reservoir: Allows you to brew 6 plus cups before having to refill, saving you time and simplifying your morning routine. The water reservoir is removable, making it easy to refill whenever you need to. \n  Descaling: An important part of cleaning your keurig brewer. This process helps to remove calcium deposits, or scale, that can build up inside a coffee maker over time. \n  Auto-off: An auto-off feature is easily programmed to turn off your coffee maker after it has been idle for 2 hours, helping to save energy. \n  Simple button controls: Just insert a pod, select your desired cup brew size, and brew a great-tasting cup in under a minute. \n  Fabric type: Plastic \n \n  \n Product attributes:  color is Black,\n  \n Purchase Details: \n  i. Maximum Order Quantity: 3 \n ii. Prime Eligibility: yes \n iii. Condition: new \n iv. Availability: in_stock \n v. Fulfillment Type: 1p (A 1P relationship means Amazon acts as the retailer, and vendors operate as a wholesale supplier to Amazon) with a standard delivery on Thursday, October 19 for FREE \n vi. Fastest Delivery: undefined and undefined. delivery fulfilled by Amazon \n vii. Current Price: $109.99; Previous Price: $149.99; Save : $40.000000000000014 \n  viii. Shipping Cost: FREE \n  \n  \n Product specifications:  Brand is Keurig, Color is Black, Product Dimensions is 9.8\"D x 13.3\"W x 13\"H, Special Feature is Programmable, Removable Tank, Auto Clean Function, Coffee Maker Type is Drip Coffee Machine, Filter Type is Reusable, Style is Classic, Included Components is K05 Coffee Maker, Operation Mode is Fully Automatic, Model Name is K-Classic Coffee Maker, Number of Items is 1, Human Interface Input is Buttons, Package Type is Standard Packaging, Unit Count is 1.0 Count, Item Weight is 10 ounces, Manufacturer is Keurig, ASIN is B018UQ5AMS, Country of Origin is China, Item model number is K-50, Customer Reviews is 4.6 4.6 out of 5 stars         97,258 ratings          4.6 out of 5 stars, Best Sellers Rank is #808 in Home & Kitchen (See Top 100 in Home & Kitchen) #6 in Single-Serve Brewers, Is Discontinued By Manufacturer is No, Date First Available is December 2, 2015,\n  \n Product bestsellers rankings : for Home & Kitchen category rank is 808, for Single-Serve Brewers category rank is 6, \n  \n manufacturer: Keurig \n  \n material: undefined \n  \n Product important information : for undefined To report an issue with this product, click here., \n  \n available coupon: undefined,  \n  \n Product additional information : undefined\n  \n ",
+    "complemetary": {
+        "frequent": [
+            {
+                "asin": "B018UQ5AMS",
+                "title": "Keurig K-Classic Coffee Maker K-Cup Pod, Single Serve, Programmable, 6 to 10 oz. Brew Sizes, Black",
+                "link": "https://www.amazon.com/dp/B018UQ5AMS",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/71Ikuq6AAfL._AC_UL116_SR116,116_.jpg"
+            }
+        ],
+        "alsoBought": [
+            {
+                "title": "Keurig K-Elite Single-Serve K-Cup Pod Coffee Maker, Brushed Slate, 12 oz. Brew Size",
+                "asin": "B078NN17K3",
+                "link": "https://www.amazon.com/Keurig-K-Elite-Temperature-Capability-Programmable/dp/B078NN17K3/ref=d_m_crc_dp_lf_d_t1_sccl_2_1/134-5069891-9570152?pd_rd_w=ouUJT&content-id=amzn1.sym.76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_p=76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_r=AM97CNHC6W7ZBZHSRNDR&pd_rd_wg=qe0JL&pd_rd_r=d1076b03-e29f-4b5b-a89e-b91d2df66327&pd_rd_i=B078NN17K3&psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/81VXacdKaVL._AC_UL160_SR160,160_.jpg",
+                "rating": 4.7,
+                "ratings_total": 52953,
+                "price": {
+                    "symbol": "$",
+                    "value": 119,
+                    "currency": "USD",
+                    "raw": "$119.00"
+                }
+            },
+            {
+                "title": "Keurig K- Slim Single Serve K-Cup Pod Coffee Maker, Multistream Technology, Black",
+                "asin": "B083248S3B",
+                "link": "https://www.amazon.com/Keurig-K-Slim-Coffee-Single-Brewer/dp/B083248S3B/ref=d_m_crc_dp_lf_d_t1_sccl_2_2/134-5069891-9570152?pd_rd_w=ouUJT&content-id=amzn1.sym.76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_p=76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_r=AM97CNHC6W7ZBZHSRNDR&pd_rd_wg=qe0JL&pd_rd_r=d1076b03-e29f-4b5b-a89e-b91d2df66327&pd_rd_i=B083248S3B&psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/61wE84vd-FL._AC_UL160_SR160,160_.jpg",
+                "rating": 4.6,
+                "ratings_total": 53668,
+                "price": {
+                    "symbol": "$",
+                    "value": 99,
+                    "currency": "USD",
+                    "raw": "$99.00"
+                }
+            },
+            {
+                "title": "Keurig K-Express Coffee Maker, Single Serve K-Cup Pod Coffee Brewer, Black, 12.8” L x 5.1” W x 12.6” H",
+                "asin": "B09715G57M",
+                "link": "https://www.amazon.com/Keurig-K-Express-Coffee-Single-Brewer/dp/B09715G57M/ref=d_m_crc_dp_lf_d_t1_sccl_2_3/134-5069891-9570152?pd_rd_w=ouUJT&content-id=amzn1.sym.76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_p=76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_r=AM97CNHC6W7ZBZHSRNDR&pd_rd_wg=qe0JL&pd_rd_r=d1076b03-e29f-4b5b-a89e-b91d2df66327&pd_rd_i=B09715G57M&psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/71O0Is7QpeL._AC_UL160_SR160,160_.jpg",
+                "rating": 4.6,
+                "ratings_total": 16046,
+                "price": {
+                    "symbol": "$",
+                    "value": 89.99,
+                    "currency": "USD",
+                    "raw": "$89.99"
+                }
+            },
+            {
+                "title": "Keurig K-1500 Commercial Coffee Maker,Black 12.4\" x 10.3\" x 12.1\"",
+                "asin": "B07M67X3GN",
+                "link": "https://www.amazon.com/Keurig-K1500-Commercial-Coffee-Single/dp/B07M67X3GN/ref=d_m_crc_dp_lf_d_t1_sccl_2_4/134-5069891-9570152?pd_rd_w=ouUJT&content-id=amzn1.sym.76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_p=76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_r=AM97CNHC6W7ZBZHSRNDR&pd_rd_wg=qe0JL&pd_rd_r=d1076b03-e29f-4b5b-a89e-b91d2df66327&pd_rd_i=B07M67X3GN&psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/71n0P6BgRTL._AC_UL160_SR160,160_.jpg",
+                "rating": 4.6,
+                "ratings_total": 550,
+                "price": {
+                    "symbol": "$",
+                    "value": 189.99,
+                    "currency": "USD",
+                    "raw": "$189.99"
+                }
+            },
+            {
+                "title": "Hot and Iced Coffee Maker for K Cups and Ground Coffee, 4-5 Cups Coffee Maker and Single-serve Brewers, with 30Oz Removable W",
+                "asin": "B0BGMZF735",
+                "link": "https://www.amazon.com/Single-serve-Brewers-Removable-Reservoir-Included/dp/B0BGMZF735/ref=d_m_crc_dp_lf_d_t1_sccl_2_5/134-5069891-9570152?pd_rd_w=ouUJT&content-id=amzn1.sym.76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_p=76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_r=AM97CNHC6W7ZBZHSRNDR&pd_rd_wg=qe0JL&pd_rd_r=d1076b03-e29f-4b5b-a89e-b91d2df66327&pd_rd_i=B0BGMZF735&psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/71yZgLPvKPL._AC_UL160_SR160,160_.jpg",
+                "rating": 4.2,
+                "ratings_total": 1518,
+                "price": {
+                    "symbol": "$",
+                    "value": 59.99,
+                    "currency": "USD",
+                    "raw": "$59.99"
+                }
+            },
+            {
+                "title": "Mecity Coffee Maker 3-in-1 Single Serve Coffee Machine, For K Pod Coffee Capsule Pod, Ground Coffee Brewer, Loose Tea maker, ",
+                "asin": "B09X1SHWMG",
+                "link": "https://www.amazon.com/Mecity-Machine-Capsule-Removable-Reservoir/dp/B09X1SHWMG/ref=d_m_crc_dp_lf_d_t1_sccl_2_6/134-5069891-9570152?pd_rd_w=ouUJT&content-id=amzn1.sym.76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_p=76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_r=AM97CNHC6W7ZBZHSRNDR&pd_rd_wg=qe0JL&pd_rd_r=d1076b03-e29f-4b5b-a89e-b91d2df66327&pd_rd_i=B09X1SHWMG&psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/61y2vV7tWNL._AC_UL160_SR160,160_.jpg",
+                "rating": 4.2,
+                "ratings_total": 1495,
+                "price": {
+                    "symbol": "$",
+                    "value": 79.99,
+                    "currency": "USD",
+                    "raw": "$79.99"
+                }
+            }
+        ],
+        "newer": {
+            "title": "Keurig K- Slim Single Serve K-Cup Pod Coffee Maker, Multistream Technology, Black",
+            "asin": "B083248S3B",
+            "link": "https://www.amazon.com/Keurig-K-Slim-Coffee-Single-Brewer-dp-B083248S3B/dp/B083248S3B/ref=dp_ob_image_kitchen",
+            "image": "https://m.media-amazon.com/images/I/61wE84vd-FL._SR75,75_.jpg",
+            "rating": 4.5,
+            "ratings_total": 53668,
+            "price": {
+                "symbol": "$",
+                "value": 99,
+                "currency": "USD",
+                "raw": "$99.00"
+            }
+        },
+        "compareWith": [
+            {
+                "asin": "B018UQ5AMS",
+                "image": "https://m.media-amazon.com/images/I/71Ikuq6AAfL._AC_SS450_.jpg",
+                "title": "Keurig K-Classic Coffee Maker K-Cup Pod, Single Serve, Programmable, 6 to 10 oz. Brew Sizes, Black",
+                "rating": 4.5,
+                "ratings_total": 97258,
+                "price": {
+                    "symbol": "$",
+                    "value": 109.99,
+                    "currency": "USD",
+                    "raw": "$109.99"
+                },
+                "link": "https://www.amazon.com/dp/B018UQ5AMS"
+            },
+            {
+                "asin": "B08NTPSPNM",
+                "image": "https://m.media-amazon.com/images/I/71oppoTxXML._AC_SS450_.jpg",
+                "title": "Amazon Basics Dual Brew Single Serve Capsule Coffee Maker, 14 oz, Black and SS, 5.98\"D x 9.44\"W x 14.17\"H",
+                "rating": 4,
+                "ratings_total": 2490,
+                "price": {
+                    "symbol": "$",
+                    "value": 51.29,
+                    "currency": "USD",
+                    "raw": "$51.29"
+                },
+                "link": "https://www.amazon.com/dp/B08NTPSPNM"
+            },
+            {
+                "asin": "B0788F3R8X",
+                "image": "https://m.media-amazon.com/images/I/81sG72G84+L._AC_SS450_.jpg",
+                "title": "Keurig K-Elite Single-Serve K-Cup Pod Coffee Maker, Brushed Silver",
+                "rating": 4.5,
+                "ratings_total": 52953,
+                "price": {
+                    "symbol": "$",
+                    "value": 112.9,
+                    "currency": "USD",
+                    "raw": "$112.90"
+                },
+                "link": "https://www.amazon.com/dp/B0788F3R8X"
+            },
+            {
+                "asin": "B083248S3B",
+                "image": "https://m.media-amazon.com/images/I/61wE84vd-FL._AC_SS450_.jpg",
+                "title": "Keurig K- Slim Single Serve K-Cup Pod Coffee Maker, Multistream Technology, Black",
+                "rating": 4.5,
+                "ratings_total": 53668,
+                "price": {
+                    "symbol": "$",
+                    "value": 99,
+                    "currency": "USD",
+                    "raw": "$99.00"
+                },
+                "link": "https://www.amazon.com/dp/B083248S3B"
+            },
+            {
+                "asin": "B074WH5S44",
+                "image": "https://m.media-amazon.com/images/I/51LI5cJokOL._AC_SS450_.jpg",
+                "title": "Keurig K-Select Single-Serve K-Cup Pod Coffee Maker, Matte Black",
+                "rating": 4.5,
+                "ratings_total": 37070,
+                "price": {
+                    "symbol": "$",
+                    "value": 126.79,
+                    "currency": "USD",
+                    "raw": "$126.79"
+                },
+                "link": "https://www.amazon.com/dp/B074WH5S44"
+            },
+            {
+                "asin": "B0BV9HKMNT",
+                "image": "https://m.media-amazon.com/images/I/6134AqFiL3L._AC_SS450_.jpg",
+                "title": "Keurig K-Compact Single-Serve K-Cup Pod Coffee Maker, Black",
+                "rating": 4.5,
+                "ratings_total": 1087,
+                "price": {
+                    "symbol": "$",
+                    "value": 87.99,
+                    "currency": "USD",
+                    "raw": "$87.99"
+                },
+                "link": "https://www.amazon.com/dp/B0BV9HKMNT"
+            }
+        ]
+    },
+    "productFor": "This product is targeted towards coffee lovers who enjoy single-serve convenience and programmable features. It is also ideal for those who want a quick and easy way to make their favorite beverages at home. Additionally, this product is suitable for people who prefer Keurig brand for their coffee making needs.",
+    "images": [
+        {
+            "link": "https://m.media-amazon.com/images/I/71Ikuq6AAfL._AC_SL1500_.jpg",
+            "variant": "MAIN"
+        },
+        {
+            "link": "https://m.media-amazon.com/images/I/8124RNPXDCL._AC_SL1500_.jpg",
+            "variant": "PT01"
+        },
+        {
+            "link": "https://m.media-amazon.com/images/I/81VscAXbGcL._AC_SL1500_.jpg",
+            "variant": "PT02"
+        },
+        {
+            "link": "https://m.media-amazon.com/images/I/71SI0NKrlZL._AC_SL1500_.jpg",
+            "variant": "PT03"
+        },
+        {
+            "link": "https://m.media-amazon.com/images/I/71M9MKnf0LL._AC_SL1500_.jpg",
+            "variant": "PT05"
+        },
+        {
+            "link": "https://m.media-amazon.com/images/I/81CO-lpqDNL._AC_SL1500_.jpg",
+            "variant": "PT06"
+        },
+        {
+            "link": "https://m.media-amazon.com/images/I/81yrlcuK+WL._AC_SL1500_.jpg",
+            "variant": "PT09"
+        },
+        {
+            "link": "https://m.media-amazon.com/images/I/317E0a8TWkL._AC_.jpg",
+            "variant": "PT12"
+        },
+        {
+            "link": "https://m.media-amazon.com/images/I/71j+HDWeSLL._AC_SL1253_.jpg",
+            "variant": "PT13"
+        }
+    ],
+    "link": "https://www.amazon.com/Keurig-K55-K-Classic-Coffee-Programmable/dp/B018UQ5AMS"
+}
+
+
+{
+    "all": {
+        "barChart": {
+            "positive": 78,
+            "neutral": 14,
+            "negative": 8,
+            "total": 100
+        },
+        "dougnut": {
+            "love": 42,
+            "happy": 23,
+            "satisfied": 13,
+            "fair": 14,
+            "unsatisfied": 4,
+            "upset": 3,
+            "hate": 1,
+            "total": 100
+        },
+        "table": {
+            "five": {
+                "positive": 67,
+                "neutral": 5,
+                "negative": 4
+            },
+            "four": {
+                "positive": 11,
+                "neutral": 9,
+                "negative": 4
+            },
+            "three": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "two": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "one": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "total": 100
+        },
+        "gptPrompt": {
+            "role": "assistant",
+            "content": "Based on the sentiment analysis of customer reviews, it seems that this product has generally positive feedback. The majority of customers love or are happy with the product, while a smaller percentage of customers are satisfied or feel it is average. There are a few customers who are unsatisfied or upset with the product, and one customer even hates it.\n\nLooking at the sentiment according to user rating, it appears that the majority of customers who gave 5 stars to the product have positive reviews. There are also a few customers who gave neutral or negative reviews despite giving a high rating. Similarly, for customers who gave 4 stars, there are positive, neutral, and negative reviews.\n\nOverall, it seems that the product has a mostly positive sentiment among customers, but there are a few negative reviews to consider. It would be important to dive deeper into the specific reasons behind the negative reviews to better understand any potential issues with the product."
+        },
+        "sortedReviews": {
+            "positive": [
+                {
+                    "title": "This Keurig is My Favorite Kitchen Appliance and It's Well-Worth the Money We Spent!",
+                    "body": "***Updates are located at the bottom of this review.***  ***Original Review*** Up until recently, I had never been much of a coffee drinker except for the occasional seasonal flavored latte drinks but I was having trouble keeping up with my very active twin toddlers. We already had a standard coffee maker but I didn't want to brew a whole pot of coffee at once and single-serve coffee makers seem to be very popular so I figured it couldn't hurt to give it a try. I had seen several different Keurigs from the basic ones to very fancy ones but wanted to purchase one that both fulfilled my needs to brew a single cup of coffee and wasn't too expensive so I opted to buy the Keurig K55 Coffee Maker in black.  When the Keurig arrived, I eagerly opened up the box to get it set up and start using it! I found it fairly simple to set up since there is a Use and Care Guide included and it's easy to follow the step-by-step instructions. I'd say the setup only takes a few minutes and then you are ready to brew your first cup of coffee. There are lights on the brewer that illuminate and walk you through the brewing process but once you are used to it, it becomes second nature and now, I don't even have to think about it, which is good in the early morning when I'm not thinking straight and need my coffee!  Brewing: To brew a cup of coffee is very simple. You'll need to turn on the brewer by pushing the power button. The power button and heating lights will illuminate and the Keurig will make some noises while it heats up. When the three cup sizes illuminate in blue, you know it's time to brew your coffee. Set your coffee mug on top of the drip tray and lift the handle for the K-cup pod holder. Place a K-cup pod in the holder and lower the handle completely until the three cup sizes are blinking. The three sizes are: small cup (5.25 ounces), small mug (7.25 ounces) and large mug (9.25 ounces). Select your size and the coffee will be ready in about a minute. If the water reservoir is low on water, the \"add water\" light will illuminate and the process won't continue until you've filled the reservoir. Once it's stopped dripping, you may remove your mug and enjoy your coffee! If someone else wants to brew a cup of coffee right after yours is done, all they have to do is remove your K-cup pod since they are single-use pods, add theirs and repeat the process.  Water Reservoir: The reservoir holds 48 ounces of water so you don't have to fill it up every time you want to brew a new cup of coffee, which is one of the reasons I selected this model. I make about two cups of coffee every day so I end up refilling the reservoir every few days. There are filters to use with the water but I purchase bottled water so I haven't used the filters at this point. When the reservoir needs to be filled, I remove the reservoir, take off the lid, fill it up with water, place the reservoir back in the Keurig and replace the top.  Cleaning: I feel this Keurig is fairly simple to clean. The drip tray is removable and I usually wipe it down with a damp paper towel a couple times a week and wash it in water, soapy water occasionally. I also like to wipe down the exterior since the front part of the Keurig gets splatters of coffee on it. You can also clean the pod holder, funnel, needles and water reservoir and lid. Be careful as the two needles used to puncture holes in the K-cup pods are very sharp.  Coffee Pods (the best part!): The Keurig K55 Coffee Maker uses the K-cup pods, which you can purchase nearly everywhere and there are many brands and flavors to choose from. You don't need to buy any specific brand with this coffee maker. As long as they are K-cups, they should work and I haven't come across any pods that don't work. I've been having a lot of fun purchasing different flavors and brands since I have several friends and family members who also have Keurigs so it's a lot of fun to swap coffees! I prefer flavored coffees and there are so many out there to try but my favorites are the Green Mountain flavors in Caramel Vanilla Creme and Wild Mountain Blueberry. There are K-cup pods in different price ranges and it's nice to have that option since everyone has a different budget. The nice thing with this brewer is that the flavors don't tend to blend from one cup to the next. For instance, my mom and I have brewed cups of coffee one right after the other (different flavors) and neither of us have noticed the other flavor in our respective cups. I've only brewed one cup of apple cider with this and haven't noticed the previous coffee flavor in the apple cider or the apple cider in my next cup of coffee. In this brewer, you can use all kinds of coffee flavors from flavored to medium and dark roasts to hot chocolate to apple cider. I typically choose the small mug (7.25 ounces) setting since I like the flavor. It isn't too strong or too watered-down for me but others may prefer other settings.  Programmable Auto Off Timer: You can set the brewer to turn off two hours after the last cup of coffee has brewed (included in the instructions). I just turn the Keurig on and off as I need it but it's nice to have that option.  Noise: Some people have stated that this brewer is noisy. I've found it's the noisiest when it's taking water from the reservoir and it sounds like a loud hum. It's not too loud when it's brewing the cup of coffee. I occasionally get up earlier than my husband and kids and brew a cup of coffee and no one has woken up (I'd say there is about 30 feet between the kitchen and bedrooms with the doors closed). When we have guests and they brew coffee before I wake up, I can't hear it at all.  This Keurig is made in China and mine had a packaging date of August 2016, a month before I purchased it. I've been using it for two months and haven't had any problems with it at all. It measures about 12 inches deep (from front to back), nine inches wide (side to side) and 13 1/2 inches tall. I've had several family members use it and my parents and in-laws have found it fairly simple to use after I show them how to brew the coffee since we all have different models. Ever since I started drinking coffee, I've had better success with staying more alert and awake to take care of my twins and buying this Keurig has been well-worth every penny we spent on it! I have no regrets buying it and have been having a lot of fun finding different flavors to try. As with all of my reviews and especially any appliances and electronics reviews, I will periodically update this review, add in any new information I discover and adjust my thoughts and star rating, if needed. If you, or someone you know, is interested in a Keurig, I highly recommend this one. It's a great model that is nice on your wallet and will brew a great cup of coffee as often as you'd like!  ***Update 04/25/2017 - I've had this Keurig now for almost eight months and it's still working great for us! I typically brew four cups of coffee a day now to keep up with my kids and I've had no trouble with using this Keurig. When we have guests and are switching pods a lot, I never notice a strange taste at all (since we all like different flavors). I clean out the drip tray and wipe the whole machine down at least once a week to keep it looking nice. We only use bottled water in it so I've never had to use the filter. When we go away for a few days, I always wipe everything down and empty the water reservoir so it can air out and dry. I still highly recommend this Keurig if you want a good single-cup brewer that isn't incredibly expensive!",
+                    "rating": 5,
+                    "analysis": 0.30000001192092896
+                },
+                {
+                    "title": "A Perfect Addition to My Morning Routine!",
+                    "body": "I recently purchased the Keurig K-Classic Single Serve K-Cup Pod Coffee Maker in Rhubarb, and it has quickly become an essential part of my daily routine. As a coffee lover, this machine has exceeded my expectations in terms of convenience, taste, and style.  Ease of Use: Setting up the Keurig K-Classic was a breeze. The instructions were clear and straightforward, and within minutes, I had it ready to brew. The large water reservoir means I don't have to refill it constantly, even during my busiest mornings.  Brewing Speed: This machine is lightning fast! It heats up and brews a cup of coffee in under a minute, which is perfect when I'm in a rush. The coffee is consistently hot, and I never have to deal with lukewarm coffee again.  Variety of Coffee Options: One of the major selling points of the Keurig system is the incredible variety of K-Cup pods available. Whether you prefer bold, mild, flavored, or decaffeinated coffee, there's something for everyone. Plus, it's also compatible with reusable K-Cup filters, which allows me to use my own ground coffee, reducing waste and saving money.  Taste: The coffee that comes out of this machine is consistently delicious. The Rhubarb color adds a touch of vibrancy to my kitchen, and the coffee itself tastes fresh and full-bodied. I appreciate that I can choose the cup size, so I can have a quick pick-me-up in the morning or a larger cup to savor on lazy weekends.  Maintenance: Cleaning the Keurig K-Classic is straightforward. The removable drip tray and water reservoir are easy to clean, and the machine even reminds me when it's time to descale, which ensures it continues to function at its best.  Durability: I've had this Keurig for a few months now, and it's been running flawlessly. It feels well-built and sturdy, which gives me confidence that it will last for years.  In conclusion, the Keurig K-Classic Single Serve K-Cup Pod Coffee Maker in Rhubarb is an excellent addition to any coffee lover's kitchen. It combines speed, convenience, and a wide range of coffee options to deliver a consistently great cup of coffee. I'm extremely satisfied with my purchase, and I highly recommend it to anyone in need of a reliable coffee maker. It has certainly made my mornings a lot more enjoyable!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "One Week With My Keurig K55. I Love It!",
+                    "body": "There are numerous detailed reviews of the Keurig K55 and other models on Amazon and I see no reason to repeat or refute other reviewers' opinions, so I'll limit my review to my impressions based on one week's use and experimentation with various coffees and other beverages that my wife and I have tried and enjoyed.  I don't consider myself to be a \"coffee snob\" but I drink a lot of coffee and insist on a good. fresh cup of coffee, properly brewed to my personal taste. For more than 20 years, I've used Saeco super automatic espresso/coffee machines such as this one:https://smile.amazon.com/Saeco-Philips-Intelia-Espresso-Machine/dp/B019771XIE/ref=sr_1_1?s=kitchen&ie=UTF8&qid=1481465394&sr=1-1&keywords=saeco+super+automatic+espresso+machine&refinements=p_89%3ASaeco ranging in cost from about $600 to $2,500 depending on the model. These super automatic machines allow you to load whole bean coffee of your choice into a hopper and at the push of a button, it grinds the beans, loads them into the brew unit, dispenses the coffee, then dumps the used grounds and is ready to brew another cup at the touch of a button. They are completely adjustable so you can brew your coffee as strong as you like, from espresso to fairly weak American-style coffee. They also have a steamer which allows you to make cappuccino and other coffee beverages. I love these machines and they make great coffee, but they have disadvantages. First, because you have to load the whole beans in the hopper, it isn't easy to change to a different coffee if other family members drink decaf, for example, or prefer lighter or darker roasts. Also, they only brew coffees, no other beverages. Lastly, they are complicated and require quite a bit of maintenance.  Enter the Keurig K55, which is their least expensive basic model but does everything I expect. I purchased it for my wife who likes to drink my lighter coffee as well as various teas, hot chocolate, cider, etc. My thought was to let her use the Keurig and to continue making my coffee in my Saeco but I've found that the Keurig makes very good coffee and suspect that my Saeco will be retired because the Keurig is so much more convenient to use and maintain and I'm completely satisfied with the coffee I'm brewing in it, perhaps not quite as \"great\" as that I make in my Saeco more than satisfactory, and far superior to the coffee I buy in restaurants, donut shops and convenience stores.  I won't recommend particular k-cup coffee brands because there are so many of them and everyone has different preferences. One of the main advantages to the Keurig is that there are so many choices available, with three brew strength/ water level settings, as well as a great variety of other hot beverages such as black and herbal teas, hot chocolates, ciders, and more.  You can also buy reusable k-cup holders and any ground coffee you like. This may save a little money and also allows you to choose your favorite coffee even if it isn't available in K-cups. I ordered a set of these reusable k-cups and have tried them with several ground coffees, comparing them to the prefilled k-cup versions of the same coffees. The k-cup ones are as good or better than the ones I've loaded myself using the reusable k-cups and are SO MUCH easier and more convenient to use. They're a little more expensive but still reasonably priced, particularly if you buy them in bulk from Amazon, Sam's Club, etc., or find them on sale at your local supermarket. On average, I'm paying less around 40 cents a pod for mine. Other k-cup beverages such as teas and hot chocolate tend to be less expensive than the premium coffees I buy.  The real advantages to the Keurig are convenience, ease of use and the variety of coffees and beverages you can make with it, including iced teas and other iced beverages. My wife and I can share a single machine and make our own preferred beverages quickly and easily. After she makes a flavored beverage, I simply run a shot of hot water through the machine to remove any off-taste before brewing my coffee.  Although I won't recommend specific brands due to personal tastes, I will mention that I prefer well-balanced, slightly acidic medium to medium dark roasts. I don't like breakfast blends or other light roasts, nor do I like really dark roasts such as those typical of some coffee shops such as Starbucks, although I have tried some of the dark roasts from Starbucks k-cups and others and they are fine, just not to my taste. I usually use the medium water level (7.25 oz) setting. Depending on the coffee I'm using, this usually gives me a rich, well-balanced, fairly strong cup of coffee. For some lighter roast coffees I prefer the low (5.25 oz) setting. My wife doesn't like strong coffee and usually uses the high (7.25 oz) setting. Teas, ciders and hot chocolate usually taste better with the high water level setting.  If you are considering giving the Keurig a try, I recommend that you consider buying one of the many sampler k-cup packs available on Amazon. Some are coffee only and others include assorted flavored coffee, cappuccino, tea, hot chocolate, cider, etc. The one I bought is this one: https://smile.amazon.com/gp/product/B00KSIE39I/ref=oh_aui_detailpage_o07_s00?ie=UTF8&psc=1 . It was a good choice and my wife and I quickly discovered our favorites. We've also bought a few others to try (on sale) at my local supermarket. All were good, even though some weren't to my personal taste. Once you decide on your favorites and the brew strength you prefer, you're all set to make good, fresh coffee and other k-cup beverages easily and conveniently.  I mentioned at the beginning of my review that I'm not a \"coffee snob\" but I do insist on good fresh coffee, brewed to my personal taste. The Keurig accomplishes this. I realize that many people ARE purists (coffee snobs, in my parlance). If so, you probably won't like the Keurig but for 95% of all coffee drinkers, the Keurig is great. I'm more than willing to give up my \"perfect\" cup for one that's almost as good and so much easier and more convenient to brew, not to mention all of the other beverages it will make.  I can see why the Keurig has become so popular. It fully deserves the five star rating I've given it. I highly recommend it to most coffee drinkers. I'm less convinced that it's the best solution to brew tea. It's okay but I still think it's worth the effort to brew tea by steeping it (using the Keurig to dispense hot water for brewing it if you wish). However, K-cup hot tea and iced teas aren't bad and are certainly quick and easy.",
+                    "rating": 5,
+                    "analysis": 0.30000001192092896
+                },
+                {
+                    "title": "Well-Designed with Superior Performance -The Very Best Coffee Maker That We Have Owned In 40 Years",
+                    "body": "The media could not be loaded. In the forty years of our marriage, we have owned several well-known brands of coffee makers. However, we feel that the Keurig K55 coffee maker has proved superior to any of our previous coffee brewers.  Last year I invested in our first Keurig coffee maker, and I chose the K15 for individual servings. This worked out so well that a few months later, I bought another for my office and I loved my second Keurig as much as I loved the first one. Then last winter I decided to purchase another Keurig, only a different model that would accommodate several servings.  I bought the K55 model because it has various featured options. This includes offering the choice for different hot beverages without the extra step to refill the tank each time with water, and this is due to the larger 48 oz. water reservoir. In addition, this enables us to make a variety of hot beverages in rapid succession, within a few seconds instead of waiting for all the water to reheat. Furthermore, the Keurig K55 offers a personal ‘custom tailored’ brew by letting us determine the strength of our coffee, and we have a choice of three. The smallest amount for a 6 oz. provides the strongest brew and the other two servings are an 8 and 10 oz.  I like strong coffee, or sometimes I like to have flavored coffee, and my sister-in-law likes the same coffee that I do. My husband prefers a milder brew, and he never drinks flavored coffee. My son drinks tea, and likes to try different varieties and my grandson loves sampling different selections of hot chocolate.  The Keurig K55 has a fast set-up, with easy to follow and systematic directions from the manual. It offers us a variety ways to make coffee, tea or just to heat water and all without any major modifications, because it just goes from one task to another.  Below are some of the general features, and all are well designed and ‘user friendly’.  CONTROL PANEL:  All the controls are on the top right of the coffee maker and I like the flat slope surface that slightly slants down toward my eye level, and therefore, I don’t need to step on my tiptoes to read the buttons.  On the panel, there are 5 press buttons and each one has an LED light to reduce ‘user error’.  Power: Green LED Auto Off: Green LED - (this is the automatic timer and when activated will automatically power off after 2 hours). 3 Brew Size Servings – corresponding size to the serving size and each with a Blue LED a. Cup Size - yields 6 oz. – which will provide the strongest brew b. Small Mug - produces 8 oz. c. Large Mug – dispenses 10 oz.  Aside from the 5 press buttons to regulate the Keurig coffee maker, there are 3 other LED light indicators.  1. Add Water – a Blue LED will light up If there is not enough water, the coffee maker will not work, therefore I consider this indicator as a safety feature, as well as a resolution to a possible ‘user error’.  2. Descale – will light up with a Red LED light This is another handy feature, to indicate necessary cleaning maintenance.  3. Heating – while the water is heating, a red LED powers on, and then powers off when the water is hot and ready for a brew.  WATER RESERVOIR:  Included with the Keurig K55 is a Charcoal Water filter Cartridge Kit with 2 charcoal filters. This will eliminate the unwanted chemical taste that is in some water systems, and good tasting water is essential for a delicious cup of coffee. The recommended life span for each charcoal filter is approximately 2 months or 60 ‘full-tank’ refills. There are several selections for Replacement Charcoal Filter-Pods available on Amazon.com.  The water reservoir attached to the left side is easy to remove with a slight lift up and outward motion. It fits inside a base and the tank is easy to remove and replace without any struggle. Alternatively, remove the reservoir tank cover, and pour water in from a bottle or a container.  DRIP TRAY: This is much more than ‘just a drip tray’, under the cover is a 1” deep receptacle that will accommodate 8 oz. of a liquid spillover. Therefore, if the user makes an error and pushes the wrong brew amount for a smaller cup, this will save the kitchen counters and the floor from a major flood. In addition, this coffee maker will accommodate my 7 ¼” coffee thermos by sliding the drip tray out from bottom base, and I can have my thermos filled when placed on the bottom flat tray base.  THE KEURIG K55 ACCOMMODATES REUSABLE COFFEE FILTERS:  My favorite coffee is from fresh beans that I grind myself, and therefore it’s important to me that a coffee maker will accommodate a reusable filter. The K-Cup pod holder on the K55 is very easy to remove and it literally takes less than 10 seconds. Just tap the bottom of the pod holder with a finger and the K-Cup holder slides out with ease. The reusable K-cup filter then slides in place within the groove, and works with perfection for a delicious cup of fresh ground beans, or any ground coffee.  The reusable coffer pod filter that I use is the Keurig My K-Cup Reusable Coffee Filter (Single) – and this is compatible with the Keurig K55 model.  I purchased this from Amazon last spring, and in addition, I use this same filter with my Keurig K15. https://www.amazon.com/Keurig-5048-Reusable-Coffee-Filter/dp/B000DLB2FI/ref=sr_1_1?ie=UTF8&qid=1486296530&sr=8-1&keywords=Keurig+My+K-Cup+Reusable+Coffee+Filter+%28Single%29  In conclusion, the Keurig K55 is a well thought-out designed coffee maker, with user-friendly features. This machine comes with a ‘Charcoal Water Filter Cartridge Kit and 2 charcoal pod filters, which guarantees excellent coffee, even though we have ‘hard water’ (which tastes awful) in our water system. In addition, I love that Keurig does NOT use a breakable glass carafe, which was the thing that broke most often with our previous coffee makers.",
+                    "rating": 5,
+                    "analysis": 0.30000001192092896
+                },
+                {
+                    "title": "Great coffee pot!",
+                    "body": "I bought this a couple years ago for a Christmas present. It hasn't disappointed. I love this coffee pot, best I've ever bought! It's easy to work, easy to clean, and makes your coffee pretty quickly. I love how you can just fill up the water reservoir, and it has 3 size cup settings that light up blue (small, medium, and large). We use it everyday. I give it 5 stars!",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "Makes great coffee!",
+                    "body": "Love the color, the large reservoir for water. It’s not as fast as the smaller vintage turquoise one that finally gave up the ghost… but it operates so much more smoothly and we are glad we bought it! We use Black Silk by Folgers, and it’s better than Starbucks!!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "My favorite coffee maker",
+                    "body": "My old Keurig like this one died, so I searched and finally found this one and I love it! It holds a lot of water, brews fast, and doesn't really take up a lot of room. It looks nice. Can fit a tall go-mug if you remove the tray. I really love it.",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "My second Keurig",
+                    "body": "Just received my second Keurig coffee maker as my original finally went to appliance heaven. I initially bought a less expensive model from another brand but will return it as it just doesn't function as well as my Keurig. Love the large capacity, ease of use buttons on the top, and overall performance. The coffee brews HOT, as it should, and quickly, too. I was surprised to find that Keurig no longer has the water filter in the reservoir, but I have never had a problem with hard water, etc. One less thing to clean!  Hoping this model gives me as many years of my morning and sometimes afternoon coffee. You can spend more, but for me, I am very happy and for the price point, it's the best!",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Does as it claims",
+                    "body": "This is my third Keurig in 10 years. They are affordable, and last a good while for the cost. I recommend it to anyone who needs a coffee pot. I use my for lipton tea, and Keurig Moca cups.",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Keureg",
+                    "body": "The Keureg replaced the 9 yr old unit. It is attractive and works great. I expect it to last at least 9 yrs also.",
+                    "rating": 5,
+                    "analysis": 0.30000001192092896
+                },
+                {
+                    "title": "Just as I was expecting!",
+                    "body": "My Classic Keurig had finally shown its age after several years of heavy daily use. I saw there were many new versions as well as replacement parts for it on Amazon, but I really didn't know if it was just any ONE part. Besides, it was my Birthday month! So I went with what I knew and purchased a new Classic Keurig while it was on sale and I'm glad I did! It makes a delicious cup of coffee and has the settings menu I've been accustomed to having. Same good quality machine and very dependable!",
+                    "rating": 5,
+                    "analysis": 0.5
+                },
+                {
+                    "title": "So far so good",
+                    "body": "I’ve had issues with Keurig but figured I’d try one more time. This coffee machine works great and is easy to use. I’m pleased. I do wish the water reservoir has a better way of taking it off and putting it on but the overall out weighs that only issue. Keeping my fingers crossed!",
+                    "rating": 4,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Works wonderfully!",
+                    "body": "Does exactly what it should. Not too loud and the coffee comes out perfectly. I like my coffee strong and it has the small cup selection which definitely delivers a strong cup.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "This size works for us. Very pleased",
+                    "body": "Maybe could of used a smaller size but I liked the reservoir on the side instead of the back. Love the red color.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Overall good product",
+                    "body": "makes an excellent cup of coffee at a reasonable speed. Only a few complaints, all of them very minor. 1. The lid for the reservoir is slightly tapered and awkward to handle. A small indention for you to grip would be nice. 2. The KCup holder is difficult to clean, this is probably unavoidable but I wanted to make a note of it. 3. The piece the cup sits on is extra easy to clean. Overall an excellent product and if you like KCups, you'll love this pot - it's reliable and lasts a long time.",
+                    "rating": 4,
+                    "analysis": 0.20000000298023224
+                },
+                {
+                    "title": "Good Purchase",
+                    "body": "So far so good. Makes good coffee and is easy to use. I like the Red Color!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "So far so good ... Perfect cups of coffee!",
+                    "body": "I am enjoying my new Keurig ... it gives me wonderful choices in sizes of cups of coffee ... and is very very fast. It's an excellent product!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Quick & Satisfying",
+                    "body": "I purchased this Keurig after an electrical surge damaged the one I had been using (also a Keurig); so never any issues. The model changed a bit since a few years back, but this Keurig does a good job. I did change the coffee I had been using as I didn't think it made as strong of a cup of coffee as my first Keurig. My coffee is very enjoyable. This Keurig is quick and is an attractive addition to a coffee bar, countertop or set on top of a table in an office or waiting room.",
+                    "rating": 4,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Everyone should own one of these!",
+                    "body": "I have owned several of these. I drink a lot of coffee and this device makes brewing a good cup of coffee and easy task. I can only say good things. Keep it up Keurig.",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Makes Coffee",
+                    "body": "Does just what it’s supposed to. I bought this to replace one just like it I had for 11 yrs. Works great!!",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Love having the cup option",
+                    "body": "No muss, no fuss. It's great having my coffee premeasured for me and all I need to do is add water, and when it's done throw away the cup.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Works well",
+                    "body": "I bought this as a gift for someone and I was told it works very well.",
+                    "rating": 4,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Great machine with many flavot coffee, and other drinks available",
+                    "body": "My second Kerrigan. Very much like the first one with a few comedic upgrades.. one nice improvement is the over flow is deeper, and by removing it there is room for my Theo cup. Great convenient coffee maker.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Love It!",
+                    "body": "I love, love, love it!!! Perfect color, works well and easy to use and fits well with my kitchen decor.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Last",
+                    "body": "Great so far hope it lasts longer than the last one",
+                    "rating": 4,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Great",
+                    "body": "I purchased one after renting a cabin that had this model. I already had a slim keurig, but have had issues with it from day one. So far no issues with this model. It heats up the water before actually making coffee. Perfect cup of coffee every time.",
+                    "rating": 5,
+                    "analysis": 0.4000000059604645
+                },
+                {
+                    "title": "A must have coffee maker",
+                    "body": "I bought this for my parents and it’s so easy for them to use and clean. No fuss, no mess, just easy for their morning cup of joe.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "I LOVE IT!",
+                    "body": "Great quality Keurig! Machine is sturdy and real nice! Makes good coffee in seconds. Water Tank easy to remove rinse out and fill back up. I love it!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Nice coffee maker",
+                    "body": "Love the color. Wish it made a little bit more ounce but it's OK. Easy to use.",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Simply the Best",
+                    "body": "This is the third Classic Keurig brewer we've bought over the years. They've all looked the same, but each has been a little better than the last. Continuous improvement. Tried a cheaper copy earlier this year; what a waste! If you love your coffee, get the best: Keurig classic.",
+                    "rating": 5,
+                    "analysis": 0.5
+                },
+                {
+                    "title": "Convenient",
+                    "body": "Got the black color and loved it. Already assembled and the instructions are easy to follow. Love the quality and how smoothly it runs. It’s so stable, I trust it so much (just follow the instructions).",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Better than previous models, fast and easy to use and clean",
+                    "body": "I've only had it a month, but so far it's superior to the previous model. It's easy to use, easy to clean, warms up and makes coffee quickly. I'll update this review if anything changes, but so far I'm very satisfied.",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "great coffee pot",
+                    "body": "i had one in black for a few years and it died so i got this one , i love the color, only bad thing is it came in a box in side a box 📦, they could save a box . i would buy it again.",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "Works great. Maybe better than the older versions",
+                    "body": "Bought this new classic K50 because my older (at least 5 years old) was making wierd noises. Like the pump had to work harder to make things work. Not sure but I didn't want a broken Keurig when I went to make coffee in the morning. So I bought this new one. Works well. The circuitry and pump system sound a little different (better) but it all works very well. If you want a Keurig, this is a good one to start with.",
+                    "rating": 5,
+                    "analysis": 0.30000001192092896
+                },
+                {
+                    "title": "Great coffee maker",
+                    "body": "Makes a perfect cup of coffee anytime I want. I use the refillable pods so I don't waste all kinds of plastic. Very happy with my purchase.",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Good Coffee Pot",
+                    "body": "Makes Good Coffee, Love the Color",
+                    "rating": 4,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "I love it!  Classic!",
+                    "body": "Easy simple and clean! I love my Keurig. The last was the same model in black.",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Lo mejor",
+                    "body": "Muy buen producto y fácil de usar",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Does what you need it to do.",
+                    "body": "Does what you need it to do.",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "Great coffee maker",
+                    "body": "Bought this for our church men’s group and it is fast and reliable. The guys love it.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Keurig",
+                    "body": "The Keurig works great love it",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Very nice",
+                    "body": "I bought this used and save alot of money and it still had the factory tape on all the moving parts and not a scratch on it ran a bunch of water though it just to make sure it's clean and it works great heats up fast and makes good tasting coffee time to get rid of the old no name coffee maker",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "No more spending $$$ on Starbucks!",
+                    "body": "We all know how girls get... and my girls aren't any different. Starbucks is a running credit card purchase and it doesn't stop. I finally bought a Keurig and not only did my life get so much easier, but my credit card was thriving. My girls now love making coffee at home, finding new ways to make their drinks, and have competitions on who can make the best coffee. Guess who wins? KEURIG! Every time! The color is also a fan favorite. For the price, this is very worth it as well. No more Starbucks runs, ladies! Okay... maybe sometimes!",
+                    "rating": 5,
+                    "analysis": 0.4000000059604645
+                },
+                {
+                    "title": "Perfect Product for the Coffee Drinker in Your Home",
+                    "body": "This is a great product for you home, office or just to have for personal use. I'm a coffee lover and this make it easy to have a quick cup of coffee. I also feel like I'm saving money. Because you are not doing a whole pot, when you are doing only one cup at a time. Must for all households. Buy one now! Worth the money spent on it.",
+                    "rating": 4,
+                    "analysis": 0.5
+                },
+                {
+                    "title": "Keurig K Cup coffee maker",
+                    "body": "My last Keurig was the same model and lasted 8 years. I didn't hesitate to buy another. This one is a beautiful red",
+                    "rating": 5,
+                    "analysis": 0.5
+                },
+                {
+                    "title": "I got lucky!",
+                    "body": "Found this on sale. My old Keurig that is well over 10 years old still works perfect but is a little loud lol. Bought this bad boy and it's so quiet and the coffee tastes perfect!",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Easy to use!",
+                    "body": "This looks nice in the kitchen and is easy to use! Love the automatic shut off feature!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Good coffee machine.",
+                    "body": "Good and simple coffee machine.",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Love Amazon Used!!",
+                    "body": "$36 for a new Keurig in perfect condition",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Fantastic Coffee Maker for Convenient and Flavorful Brews!",
+                    "body": "I recently got my hands on the Keurig K-Classic Coffee Maker, and I can confidently say it's been a game-changer for my morning routine. This sleek and stylish coffee maker looks great on my countertop, delivers exceptional performance, and consistently brews a delicious cup of coffee.  The versatility of this coffee maker is truly impressive. With the option to choose from 6, 8, and 10-ounce cup sizes, I can customize my brew according to my preferences. THE KEURIG K-CLASSIC HAS ME COVERED, whether I'm in the mood for a strong and bold cup or a milder one.  The great 48-ounce water reservoir is a time-saver. It allows me to brew multiple cups of coffee before refilling, making my mornings more efficient and hassle-free. The pool is removable, making filling quick and easy. Plus, the auto-off feature gives me peace of mind by automatically turning off the coffee maker after 2 hours of inactivity, saving energy.  Keeping the Keurig K-Classic Coffee Maker clean and well-maintained is a breeze. Descaling is made simple with the straightforward instructions provided in the user guide, ensuring the machine stays in top shape for years.  Operating this coffee maker is a joy, thanks to its user-friendly button controls. Inserting a K-Cup pod, selecting the desired brew size, and enjoying a perfectly brewed cup of coffee takes just a minute. It's incredibly convenient and time-saving.  The build quality of the Keurig K-Classic Coffee Maker is excellent. Made from durable plastic, it's built to withstand regular use while maintaining its performance and aesthetics.  I highly recommend the Keurig K-Classic Coffee Maker for all the coffee enthusiasts out there. Its ability to brew multiple cup sizes, large water reservoir, energy-saving features, and user-friendly design makes it a must-have addition to any kitchen. Say goodbye to long lines at coffee shops and indulge in café-quality coffee from the comfort of your home. Trust me; you won't be disappointed!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Good machine",
+                    "body": "Makes a little noise while brewing , Have only 2 weeks",
+                    "rating": 4,
+                    "analysis": 0.30000001192092896
+                },
+                {
+                    "title": "A Gift For Myself",
+                    "body": "I LOVE THIS ITEM",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Nice",
+                    "body": "Enjoying it!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "As described",
+                    "body": "Works as described. I’m very happy with my purchase.",
+                    "rating": 4,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Keurig Coffee maker",
+                    "body": "Excellent taste, fit, size, and coffee heat. 100% recommended!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Cup at a time",
+                    "body": "I had a 2010 model that was getting unstable so I replaced it. It’s quieter too.",
+                    "rating": 5,
+                    "analysis": 0.5
+                },
+                {
+                    "title": "Works very well.",
+                    "body": "Great product. Great price. I love this!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Classic keurig",
+                    "body": "We were given a mini Keurig and it went out. We looked at a few department stores but came back to this one. The water carafe is big enough for all the drinkers in our house and the options for cup sizes and on/off timer has me sold. This purchase was a great decision.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Meets expectation",
+                    "body": "The product came delivered as expected. Works to my satisfaction. Great value for the price.",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "Love this model",
+                    "body": "This is our third one over the years. Hopefully Kuerig doesn't stop making this model.",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Beautiful Machine, Hard Worker",
+                    "body": "I purchased this coffee maker in red, its much more than a pretty face. Its a valued part of our kitchen, consistently makes a great cup of coffee, hard little worker, no drama entailed in using and cleaning it. Thank you Keurig, I appreciate the quality of this product.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "That the product is exactly as described",
+                    "body": "I like the product. I use it to make my coffee",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Very convenient",
+                    "body": "When we first got this Keurig coffee machine, it was causing a lot of problems: coffee grounds got in the receiving cup, it would overflow, it would not give a full cup. I am not sure what happened, but all of those problems became corrected. The unit has been working beautifully for several weeks now. This is our third Keurig and we very much like it.",
+                    "rating": 5,
+                    "analysis": 0.4000000059604645
+                },
+                {
+                    "title": "Great brew master",
+                    "body": "This coffee maker brews the perfect cup of coffee every time. Its quality of materials and functions are great.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Ease of operation",
+                    "body": "Just what I needed - easy to use.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Love my coffee machine",
+                    "body": "Ever since I bought it I have never stopped using it I love it so much",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Replaced our 5 year old one",
+                    "body": "The only difference between this one and the one we replaced is the power turns off automatically, which should save us some electricity. A good improvement, I'm sure.",
+                    "rating": 5,
+                    "analysis": 0.20000000298023224
+                },
+                {
+                    "title": "Works grast",
+                    "body": "Makes great coffee",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Easy to use",
+                    "body": "Easy to use and simple to set up. This is the one I bought for work and I just purchased another one for home. If you want a coffee maker that’s simple and easy to use, this is it.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "It's fine",
+                    "body": "Works fine looks fine, no complaints",
+                    "rating": 4,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Great!",
+                    "body": "I had a Keurig and it lasted about 5 years. Just recently it started to slow down and did not brew. But I am loving my new red Keurig! We love it because it makes one cup at a time, so we are not wasting on coffee. Between myself and my two family, we have 2-5 cups, so this works great!",
+                    "rating": 5,
+                    "analysis": 0.4000000059604645
+                },
+                {
+                    "title": "Easy to use",
+                    "body": "This is not my first Keurig K-Classic Single-Serve K-Cup Pod Coffee Maker and probably won't be my last but it is my first Rhubarb one. Nice color, I like it more than just plain red. You can use your own pods. They are not cheap but I had my last one for almost 3 years. They are easy to use. Turn it on, put in your pod and when the coffee size light comes on, close the pod lid and choose what size coffee you want. Easy peasy! Wish the other colors didn't cost more, may have gotten blue :-)",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Just like my first",
+                    "body": "I’m always afraid when replacing items because of quality changes over the years . I had my original for over 15 years this is a bit different design but seems to be working great ! The coffee is always good I use to make 10 plus cups a day without issue . Good price good machine and yummy care free coffee.",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Not made in USA like advertised",
+                    "body": "Made me a good Peet’s coffee pod in under a minute with minimal dripping. Hopefully will hold up better than our previous office one. It says made in USA in the amazon description, but when I got it, turned it over, the actual machine says made in China. Day 1 is so far so good. Will update in a few months",
+                    "rating": 4,
+                    "analysis": 0.20000000298023224
+                },
+                {
+                    "title": "Coffee",
+                    "body": "Makes the best coffee.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "my purchase",
+                    "body": "this is my second coffee maker i liked the first one so well i replaced it with same item.",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Classic",
+                    "body": "Just what I needed and could afford.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Good product",
+                    "body": "Very easy to use and provides a very good cup of coffee. A little smaller than the one I replaced, which is good. Would definitely recommend.",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                }
+            ],
+            "neutral": [
+                {
+                    "title": "I like the machine, but it doesn’t fill to the correct volume",
+                    "body": "I bought this machine to replace an older model that gave out after five years, I was happy with that lifespan. The new model, however, does not fill my large cup on the biggest cup setting, the last model did. If I want a full cup, I have to follow the cycle with the smallest cup to fill it. While this is a complaint, I like the machine overall, and it produces the same great coffee I’m used to.",
+                    "rating": 4,
+                    "analysis": 0
+                },
+                {
+                    "title": "You must use the right kind of water!",
+                    "body": "Our first 3 of these died. I've within 2 months, the replacement sent by Keurig lasted 1 month, and it's replacement made it nearly a year. The 4th one is fine. We ordered this for my Aunt. WHY did the first 3 fail? Well Keurig fiiiiiinally told us that it was because we use a water softener! Didn't matter that we got it through the filter on the fridge or via the tap. They told us that softened water just gums up the Keurig. So WHY DON'T THEY MENTION THIS ANYWHERE IN THE USER GUIDE❓❓❓❓❓ Good question. It cost THEM 3 new machines. They told us to buy spring water--not distilled. So we have to buy gallons of spring water at the store and it's all fine. So if you're like us, and HAVE to use a water softener (we have extremely hard water here in the rocky southern Missouri Ozark mountains), then just buy spring waterto use. Then you can enjoy the coffee that this handy machine makes. Hopefully SOMEDAY Keurig will add this caution to their user guide. But for us, now we can enjoy our favorite coffees when we go visiting my awesome Aunt!",
+                    "rating": 4,
+                    "analysis": -0.10000000149011612
+                },
+                {
+                    "title": "Troubles with Keurig after my 5 star rating",
+                    "body": "Loved this Keurig. After 6 months we had to descale more than recommended. Then it just wouldn't work after a year. We replaced with an original Keurig version. No problems at this time.",
+                    "rating": 5,
+                    "analysis": 0
+                },
+                {
+                    "title": "Veery reliable",
+                    "body": "This is a very durable and reliable coffee maker! We have used a much more stylish Keurig model and it requires \"descaling\" often. This model hasn't required descaling yet and I bought the first one 4 years ago. This specific purchase was for my Mother-In-Law because her fancy Keurig model failed for a second time.",
+                    "rating": 5,
+                    "analysis": 0
+                },
+                {
+                    "title": "Easy-to-use",
+                    "body": "I can make a cup of coffee before I leave for work. Couple of things I wish the water tank was bigger, I always have to refilling the water tank. I wished now that I would have brought the Keurig K dual.",
+                    "rating": 4,
+                    "analysis": 0
+                },
+                {
+                    "title": "Love my Keurig",
+                    "body": "We use this everyday and I love it. My only complaint and the reason for 4 stars, the new one doesn’t have the reservoir with heated water and if you need to run it a second time which we both do every day, it’s a pain. Such a first world problem. Our old one did that and I expected the new one to do the same. It lasted 12 years. Not sure the new one will.",
+                    "rating": 4,
+                    "analysis": 0
+                },
+                {
+                    "title": "maker Coffee",
+                    "body": "I what Exactly.ordered",
+                    "rating": 4,
+                    "analysis": 0
+                },
+                {
+                    "title": "Refurbished",
+                    "body": "Got it refurbished by Amazon. Works well so far. It did arrive wet for some reason. It was in a bag in Amazon box and maybe they didn't get all the water put from testing it. Anyway that was a little strange. Other than that no issues so far.",
+                    "rating": 4,
+                    "analysis": -0.10000000149011612
+                },
+                {
+                    "title": "Coffee maker",
+                    "body": "But it from my wife hers broke. She’s happy now.",
+                    "rating": 5,
+                    "analysis": 0.10000000149011612
+                },
+                {
+                    "title": "Nice",
+                    "body": "Not as heavy as my original",
+                    "rating": 5,
+                    "analysis": 0
+                },
+                {
+                    "title": "Takes to long to brew coffee.",
+                    "body": "I bought this to replace my older K-Cup machine. When I'm in a hurry I need for it to brew coffee faster",
+                    "rating": 4,
+                    "analysis": 0
+                },
+                {
+                    "title": "Not a great change",
+                    "body": "I had the one that this machine replaced. I liked it much better. Shop around a little before pulling the trigger.",
+                    "rating": 4,
+                    "analysis": -0.10000000149011612
+                },
+                {
+                    "title": "Love it! 1 or 2 cups a day. Don't waste coffee.",
+                    "body": "Dislike Iike nothing.",
+                    "rating": 5,
+                    "analysis": -0.10000000149011612
+                },
+                {
+                    "title": "Disappointed in the brewing size",
+                    "body": "Hubby really likes the gift, but the largest size available as a selection does not fill our daily coffee cups. Which are 10oz, so I am not sure why it's less coffee brewed. If there is one offered at this price point that has a larger cup size purchase that option instead. Will save on the expensive k cups.",
+                    "rating": 4,
+                    "analysis": -0.10000000149011612
+                }
+            ],
+            "negative": [
+                {
+                    "title": "Correction on my review",
+                    "body": "Mine stopped working after several months. So stupid me I just ordered the same one again Correction It turns out the circuit breaker kicked off and when it reset it started working again, just fine. So check your breaker if it stops working. As far as the new one I received, I’ll keep it as a gift",
+                    "rating": 5,
+                    "analysis": -0.30000001192092896
+                },
+                {
+                    "title": "No filter or holder came with it.",
+                    "body": "This was an upgrade. It came not ready to use; as the filter and filter holder did NOT come with it. I still had my old Keurig, and took the filter holder from it. Not happy. I could have paid the same price at Keurig, and it would have came completed. The box was too large to bother to return.",
+                    "rating": 4,
+                    "analysis": -0.5
+                },
+                {
+                    "title": "Kureg",
+                    "body": "It came without the filter tube in the water tank, so I used the tube from my old Kureg coffeemaker. They should have sent a new one.",
+                    "rating": 4,
+                    "analysis": -0.4000000059604645
+                },
+                {
+                    "title": "Broken",
+                    "body": "Received Aug.16th worked for one month. Sept 16th stopped working. Put Kcup in , press down and Machine shuts off.",
+                    "rating": 5,
+                    "analysis": -0.699999988079071
+                },
+                {
+                    "title": "missing part",
+                    "body": "missing water filter part",
+                    "rating": 4,
+                    "analysis": -0.699999988079071
+                },
+                {
+                    "title": "Keurig",
+                    "body": "Kuerig is a grey brand! Unfortunately I’ve cleaned, but the big cup will not fill out my 12 inch cup! Isn’t it suppose to!??",
+                    "rating": 5,
+                    "analysis": -0.4000000059604645
+                },
+                {
+                    "title": "Good buy",
+                    "body": "Amazon had the best price available You get what you pay for. Had this since July and now having to ask for a new one. Stopped working and Keuring is requesting such specifics having to send twice. Hopefuly the second time works for the return. Otherwise, not a good buy at all.",
+                    "rating": 5,
+                    "analysis": -0.30000001192092896
+                },
+                {
+                    "title": "Features",
+                    "body": "I miss the electronic message display screen, and the water reservoir is hard to see that it’s low.",
+                    "rating": 4,
+                    "analysis": -0.800000011920929
+                }
+            ]
+        }
+    }
+}
+
+
+
+
+
+{
+    "bestFeaturesText": "Several customers shared positive comments about this product even in the instances where there were minor issues. The model's capacity to brew high-quality coffee daily was frequently highlighted, indicating that its function lasts and remains consistent. A feature most customers appreciated is the machine's reliability. Many users specified that they use their Keurig daily, with some stating that their previous Keurig lasted 12 years without failure, which showcases its exceptional durability. \n\nAnother point in favor is its portability resulting from its light weight, as reported by some customers. This quality can enhance the user experience as it's easier to manipulate when cleaning or relocating, making it a user-friendly model. \n\nAmazon's principle of price competitiveness was mentioned by one customer who pointed out that the best price for the product was available on Amazon. In a market saturated with various coffee maker models, this coffee maker's competitive price point adds to its overall value.\n\nThe product seems to please customers who are not heavy coffee drinkers but enjoy a cup or two a day. Such moderate use seems to be ideal for this model's lifespan and function. Potential customers must note that these insights do not guarantee that their experiences would be the same but give a well-rounded representation of the product's strengths.",
+    "problemsText": "The critical problems reported by customers regarding their Keurig coffee makers include issues with the water reservoir, machine malfunctions, difficulty filling cups, missing parts, lack of heated water, and frequent descaling needs. Although some customers have found solutions such as using parts from their previous machines or dealing with circuit breaker issues, many still experience inconvenience due to these issues.\n\nSolution-wise, Keurig could improve their quality control to ensure all components are included with the machines. In addition, upgrading the water reservoir to a larger size could address visibility and refill frequency issues. Heated water could be addressed by altering the design to ensure a constant temperature is maintained. As for machine malfunctions, a more rigorous testing and servicing process could prevent breakdowns. Concerning the descaling issue, buyers should be provided with clear and concise instructions on how to descale the machine properly, as well as how often to do it.\n\nPotential buyers should weigh these issues against their specific coffee brewing needs and preferences. Keurig should address these concerns transparently to enhance customers' confidence before making a purchase. It's also critical for customers to understand the product return policies to mitigate any potential return process issues.\n",
+    "total": {
+        "customerFeeds": {
+            "positive": [
+                {
+                    "title": "This Keurig is My Favorite Kitchen Appliance and It's Well-Worth the Money We Spent!",
+                    "body": "***Updates are located at the bottom of this review.***  ***Original Review*** Up until recently, I had never been much of a coffee drinker except for the occasional seasonal flavored latte drinks but I was having trouble keeping up with my very active twin toddlers. We already had a standard coffee maker but I didn't want to brew a whole pot of coffee at once and single-serve coffee makers seem to be very popular so I figured it couldn't hurt to give it a try. I had seen several different Keurigs from the basic ones to very fancy ones but wanted to purchase one that both fulfilled my needs to brew a single cup of coffee and wasn't too expensive so I opted to buy the Keurig K55 Coffee Maker in black.  When the Keurig arrived, I eagerly opened up the box to get it set up and start using it! I found it fairly simple to set up since there is a Use and Care Guide included and it's easy to follow the step-by-step instructions. I'd say the setup only takes a few minutes and then you are ready to brew your first cup of coffee. There are lights on the brewer that illuminate and walk you through the brewing process but once you are used to it, it becomes second nature and now, I don't even have to think about it, which is good in the early morning when I'm not thinking straight and need my coffee!  Brewing: To brew a cup of coffee is very simple. You'll need to turn on the brewer by pushing the power button. The power button and heating lights will illuminate and the Keurig will make some noises while it heats up. When the three cup sizes illuminate in blue, you know it's time to brew your coffee. Set your coffee mug on top of the drip tray and lift the handle for the K-cup pod holder. Place a K-cup pod in the holder and lower the handle completely until the three cup sizes are blinking. The three sizes are: small cup (5.25 ounces), small mug (7.25 ounces) and large mug (9.25 ounces). Select your size and the coffee will be ready in about a minute. If the water reservoir is low on water, the \"add water\" light will illuminate and the process won't continue until you've filled the reservoir. Once it's stopped dripping, you may remove your mug and enjoy your coffee! If someone else wants to brew a cup of coffee right after yours is done, all they have to do is remove your K-cup pod since they are single-use pods, add theirs and repeat the process.  Water Reservoir: The reservoir holds 48 ounces of water so you don't have to fill it up every time you want to brew a new cup of coffee, which is one of the reasons I selected this model. I make about two cups of coffee every day so I end up refilling the reservoir every few days. There are filters to use with the water but I purchase bottled water so I haven't used the filters at this point. When the reservoir needs to be filled, I remove the reservoir, take off the lid, fill it up with water, place the reservoir back in the Keurig and replace the top.  Cleaning: I feel this Keurig is fairly simple to clean. The drip tray is removable and I usually wipe it down with a damp paper towel a couple times a week and wash it in water, soapy water occasionally. I also like to wipe down the exterior since the front part of the Keurig gets splatters of coffee on it. You can also clean the pod holder, funnel, needles and water reservoir and lid. Be careful as the two needles used to puncture holes in the K-cup pods are very sharp.  Coffee Pods (the best part!): The Keurig K55 Coffee Maker uses the K-cup pods, which you can purchase nearly everywhere and there are many brands and flavors to choose from. You don't need to buy any specific brand with this coffee maker. As long as they are K-cups, they should work and I haven't come across any pods that don't work. I've been having a lot of fun purchasing different flavors and brands since I have several friends and family members who also have Keurigs so it's a lot of fun to swap coffees! I prefer flavored coffees and there are so many out there to try but my favorites are the Green Mountain flavors in Caramel Vanilla Creme and Wild Mountain Blueberry. There are K-cup pods in different price ranges and it's nice to have that option since everyone has a different budget. The nice thing with this brewer is that the flavors don't tend to blend from one cup to the next. For instance, my mom and I have brewed cups of coffee one right after the other (different flavors) and neither of us have noticed the other flavor in our respective cups. I've only brewed one cup of apple cider with this and haven't noticed the previous coffee flavor in the apple cider or the apple cider in my next cup of coffee. In this brewer, you can use all kinds of coffee flavors from flavored to medium and dark roasts to hot chocolate to apple cider. I typically choose the small mug (7.25 ounces) setting since I like the flavor. It isn't too strong or too watered-down for me but others may prefer other settings.  Programmable Auto Off Timer: You can set the brewer to turn off two hours after the last cup of coffee has brewed (included in the instructions). I just turn the Keurig on and off as I need it but it's nice to have that option.  Noise: Some people have stated that this brewer is noisy. I've found it's the noisiest when it's taking water from the reservoir and it sounds like a loud hum. It's not too loud when it's brewing the cup of coffee. I occasionally get up earlier than my husband and kids and brew a cup of coffee and no one has woken up (I'd say there is about 30 feet between the kitchen and bedrooms with the doors closed). When we have guests and they brew coffee before I wake up, I can't hear it at all.  This Keurig is made in China and mine had a packaging date of August 2016, a month before I purchased it. I've been using it for two months and haven't had any problems with it at all. It measures about 12 inches deep (from front to back), nine inches wide (side to side) and 13 1/2 inches tall. I've had several family members use it and my parents and in-laws have found it fairly simple to use after I show them how to brew the coffee since we all have different models. Ever since I started drinking coffee, I've had better success with staying more alert and awake to take care of my twins and buying this Keurig has been well-worth every penny we spent on it! I have no regrets buying it and have been having a lot of fun finding different flavors to try. As with all of my reviews and especially any appliances and electronics reviews, I will periodically update this review, add in any new information I discover and adjust my thoughts and star rating, if needed. If you, or someone you know, is interested in a Keurig, I highly recommend this one. It's a great model that is nice on your wallet and will brew a great cup of coffee as often as you'd like!  ***Update 04/25/2017 - I've had this Keurig now for almost eight months and it's still working great for us! I typically brew four cups of coffee a day now to keep up with my kids and I've had no trouble with using this Keurig. When we have guests and are switching pods a lot, I never notice a strange taste at all (since we all like different flavors). I clean out the drip tray and wipe the whole machine down at least once a week to keep it looking nice. We only use bottled water in it so I've never had to use the filter. When we go away for a few days, I always wipe everything down and empty the water reservoir so it can air out and dry. I still highly recommend this Keurig if you want a good single-cup brewer that isn't incredibly expensive!",
+                    "rating": 5,
+                    "analysis": 0.30000001192092896
+                },
+                {
+                    "title": "A Perfect Addition to My Morning Routine!",
+                    "body": "I recently purchased the Keurig K-Classic Single Serve K-Cup Pod Coffee Maker in Rhubarb, and it has quickly become an essential part of my daily routine. As a coffee lover, this machine has exceeded my expectations in terms of convenience, taste, and style.  Ease of Use: Setting up the Keurig K-Classic was a breeze. The instructions were clear and straightforward, and within minutes, I had it ready to brew. The large water reservoir means I don't have to refill it constantly, even during my busiest mornings.  Brewing Speed: This machine is lightning fast! It heats up and brews a cup of coffee in under a minute, which is perfect when I'm in a rush. The coffee is consistently hot, and I never have to deal with lukewarm coffee again.  Variety of Coffee Options: One of the major selling points of the Keurig system is the incredible variety of K-Cup pods available. Whether you prefer bold, mild, flavored, or decaffeinated coffee, there's something for everyone. Plus, it's also compatible with reusable K-Cup filters, which allows me to use my own ground coffee, reducing waste and saving money.  Taste: The coffee that comes out of this machine is consistently delicious. The Rhubarb color adds a touch of vibrancy to my kitchen, and the coffee itself tastes fresh and full-bodied. I appreciate that I can choose the cup size, so I can have a quick pick-me-up in the morning or a larger cup to savor on lazy weekends.  Maintenance: Cleaning the Keurig K-Classic is straightforward. The removable drip tray and water reservoir are easy to clean, and the machine even reminds me when it's time to descale, which ensures it continues to function at its best.  Durability: I've had this Keurig for a few months now, and it's been running flawlessly. It feels well-built and sturdy, which gives me confidence that it will last for years.  In conclusion, the Keurig K-Classic Single Serve K-Cup Pod Coffee Maker in Rhubarb is an excellent addition to any coffee lover's kitchen. It combines speed, convenience, and a wide range of coffee options to deliver a consistently great cup of coffee. I'm extremely satisfied with my purchase, and I highly recommend it to anyone in need of a reliable coffee maker. It has certainly made my mornings a lot more enjoyable!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "One Week With My Keurig K55. I Love It!",
+                    "body": "There are numerous detailed reviews of the Keurig K55 and other models on Amazon and I see no reason to repeat or refute other reviewers' opinions, so I'll limit my review to my impressions based on one week's use and experimentation with various coffees and other beverages that my wife and I have tried and enjoyed.  I don't consider myself to be a \"coffee snob\" but I drink a lot of coffee and insist on a good. fresh cup of coffee, properly brewed to my personal taste. For more than 20 years, I've used Saeco super automatic espresso/coffee machines such as this one:https://smile.amazon.com/Saeco-Philips-Intelia-Espresso-Machine/dp/B019771XIE/ref=sr_1_1?s=kitchen&ie=UTF8&qid=1481465394&sr=1-1&keywords=saeco+super+automatic+espresso+machine&refinements=p_89%3ASaeco ranging in cost from about $600 to $2,500 depending on the model. These super automatic machines allow you to load whole bean coffee of your choice into a hopper and at the push of a button, it grinds the beans, loads them into the brew unit, dispenses the coffee, then dumps the used grounds and is ready to brew another cup at the touch of a button. They are completely adjustable so you can brew your coffee as strong as you like, from espresso to fairly weak American-style coffee. They also have a steamer which allows you to make cappuccino and other coffee beverages. I love these machines and they make great coffee, but they have disadvantages. First, because you have to load the whole beans in the hopper, it isn't easy to change to a different coffee if other family members drink decaf, for example, or prefer lighter or darker roasts. Also, they only brew coffees, no other beverages. Lastly, they are complicated and require quite a bit of maintenance.  Enter the Keurig K55, which is their least expensive basic model but does everything I expect. I purchased it for my wife who likes to drink my lighter coffee as well as various teas, hot chocolate, cider, etc. My thought was to let her use the Keurig and to continue making my coffee in my Saeco but I've found that the Keurig makes very good coffee and suspect that my Saeco will be retired because the Keurig is so much more convenient to use and maintain and I'm completely satisfied with the coffee I'm brewing in it, perhaps not quite as \"great\" as that I make in my Saeco more than satisfactory, and far superior to the coffee I buy in restaurants, donut shops and convenience stores.  I won't recommend particular k-cup coffee brands because there are so many of them and everyone has different preferences. One of the main advantages to the Keurig is that there are so many choices available, with three brew strength/ water level settings, as well as a great variety of other hot beverages such as black and herbal teas, hot chocolates, ciders, and more.  You can also buy reusable k-cup holders and any ground coffee you like. This may save a little money and also allows you to choose your favorite coffee even if it isn't available in K-cups. I ordered a set of these reusable k-cups and have tried them with several ground coffees, comparing them to the prefilled k-cup versions of the same coffees. The k-cup ones are as good or better than the ones I've loaded myself using the reusable k-cups and are SO MUCH easier and more convenient to use. They're a little more expensive but still reasonably priced, particularly if you buy them in bulk from Amazon, Sam's Club, etc., or find them on sale at your local supermarket. On average, I'm paying less around 40 cents a pod for mine. Other k-cup beverages such as teas and hot chocolate tend to be less expensive than the premium coffees I buy.  The real advantages to the Keurig are convenience, ease of use and the variety of coffees and beverages you can make with it, including iced teas and other iced beverages. My wife and I can share a single machine and make our own preferred beverages quickly and easily. After she makes a flavored beverage, I simply run a shot of hot water through the machine to remove any off-taste before brewing my coffee.  Although I won't recommend specific brands due to personal tastes, I will mention that I prefer well-balanced, slightly acidic medium to medium dark roasts. I don't like breakfast blends or other light roasts, nor do I like really dark roasts such as those typical of some coffee shops such as Starbucks, although I have tried some of the dark roasts from Starbucks k-cups and others and they are fine, just not to my taste. I usually use the medium water level (7.25 oz) setting. Depending on the coffee I'm using, this usually gives me a rich, well-balanced, fairly strong cup of coffee. For some lighter roast coffees I prefer the low (5.25 oz) setting. My wife doesn't like strong coffee and usually uses the high (7.25 oz) setting. Teas, ciders and hot chocolate usually taste better with the high water level setting.  If you are considering giving the Keurig a try, I recommend that you consider buying one of the many sampler k-cup packs available on Amazon. Some are coffee only and others include assorted flavored coffee, cappuccino, tea, hot chocolate, cider, etc. The one I bought is this one: https://smile.amazon.com/gp/product/B00KSIE39I/ref=oh_aui_detailpage_o07_s00?ie=UTF8&psc=1 . It was a good choice and my wife and I quickly discovered our favorites. We've also bought a few others to try (on sale) at my local supermarket. All were good, even though some weren't to my personal taste. Once you decide on your favorites and the brew strength you prefer, you're all set to make good, fresh coffee and other k-cup beverages easily and conveniently.  I mentioned at the beginning of my review that I'm not a \"coffee snob\" but I do insist on good fresh coffee, brewed to my personal taste. The Keurig accomplishes this. I realize that many people ARE purists (coffee snobs, in my parlance). If so, you probably won't like the Keurig but for 95% of all coffee drinkers, the Keurig is great. I'm more than willing to give up my \"perfect\" cup for one that's almost as good and so much easier and more convenient to brew, not to mention all of the other beverages it will make.  I can see why the Keurig has become so popular. It fully deserves the five star rating I've given it. I highly recommend it to most coffee drinkers. I'm less convinced that it's the best solution to brew tea. It's okay but I still think it's worth the effort to brew tea by steeping it (using the Keurig to dispense hot water for brewing it if you wish). However, K-cup hot tea and iced teas aren't bad and are certainly quick and easy.",
+                    "rating": 5,
+                    "analysis": 0.30000001192092896
+                },
+                {
+                    "title": "Well-Designed with Superior Performance -The Very Best Coffee Maker That We Have Owned In 40 Years",
+                    "body": "The media could not be loaded. In the forty years of our marriage, we have owned several well-known brands of coffee makers. However, we feel that the Keurig K55 coffee maker has proved superior to any of our previous coffee brewers.  Last year I invested in our first Keurig coffee maker, and I chose the K15 for individual servings. This worked out so well that a few months later, I bought another for my office and I loved my second Keurig as much as I loved the first one. Then last winter I decided to purchase another Keurig, only a different model that would accommodate several servings.  I bought the K55 model because it has various featured options. This includes offering the choice for different hot beverages without the extra step to refill the tank each time with water, and this is due to the larger 48 oz. water reservoir. In addition, this enables us to make a variety of hot beverages in rapid succession, within a few seconds instead of waiting for all the water to reheat. Furthermore, the Keurig K55 offers a personal ‘custom tailored’ brew by letting us determine the strength of our coffee, and we have a choice of three. The smallest amount for a 6 oz. provides the strongest brew and the other two servings are an 8 and 10 oz.  I like strong coffee, or sometimes I like to have flavored coffee, and my sister-in-law likes the same coffee that I do. My husband prefers a milder brew, and he never drinks flavored coffee. My son drinks tea, and likes to try different varieties and my grandson loves sampling different selections of hot chocolate.  The Keurig K55 has a fast set-up, with easy to follow and systematic directions from the manual. It offers us a variety ways to make coffee, tea or just to heat water and all without any major modifications, because it just goes from one task to another.  Below are some of the general features, and all are well designed and ‘user friendly’.  CONTROL PANEL:  All the controls are on the top right of the coffee maker and I like the flat slope surface that slightly slants down toward my eye level, and therefore, I don’t need to step on my tiptoes to read the buttons.  On the panel, there are 5 press buttons and each one has an LED light to reduce ‘user error’.  Power: Green LED Auto Off: Green LED - (this is the automatic timer and when activated will automatically power off after 2 hours). 3 Brew Size Servings – corresponding size to the serving size and each with a Blue LED a. Cup Size - yields 6 oz. – which will provide the strongest brew b. Small Mug - produces 8 oz. c. Large Mug – dispenses 10 oz.  Aside from the 5 press buttons to regulate the Keurig coffee maker, there are 3 other LED light indicators.  1. Add Water – a Blue LED will light up If there is not enough water, the coffee maker will not work, therefore I consider this indicator as a safety feature, as well as a resolution to a possible ‘user error’.  2. Descale – will light up with a Red LED light This is another handy feature, to indicate necessary cleaning maintenance.  3. Heating – while the water is heating, a red LED powers on, and then powers off when the water is hot and ready for a brew.  WATER RESERVOIR:  Included with the Keurig K55 is a Charcoal Water filter Cartridge Kit with 2 charcoal filters. This will eliminate the unwanted chemical taste that is in some water systems, and good tasting water is essential for a delicious cup of coffee. The recommended life span for each charcoal filter is approximately 2 months or 60 ‘full-tank’ refills. There are several selections for Replacement Charcoal Filter-Pods available on Amazon.com.  The water reservoir attached to the left side is easy to remove with a slight lift up and outward motion. It fits inside a base and the tank is easy to remove and replace without any struggle. Alternatively, remove the reservoir tank cover, and pour water in from a bottle or a container.  DRIP TRAY: This is much more than ‘just a drip tray’, under the cover is a 1” deep receptacle that will accommodate 8 oz. of a liquid spillover. Therefore, if the user makes an error and pushes the wrong brew amount for a smaller cup, this will save the kitchen counters and the floor from a major flood. In addition, this coffee maker will accommodate my 7 ¼” coffee thermos by sliding the drip tray out from bottom base, and I can have my thermos filled when placed on the bottom flat tray base.  THE KEURIG K55 ACCOMMODATES REUSABLE COFFEE FILTERS:  My favorite coffee is from fresh beans that I grind myself, and therefore it’s important to me that a coffee maker will accommodate a reusable filter. The K-Cup pod holder on the K55 is very easy to remove and it literally takes less than 10 seconds. Just tap the bottom of the pod holder with a finger and the K-Cup holder slides out with ease. The reusable K-cup filter then slides in place within the groove, and works with perfection for a delicious cup of fresh ground beans, or any ground coffee.  The reusable coffer pod filter that I use is the Keurig My K-Cup Reusable Coffee Filter (Single) – and this is compatible with the Keurig K55 model.  I purchased this from Amazon last spring, and in addition, I use this same filter with my Keurig K15. https://www.amazon.com/Keurig-5048-Reusable-Coffee-Filter/dp/B000DLB2FI/ref=sr_1_1?ie=UTF8&qid=1486296530&sr=8-1&keywords=Keurig+My+K-Cup+Reusable+Coffee+Filter+%28Single%29  In conclusion, the Keurig K55 is a well thought-out designed coffee maker, with user-friendly features. This machine comes with a ‘Charcoal Water Filter Cartridge Kit and 2 charcoal pod filters, which guarantees excellent coffee, even though we have ‘hard water’ (which tastes awful) in our water system. In addition, I love that Keurig does NOT use a breakable glass carafe, which was the thing that broke most often with our previous coffee makers.",
+                    "rating": 5,
+                    "analysis": 0.30000001192092896
+                },
+                {
+                    "title": "Great coffee pot!",
+                    "body": "I bought this a couple years ago for a Christmas present. It hasn't disappointed. I love this coffee pot, best I've ever bought! It's easy to work, easy to clean, and makes your coffee pretty quickly. I love how you can just fill up the water reservoir, and it has 3 size cup settings that light up blue (small, medium, and large). We use it everyday. I give it 5 stars!",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "Makes great coffee!",
+                    "body": "Love the color, the large reservoir for water. It’s not as fast as the smaller vintage turquoise one that finally gave up the ghost… but it operates so much more smoothly and we are glad we bought it! We use Black Silk by Folgers, and it’s better than Starbucks!!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "My favorite coffee maker",
+                    "body": "My old Keurig like this one died, so I searched and finally found this one and I love it! It holds a lot of water, brews fast, and doesn't really take up a lot of room. It looks nice. Can fit a tall go-mug if you remove the tray. I really love it.",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "My second Keurig",
+                    "body": "Just received my second Keurig coffee maker as my original finally went to appliance heaven. I initially bought a less expensive model from another brand but will return it as it just doesn't function as well as my Keurig. Love the large capacity, ease of use buttons on the top, and overall performance. The coffee brews HOT, as it should, and quickly, too. I was surprised to find that Keurig no longer has the water filter in the reservoir, but I have never had a problem with hard water, etc. One less thing to clean!  Hoping this model gives me as many years of my morning and sometimes afternoon coffee. You can spend more, but for me, I am very happy and for the price point, it's the best!",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Does as it claims",
+                    "body": "This is my third Keurig in 10 years. They are affordable, and last a good while for the cost. I recommend it to anyone who needs a coffee pot. I use my for lipton tea, and Keurig Moca cups.",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Keureg",
+                    "body": "The Keureg replaced the 9 yr old unit. It is attractive and works great. I expect it to last at least 9 yrs also.",
+                    "rating": 5,
+                    "analysis": 0.30000001192092896
+                },
+                {
+                    "title": "Just as I was expecting!",
+                    "body": "My Classic Keurig had finally shown its age after several years of heavy daily use. I saw there were many new versions as well as replacement parts for it on Amazon, but I really didn't know if it was just any ONE part. Besides, it was my Birthday month! So I went with what I knew and purchased a new Classic Keurig while it was on sale and I'm glad I did! It makes a delicious cup of coffee and has the settings menu I've been accustomed to having. Same good quality machine and very dependable!",
+                    "rating": 5,
+                    "analysis": 0.5
+                },
+                {
+                    "title": "So far so good",
+                    "body": "I’ve had issues with Keurig but figured I’d try one more time. This coffee machine works great and is easy to use. I’m pleased. I do wish the water reservoir has a better way of taking it off and putting it on but the overall out weighs that only issue. Keeping my fingers crossed!",
+                    "rating": 4,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Works wonderfully!",
+                    "body": "Does exactly what it should. Not too loud and the coffee comes out perfectly. I like my coffee strong and it has the small cup selection which definitely delivers a strong cup.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "This size works for us. Very pleased",
+                    "body": "Maybe could of used a smaller size but I liked the reservoir on the side instead of the back. Love the red color.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Overall good product",
+                    "body": "makes an excellent cup of coffee at a reasonable speed. Only a few complaints, all of them very minor. 1. The lid for the reservoir is slightly tapered and awkward to handle. A small indention for you to grip would be nice. 2. The KCup holder is difficult to clean, this is probably unavoidable but I wanted to make a note of it. 3. The piece the cup sits on is extra easy to clean. Overall an excellent product and if you like KCups, you'll love this pot - it's reliable and lasts a long time.",
+                    "rating": 4,
+                    "analysis": 0.20000000298023224
+                },
+                {
+                    "title": "Good Purchase",
+                    "body": "So far so good. Makes good coffee and is easy to use. I like the Red Color!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "So far so good ... Perfect cups of coffee!",
+                    "body": "I am enjoying my new Keurig ... it gives me wonderful choices in sizes of cups of coffee ... and is very very fast. It's an excellent product!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Quick & Satisfying",
+                    "body": "I purchased this Keurig after an electrical surge damaged the one I had been using (also a Keurig); so never any issues. The model changed a bit since a few years back, but this Keurig does a good job. I did change the coffee I had been using as I didn't think it made as strong of a cup of coffee as my first Keurig. My coffee is very enjoyable. This Keurig is quick and is an attractive addition to a coffee bar, countertop or set on top of a table in an office or waiting room.",
+                    "rating": 4,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Everyone should own one of these!",
+                    "body": "I have owned several of these. I drink a lot of coffee and this device makes brewing a good cup of coffee and easy task. I can only say good things. Keep it up Keurig.",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Makes Coffee",
+                    "body": "Does just what it’s supposed to. I bought this to replace one just like it I had for 11 yrs. Works great!!",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Love having the cup option",
+                    "body": "No muss, no fuss. It's great having my coffee premeasured for me and all I need to do is add water, and when it's done throw away the cup.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Works well",
+                    "body": "I bought this as a gift for someone and I was told it works very well.",
+                    "rating": 4,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Great machine with many flavot coffee, and other drinks available",
+                    "body": "My second Kerrigan. Very much like the first one with a few comedic upgrades.. one nice improvement is the over flow is deeper, and by removing it there is room for my Theo cup. Great convenient coffee maker.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Love It!",
+                    "body": "I love, love, love it!!! Perfect color, works well and easy to use and fits well with my kitchen decor.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Last",
+                    "body": "Great so far hope it lasts longer than the last one",
+                    "rating": 4,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Great",
+                    "body": "I purchased one after renting a cabin that had this model. I already had a slim keurig, but have had issues with it from day one. So far no issues with this model. It heats up the water before actually making coffee. Perfect cup of coffee every time.",
+                    "rating": 5,
+                    "analysis": 0.4000000059604645
+                },
+                {
+                    "title": "A must have coffee maker",
+                    "body": "I bought this for my parents and it’s so easy for them to use and clean. No fuss, no mess, just easy for their morning cup of joe.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "I LOVE IT!",
+                    "body": "Great quality Keurig! Machine is sturdy and real nice! Makes good coffee in seconds. Water Tank easy to remove rinse out and fill back up. I love it!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Nice coffee maker",
+                    "body": "Love the color. Wish it made a little bit more ounce but it's OK. Easy to use.",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Simply the Best",
+                    "body": "This is the third Classic Keurig brewer we've bought over the years. They've all looked the same, but each has been a little better than the last. Continuous improvement. Tried a cheaper copy earlier this year; what a waste! If you love your coffee, get the best: Keurig classic.",
+                    "rating": 5,
+                    "analysis": 0.5
+                },
+                {
+                    "title": "Convenient",
+                    "body": "Got the black color and loved it. Already assembled and the instructions are easy to follow. Love the quality and how smoothly it runs. It’s so stable, I trust it so much (just follow the instructions).",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Better than previous models, fast and easy to use and clean",
+                    "body": "I've only had it a month, but so far it's superior to the previous model. It's easy to use, easy to clean, warms up and makes coffee quickly. I'll update this review if anything changes, but so far I'm very satisfied.",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "great coffee pot",
+                    "body": "i had one in black for a few years and it died so i got this one , i love the color, only bad thing is it came in a box in side a box 📦, they could save a box . i would buy it again.",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "Works great. Maybe better than the older versions",
+                    "body": "Bought this new classic K50 because my older (at least 5 years old) was making wierd noises. Like the pump had to work harder to make things work. Not sure but I didn't want a broken Keurig when I went to make coffee in the morning. So I bought this new one. Works well. The circuitry and pump system sound a little different (better) but it all works very well. If you want a Keurig, this is a good one to start with.",
+                    "rating": 5,
+                    "analysis": 0.30000001192092896
+                },
+                {
+                    "title": "Great coffee maker",
+                    "body": "Makes a perfect cup of coffee anytime I want. I use the refillable pods so I don't waste all kinds of plastic. Very happy with my purchase.",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Good Coffee Pot",
+                    "body": "Makes Good Coffee, Love the Color",
+                    "rating": 4,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "I love it!  Classic!",
+                    "body": "Easy simple and clean! I love my Keurig. The last was the same model in black.",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Lo mejor",
+                    "body": "Muy buen producto y fácil de usar",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Does what you need it to do.",
+                    "body": "Does what you need it to do.",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "Great coffee maker",
+                    "body": "Bought this for our church men’s group and it is fast and reliable. The guys love it.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Keurig",
+                    "body": "The Keurig works great love it",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Very nice",
+                    "body": "I bought this used and save alot of money and it still had the factory tape on all the moving parts and not a scratch on it ran a bunch of water though it just to make sure it's clean and it works great heats up fast and makes good tasting coffee time to get rid of the old no name coffee maker",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "No more spending $$$ on Starbucks!",
+                    "body": "We all know how girls get... and my girls aren't any different. Starbucks is a running credit card purchase and it doesn't stop. I finally bought a Keurig and not only did my life get so much easier, but my credit card was thriving. My girls now love making coffee at home, finding new ways to make their drinks, and have competitions on who can make the best coffee. Guess who wins? KEURIG! Every time! The color is also a fan favorite. For the price, this is very worth it as well. No more Starbucks runs, ladies! Okay... maybe sometimes!",
+                    "rating": 5,
+                    "analysis": 0.4000000059604645
+                },
+                {
+                    "title": "Perfect Product for the Coffee Drinker in Your Home",
+                    "body": "This is a great product for you home, office or just to have for personal use. I'm a coffee lover and this make it easy to have a quick cup of coffee. I also feel like I'm saving money. Because you are not doing a whole pot, when you are doing only one cup at a time. Must for all households. Buy one now! Worth the money spent on it.",
+                    "rating": 4,
+                    "analysis": 0.5
+                },
+                {
+                    "title": "Keurig K Cup coffee maker",
+                    "body": "My last Keurig was the same model and lasted 8 years. I didn't hesitate to buy another. This one is a beautiful red",
+                    "rating": 5,
+                    "analysis": 0.5
+                },
+                {
+                    "title": "I got lucky!",
+                    "body": "Found this on sale. My old Keurig that is well over 10 years old still works perfect but is a little loud lol. Bought this bad boy and it's so quiet and the coffee tastes perfect!",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Easy to use!",
+                    "body": "This looks nice in the kitchen and is easy to use! Love the automatic shut off feature!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Good coffee machine.",
+                    "body": "Good and simple coffee machine.",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Love Amazon Used!!",
+                    "body": "$36 for a new Keurig in perfect condition",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Fantastic Coffee Maker for Convenient and Flavorful Brews!",
+                    "body": "I recently got my hands on the Keurig K-Classic Coffee Maker, and I can confidently say it's been a game-changer for my morning routine. This sleek and stylish coffee maker looks great on my countertop, delivers exceptional performance, and consistently brews a delicious cup of coffee.  The versatility of this coffee maker is truly impressive. With the option to choose from 6, 8, and 10-ounce cup sizes, I can customize my brew according to my preferences. THE KEURIG K-CLASSIC HAS ME COVERED, whether I'm in the mood for a strong and bold cup or a milder one.  The great 48-ounce water reservoir is a time-saver. It allows me to brew multiple cups of coffee before refilling, making my mornings more efficient and hassle-free. The pool is removable, making filling quick and easy. Plus, the auto-off feature gives me peace of mind by automatically turning off the coffee maker after 2 hours of inactivity, saving energy.  Keeping the Keurig K-Classic Coffee Maker clean and well-maintained is a breeze. Descaling is made simple with the straightforward instructions provided in the user guide, ensuring the machine stays in top shape for years.  Operating this coffee maker is a joy, thanks to its user-friendly button controls. Inserting a K-Cup pod, selecting the desired brew size, and enjoying a perfectly brewed cup of coffee takes just a minute. It's incredibly convenient and time-saving.  The build quality of the Keurig K-Classic Coffee Maker is excellent. Made from durable plastic, it's built to withstand regular use while maintaining its performance and aesthetics.  I highly recommend the Keurig K-Classic Coffee Maker for all the coffee enthusiasts out there. Its ability to brew multiple cup sizes, large water reservoir, energy-saving features, and user-friendly design makes it a must-have addition to any kitchen. Say goodbye to long lines at coffee shops and indulge in café-quality coffee from the comfort of your home. Trust me; you won't be disappointed!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Good machine",
+                    "body": "Makes a little noise while brewing , Have only 2 weeks",
+                    "rating": 4,
+                    "analysis": 0.30000001192092896
+                },
+                {
+                    "title": "A Gift For Myself",
+                    "body": "I LOVE THIS ITEM",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Nice",
+                    "body": "Enjoying it!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "As described",
+                    "body": "Works as described. I’m very happy with my purchase.",
+                    "rating": 4,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Keurig Coffee maker",
+                    "body": "Excellent taste, fit, size, and coffee heat. 100% recommended!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Cup at a time",
+                    "body": "I had a 2010 model that was getting unstable so I replaced it. It’s quieter too.",
+                    "rating": 5,
+                    "analysis": 0.5
+                },
+                {
+                    "title": "Works very well.",
+                    "body": "Great product. Great price. I love this!",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Classic keurig",
+                    "body": "We were given a mini Keurig and it went out. We looked at a few department stores but came back to this one. The water carafe is big enough for all the drinkers in our house and the options for cup sizes and on/off timer has me sold. This purchase was a great decision.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Meets expectation",
+                    "body": "The product came delivered as expected. Works to my satisfaction. Great value for the price.",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                },
+                {
+                    "title": "Love this model",
+                    "body": "This is our third one over the years. Hopefully Kuerig doesn't stop making this model.",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Beautiful Machine, Hard Worker",
+                    "body": "I purchased this coffee maker in red, its much more than a pretty face. Its a valued part of our kitchen, consistently makes a great cup of coffee, hard little worker, no drama entailed in using and cleaning it. Thank you Keurig, I appreciate the quality of this product.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "That the product is exactly as described",
+                    "body": "I like the product. I use it to make my coffee",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Very convenient",
+                    "body": "When we first got this Keurig coffee machine, it was causing a lot of problems: coffee grounds got in the receiving cup, it would overflow, it would not give a full cup. I am not sure what happened, but all of those problems became corrected. The unit has been working beautifully for several weeks now. This is our third Keurig and we very much like it.",
+                    "rating": 5,
+                    "analysis": 0.4000000059604645
+                },
+                {
+                    "title": "Great brew master",
+                    "body": "This coffee maker brews the perfect cup of coffee every time. Its quality of materials and functions are great.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Ease of operation",
+                    "body": "Just what I needed - easy to use.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Love my coffee machine",
+                    "body": "Ever since I bought it I have never stopped using it I love it so much",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Replaced our 5 year old one",
+                    "body": "The only difference between this one and the one we replaced is the power turns off automatically, which should save us some electricity. A good improvement, I'm sure.",
+                    "rating": 5,
+                    "analysis": 0.20000000298023224
+                },
+                {
+                    "title": "Works grast",
+                    "body": "Makes great coffee",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Easy to use",
+                    "body": "Easy to use and simple to set up. This is the one I bought for work and I just purchased another one for home. If you want a coffee maker that’s simple and easy to use, this is it.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "It's fine",
+                    "body": "Works fine looks fine, no complaints",
+                    "rating": 4,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Great!",
+                    "body": "I had a Keurig and it lasted about 5 years. Just recently it started to slow down and did not brew. But I am loving my new red Keurig! We love it because it makes one cup at a time, so we are not wasting on coffee. Between myself and my two family, we have 2-5 cups, so this works great!",
+                    "rating": 5,
+                    "analysis": 0.4000000059604645
+                },
+                {
+                    "title": "Easy to use",
+                    "body": "This is not my first Keurig K-Classic Single-Serve K-Cup Pod Coffee Maker and probably won't be my last but it is my first Rhubarb one. Nice color, I like it more than just plain red. You can use your own pods. They are not cheap but I had my last one for almost 3 years. They are easy to use. Turn it on, put in your pod and when the coffee size light comes on, close the pod lid and choose what size coffee you want. Easy peasy! Wish the other colors didn't cost more, may have gotten blue :-)",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Just like my first",
+                    "body": "I’m always afraid when replacing items because of quality changes over the years . I had my original for over 15 years this is a bit different design but seems to be working great ! The coffee is always good I use to make 10 plus cups a day without issue . Good price good machine and yummy care free coffee.",
+                    "rating": 5,
+                    "analysis": 0.699999988079071
+                },
+                {
+                    "title": "Not made in USA like advertised",
+                    "body": "Made me a good Peet’s coffee pod in under a minute with minimal dripping. Hopefully will hold up better than our previous office one. It says made in USA in the amazon description, but when I got it, turned it over, the actual machine says made in China. Day 1 is so far so good. Will update in a few months",
+                    "rating": 4,
+                    "analysis": 0.20000000298023224
+                },
+                {
+                    "title": "Coffee",
+                    "body": "Makes the best coffee.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "my purchase",
+                    "body": "this is my second coffee maker i liked the first one so well i replaced it with same item.",
+                    "rating": 5,
+                    "analysis": 0.6000000238418579
+                },
+                {
+                    "title": "Classic",
+                    "body": "Just what I needed and could afford.",
+                    "rating": 5,
+                    "analysis": 0.8999999761581421
+                },
+                {
+                    "title": "Good product",
+                    "body": "Very easy to use and provides a very good cup of coffee. A little smaller than the one I replaced, which is good. Would definitely recommend.",
+                    "rating": 5,
+                    "analysis": 0.800000011920929
+                }
+            ],
+            "neutral": [
+                {
+                    "title": "I like the machine, but it doesn’t fill to the correct volume",
+                    "body": "I bought this machine to replace an older model that gave out after five years, I was happy with that lifespan. The new model, however, does not fill my large cup on the biggest cup setting, the last model did. If I want a full cup, I have to follow the cycle with the smallest cup to fill it. While this is a complaint, I like the machine overall, and it produces the same great coffee I’m used to.",
+                    "rating": 4,
+                    "analysis": 0
+                },
+                {
+                    "title": "You must use the right kind of water!",
+                    "body": "Our first 3 of these died. I've within 2 months, the replacement sent by Keurig lasted 1 month, and it's replacement made it nearly a year. The 4th one is fine. We ordered this for my Aunt. WHY did the first 3 fail? Well Keurig fiiiiiinally told us that it was because we use a water softener! Didn't matter that we got it through the filter on the fridge or via the tap. They told us that softened water just gums up the Keurig. So WHY DON'T THEY MENTION THIS ANYWHERE IN THE USER GUIDE❓❓❓❓❓ Good question. It cost THEM 3 new machines. They told us to buy spring water--not distilled. So we have to buy gallons of spring water at the store and it's all fine. So if you're like us, and HAVE to use a water softener (we have extremely hard water here in the rocky southern Missouri Ozark mountains), then just buy spring waterto use. Then you can enjoy the coffee that this handy machine makes. Hopefully SOMEDAY Keurig will add this caution to their user guide. But for us, now we can enjoy our favorite coffees when we go visiting my awesome Aunt!",
+                    "rating": 4,
+                    "analysis": -0.10000000149011612
+                },
+                {
+                    "title": "Troubles with Keurig after my 5 star rating",
+                    "body": "Loved this Keurig. After 6 months we had to descale more than recommended. Then it just wouldn't work after a year. We replaced with an original Keurig version. No problems at this time.",
+                    "rating": 5,
+                    "analysis": 0
+                },
+                {
+                    "title": "Veery reliable",
+                    "body": "This is a very durable and reliable coffee maker! We have used a much more stylish Keurig model and it requires \"descaling\" often. This model hasn't required descaling yet and I bought the first one 4 years ago. This specific purchase was for my Mother-In-Law because her fancy Keurig model failed for a second time.",
+                    "rating": 5,
+                    "analysis": 0
+                },
+                {
+                    "title": "Easy-to-use",
+                    "body": "I can make a cup of coffee before I leave for work. Couple of things I wish the water tank was bigger, I always have to refilling the water tank. I wished now that I would have brought the Keurig K dual.",
+                    "rating": 4,
+                    "analysis": 0
+                },
+                {
+                    "title": "Love my Keurig",
+                    "body": "We use this everyday and I love it. My only complaint and the reason for 4 stars, the new one doesn’t have the reservoir with heated water and if you need to run it a second time which we both do every day, it’s a pain. Such a first world problem. Our old one did that and I expected the new one to do the same. It lasted 12 years. Not sure the new one will.",
+                    "rating": 4,
+                    "analysis": 0
+                },
+                {
+                    "title": "maker Coffee",
+                    "body": "I what Exactly.ordered",
+                    "rating": 4,
+                    "analysis": 0
+                },
+                {
+                    "title": "Refurbished",
+                    "body": "Got it refurbished by Amazon. Works well so far. It did arrive wet for some reason. It was in a bag in Amazon box and maybe they didn't get all the water put from testing it. Anyway that was a little strange. Other than that no issues so far.",
+                    "rating": 4,
+                    "analysis": -0.10000000149011612
+                },
+                {
+                    "title": "Coffee maker",
+                    "body": "But it from my wife hers broke. She’s happy now.",
+                    "rating": 5,
+                    "analysis": 0.10000000149011612
+                },
+                {
+                    "title": "Nice",
+                    "body": "Not as heavy as my original",
+                    "rating": 5,
+                    "analysis": 0
+                },
+                {
+                    "title": "Takes to long to brew coffee.",
+                    "body": "I bought this to replace my older K-Cup machine. When I'm in a hurry I need for it to brew coffee faster",
+                    "rating": 4,
+                    "analysis": 0
+                },
+                {
+                    "title": "Not a great change",
+                    "body": "I had the one that this machine replaced. I liked it much better. Shop around a little before pulling the trigger.",
+                    "rating": 4,
+                    "analysis": -0.10000000149011612
+                },
+                {
+                    "title": "Love it! 1 or 2 cups a day. Don't waste coffee.",
+                    "body": "Dislike Iike nothing.",
+                    "rating": 5,
+                    "analysis": -0.10000000149011612
+                },
+                {
+                    "title": "Disappointed in the brewing size",
+                    "body": "Hubby really likes the gift, but the largest size available as a selection does not fill our daily coffee cups. Which are 10oz, so I am not sure why it's less coffee brewed. If there is one offered at this price point that has a larger cup size purchase that option instead. Will save on the expensive k cups.",
+                    "rating": 4,
+                    "analysis": -0.10000000149011612
+                }
+            ],
+            "negative": [
+                {
+                    "title": "Correction on my review",
+                    "body": "Mine stopped working after several months. So stupid me I just ordered the same one again Correction It turns out the circuit breaker kicked off and when it reset it started working again, just fine. So check your breaker if it stops working. As far as the new one I received, I’ll keep it as a gift",
+                    "rating": 5,
+                    "analysis": -0.30000001192092896
+                },
+                {
+                    "title": "No filter or holder came with it.",
+                    "body": "This was an upgrade. It came not ready to use; as the filter and filter holder did NOT come with it. I still had my old Keurig, and took the filter holder from it. Not happy. I could have paid the same price at Keurig, and it would have came completed. The box was too large to bother to return.",
+                    "rating": 4,
+                    "analysis": -0.5
+                },
+                {
+                    "title": "Kureg",
+                    "body": "It came without the filter tube in the water tank, so I used the tube from my old Kureg coffeemaker. They should have sent a new one.",
+                    "rating": 4,
+                    "analysis": -0.4000000059604645
+                },
+                {
+                    "title": "Broken",
+                    "body": "Received Aug.16th worked for one month. Sept 16th stopped working. Put Kcup in , press down and Machine shuts off.",
+                    "rating": 5,
+                    "analysis": -0.699999988079071
+                },
+                {
+                    "title": "missing part",
+                    "body": "missing water filter part",
+                    "rating": 4,
+                    "analysis": -0.699999988079071
+                },
+                {
+                    "title": "Keurig",
+                    "body": "Kuerig is a grey brand! Unfortunately I’ve cleaned, but the big cup will not fill out my 12 inch cup! Isn’t it suppose to!??",
+                    "rating": 5,
+                    "analysis": -0.4000000059604645
+                },
+                {
+                    "title": "Good buy",
+                    "body": "Amazon had the best price available You get what you pay for. Had this since July and now having to ask for a new one. Stopped working and Keuring is requesting such specifics having to send twice. Hopefuly the second time works for the return. Otherwise, not a good buy at all.",
+                    "rating": 5,
+                    "analysis": -0.30000001192092896
+                },
+                {
+                    "title": "Features",
+                    "body": "I miss the electronic message display screen, and the water reservoir is hard to see that it’s low.",
+                    "rating": 4,
+                    "analysis": -0.800000011920929
+                }
+            ]
+        }
+    }
+}
+
+
+
+

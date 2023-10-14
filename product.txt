@@ -1,0 +1,116 @@
+{
+    "title": "The Keurig K-Classic Coffee Maker",
+    "asin": "B018UQ5AMS",
+    "description": "This 2 Pack Tactical Flashlights set from ‎BESTSUN is designed with military-grade durability offering an impressive 3000 high lumens LED light output. Equipped with five customizable modes (High, Medium, Low, Strobe, and SOS/Emergency), these torches are perfect for outdoor expeditions such as camping, hiking, biking, or home emergencies. Also, it features an adjustable focus, allowing you to toggle between spot and flood beams as per your requirement. Crafted from robust aluminum alloy and rubber these flashlights are not only waterproof but also resistant to wear and tear. Despite their high performance, these handheld flashlights are compact enough to fit easily in your pocket, handbag, or car compartment. The set includes 2 LED flashlights, 2 battery tubes, 2 AAA battery holders (batteries not included), and 2 lanyards (hand straps). Priced competitively at $8.49, this flashlights set offers high value for your money, delivering robust output and quality at an attractive price. This product comes with a standard delivery, fulfilled by Amazon, ensuring reliability and ease in the purchase process.",
+    "customerType": "This product is designed for outdoor enthusiasts, tactical operations, and emergency preparedness. It's perfect for camping, hiking, biking, and home emergencies. The high lumen output and multiple modes (including SOS/ emergency) make it a versatile tool for dealing with various situations in the dark. Moreover, its compact size and lightweight make it easy to carry in a pocket, purse, or car compartment. It can also be a useful addition to any homeowner's toolkit due to its sturdy, waterproof build.",
+    "all": {
+        "barChart": {
+            "positive": 78,
+            "neutral": 14,
+            "negative": 8,
+            "total": 100
+        },
+        "dougnut": {
+            "love": 42,
+            "happy": 23,
+            "satisfied": 13,
+            "fair": 14,
+            "unsatisfied": 4,
+            "upset": 3,
+            "hate": 1,
+            "total": 100
+        },
+        "table": {
+            "five": {
+                "positive": 67,
+                "neutral": 5,
+                "negative": 4
+            },
+            "four": {
+                "positive": 11,
+                "neutral": 9,
+                "negative": 4
+            },
+            "three": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "two": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "one": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "total": 100
+        }
+    },
+    "sentiment": "Based on the sentiment analysis of customer reviews, it seems that this product has generally positive feedback. The majority of customers love or are happy with the product, while a smaller percentage of customers are satisfied or feel it is average. There are a few customers who are unsatisfied or upset with the product, and one customer even hates it. Looking at the sentiment according to user rating, it appears that the majority of customers who gave 5 stars to the product have positive reviews. There are also a few customers who gave neutral or negative reviews despite giving a high rating. Similarly, for customers who gave 4 stars, there are positive, neutral, and negative reviews. Overall, it seems that the product has a mostly positive sentiment among customers, but there are a few negative reviews to consider. It would be important to dive deeper into the specific reasons behind the negative reviews to better understand any potential issues with the product.",
+    "strengths": "Several customers shared positive comments about this product even in the instances where there were minor issues. The model's capacity to brew high-quality coffee daily was frequently highlighted, indicating that its function lasts and remains consistent. A feature most customers appreciated is the machine's reliability. Many users specified that they use their Keurig daily, with some stating that their previous Keurig lasted 12 years without failure, which showcases its exceptional durability. \n\nAnother point in favor is its portability resulting from its light weight, as reported by some customers. This quality can enhance the user experience as it's easier to manipulate when cleaning or relocating, making it a user-friendly model. \n\nAmazon's principle of price competitiveness was mentioned by one customer who pointed out that the best price for the product was available on Amazon. In a market saturated with various coffee maker models, this coffee maker's competitive price point adds to its overall value.\n\nThe product seems to please customers who are not heavy coffee drinkers but enjoy a cup or two a day. Such moderate use seems to be ideal for this model's lifespan and function. Potential customers must note that these insights do not guarantee that their experiences would be the same but give a well-rounded representation of the product's strengths.",
+    "weaknesses": "The critical problems reported by customers regarding their Keurig coffee makers include issues with the water reservoir, machine malfunctions, difficulty filling cups, missing parts, lack of heated water, and frequent descaling needs. Although some customers have found solutions such as using parts from their previous machines or dealing with circuit breaker issues, many still experience inconvenience due to these issues.\n\nSolution-wise, Keurig could improve their quality control to ensure all components are included with the machines. In addition, upgrading the water reservoir to a larger size could address visibility and refill frequency issues. Heated water could be addressed by altering the design to ensure a constant temperature is maintained. As for machine malfunctions, a more rigorous testing and servicing process could prevent breakdowns. Concerning the descaling issue, buyers should be provided with clear and concise instructions on how to descale the machine properly, as well as how often to do it.\n\nPotential buyers should weigh these issues against their specific coffee brewing needs and preferences. Keurig should address these concerns transparently to enhance customers' confidence before making a purchase. It's also critical for customers to understand the product return policies to mitigate any potential return process issues.",
+    "affiliateLink": "",
+    "affiliateLinkCart": ""
+}
+
+
+{
+    "title": "BESTSUN 2pack tactical flashlight",
+    "asin": "B073VZZKK5",
+    "description": "This 2 Pack Tactical Flashlights set from ‎BESTSUN is designed with military-grade durability offering an impressive 3000 high lumens LED light output. Equipped with five customizable modes (High, Medium, Low, Strobe, and SOS/Emergency), these torches are perfect for outdoor expeditions such as camping, hiking, biking, or home emergencies. Also, it features an adjustable focus, allowing you to toggle between spot and flood beams as per your requirement. Crafted from robust aluminum alloy and rubber these flashlights are not only waterproof but also resistant to wear and tear. Despite their high performance, these handheld flashlights are compact enough to fit easily in your pocket, handbag, or car compartment. The set includes 2 LED flashlights, 2 battery tubes, 2 AAA battery holders (batteries not included), and 2 lanyards (hand straps). Priced competitively at $8.49, this flashlights set offers high value for your money, delivering robust output and quality at an attractive price. This product comes with a standard delivery, fulfilled by Amazon, ensuring reliability and ease in the purchase process.",
+    "customerType": "This product is designed for outdoor enthusiasts, tactical operations, and emergency preparedness. It's perfect for camping, hiking, biking, and home emergencies. The high lumen output and multiple modes (including SOS/ emergency) make it a versatile tool for dealing with various situations in the dark. Moreover, its compact size and lightweight make it easy to carry in a pocket, purse, or car compartment. It can also be a useful addition to any homeowner's toolkit due to its sturdy, waterproof build.",
+    "all": {
+        "barChart": {
+            "positive": 62,
+            "neutral": 20,
+            "negative": 18,
+            "total": 100
+        },
+        "dougnut": {
+            "love": 36,
+            "happy": 14,
+            "satisfied": 12,
+            "fair": 20,
+            "unsatisfied": 7,
+            "upset": 10,
+            "hate": 1,
+            "total": 100
+        },
+        "table": {
+            "five": {
+                "positive": 44,
+                "neutral": 5,
+                "negative": 1
+            },
+            "four": {
+                "positive": 16,
+                "neutral": 9,
+                "negative": 4
+            },
+            "three": {
+                "positive": 2,
+                "neutral": 4,
+                "negative": 11
+            },
+            "two": {
+                "positive": 0,
+                "neutral": 2,
+                "negative": 1
+            },
+            "one": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 1
+            },
+            "total": 100
+        }
+    },
+    "sentiment": "The product seems to have a generally positive reception based upon the data extracted through the NLP API. The majority of the customers, around 62%, have positive feelings towards it, which is a very encouraging sign. However, there's a non-trivial subset of reviews that are less favourable, particularly, 18% with negative sentiment could be a concern. These should be carefully examined to identify common area of dissatisfaction and potentially make improvements. Looking at the breakdown per rating, if we aim to boost the average rating for the product, reducing negatives among the 3-stars category might be a key area of focus, as this seems to be where most negative sentiment is coming from. It is also interesting to see positive and negative sentiment among reviewers who rated the product with 5 stars, showing that even among the most satisfied customers, there might be minor grievances, which could be addressed to further enhance the product. I believe a more in-depth qualitative analysis of the written reviews could yield ideas for improving the product or how it's marketed or supported. This quantitative sentiment analysis is a good starting point, but to gain actionable insights, we'd need to understand why customers felt as they did. Customer reviews are critical to gaining customer trust, so it's worth investing in addressing negative feedback and striving to continually improve based on customer inputs.",
+    "strengths": "Several customers expressed satisfaction with the brightness of this flashlight, highlighting its great value for the price. This feature was especially appreciated in situations such as power outages or during early morning tasks. The product's compact size and easy-to-use design were also commended by many users, emphasising its versatility and portability. Many users appreciated the adjustable beam and sturdy metal construction that added durability to the product. The long-lasting battery life was beneficial during power outages or night walks, making it a reliable tool. Some users also valued the multipurpose flashing mode, even though others found it inconvenient. Furthermore, some users appreciated its affordability, easy operation, and high level of illumination. Even though some users found it smaller than expected, they still found the flashlight useful and bright, making the product's size an added advantage for its portability. However, a recurring issue was the cycling through different modes every time the product is turned on. Some users found this feature inconvenient and poorly engineered. Overcoming this could make the product more user-friendly and appealing to potential customers. Therefore, customers looking for a bright, affordable, compact, and durable flashlight with long battery life may find this product invaluable. However, they should note its potential inconvenience related to the light modes.",
+    "weaknesses": "Customers faced multiple issues with the flashlight product. Firstly, many customers found the flashlight smaller or different from expectations. Here, sellers could provide accurate dimensions and realistic images to manage customer expectations. Secondly, users reported problems with the brightness either fading or not being as advertised. Suppliers can perform quality checks to ensure an accurate and reliable light source. Thirdly, the flashlight's various features, such as zoom adjustment and different modes, were sometimes frustrating for users. An improved design focusing on simplicity and practicality or clear user instructions could alleviate this issue. Some buyers also had issues with faulty components like O-rings or plastic tubes, suggesting stricter quality control needs. Another frequently faced problem was difficulty in sourcing batteries; businesses could provide a set of batteries or associated products on the same platform to better their experience. Lastly, the failure of flashlights to be rechargeable or waterproof as well as the absence of low and medium light features, indicates a need to not only enhance the product, but also be transparent with product descriptions. Satisfied customers appreciated the durable construction, good battery life, and high brightness, indicating the product's potential once these problems are resolved.",
+    "affiliateLink":"",
+    "affiliateLinkCart":""
+}
