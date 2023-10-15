@@ -1,4 +1,65 @@
 {
+    "title": "The Nekteck Shiatsu Foot Massager Machine",
+    "asin": "B07WYX1D4H",
+    "description": "The Nekteck Shiatsu Foot Massager Machine with Soothing Heat is a high-quality health and wellness appliance designed to provide ultimate comfort and relief after a long day. This foot massager is equipped with multiple settings including a heat function and adjustable air compression intensity that can be customized according to your preference. It features built-in air compression technology with two adjustable intensity levels that boost blood circulation on your soles and feet. The heat function provides safe infrared warmth perfect for relieving tense and stressed muscles and can be manually turned on or off. The massager also features deep-kneading nodes that imitate professional massage techniques providing pressure relief to sore muscles. With a detachable and washable foot cover, you can ensure hygiene at all times. \n\nThis Nekteck Foot Massager is made of plastic and weighs 5.1 pounds. It's easy to handle and comes with a corded electric power source. The machine is extensively built to target foot reflex zones and massage points, amplifying your foot wellness. Offering maximum order quantity of 10 per customer, it is priced at $79.99 with an available $15 coupon, bringing improved foot wellness into the comfort of your home or office at an affordable cost. This product is rated 4.2 out of 5 stars by satisfied customers remarking on its beneficial and powerful functionalities. It is an excellent investment for those seeking relief from foot soreness and enhancing overall blood circulation.",
+    "customerType": "This product is made for anyone who wants to improve their foot wellness, relax at home or in the office, and promote better blood circulation. It is suitable for both men and women and can be used by individuals of all ages. However, it is not recommended for people who are highly sensitive to squeeze and kneading.",
+    "all":  {
+        "barChart": {
+            "positive": 6,
+            "neutral": 1,
+            "negative": 3,
+            "total": 10
+        },
+        "dougnut": {
+            "love": 0,
+            "happy": 4,
+            "satisfied": 2,
+            "fair": 1,
+            "unsatisfied": 1,
+            "upset": 1,
+            "hate": 1,
+            "total": 10
+        },
+        "table": {
+            "five": {
+                "positive": 4,
+                "neutral": 0,
+                "negative": 0
+            },
+            "four": {
+                "positive": 2,
+                "neutral": 1,
+                "negative": 3
+            },
+            "three": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "two": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "one": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "total": 10
+        }},
+    "sentiment": "Based on the results of the sentiment analysis, it appears that the majority of the customer reviews for this product on Amazon are positive. Out of the 10 reviews analyzed, 6 were positive, 1 was neutral, and 3 were negative.\n\nIt is also interesting to note that the sentiment of the reviews seems to be correlated with the rating given by the customers. Customers who rated the product 5 stars generally had positive reviews, while customers who rated it 4 stars had a mix of positive, neutral, and negative reviews.\n\nOverall, it seems that the majority of customers are happy or satisfied with this product. However, it is also important to take into consideration the negative reviews in order to get a more balanced perspective.",
+    "strengths": "Customers have highlighted several positive aspects of the Nektek foot massager. There is appreciation for its easy usage and customizable features allowing for a more personalized massage experience. The range of modes and various temperature settings received praise for their effectiveness in providing soothing pain relief, particularly after long periods of standing or working. The quality of the product is also mentioned as impressive, owing to its sturdiness and competence in providing foot therapy. Further, it has been labeled as a worthwhile investment by many customers. Despite its compact size, it provides adequate relaxation, even for larger feet. One major highlight noted by customers is the company’s prompt customer service and their offers for assistance or an alternative model in case of unsatisfactory experience. They are proactive in resolving issues, ensuring customer satisfaction. However, customers also mentioned certain areas for improvement such as the inclusion of a remote for added convenience and the addition of a heel massaging function. Customers' individual preferences, foot size, and pain threshold may factor into the effectiveness and comfort of using the massager. Despite these, customers overall recommend the Nektek foot massager for its functional capabilities and therapeutic aid.",
+    "weaknesses": "Customers have provided valuable feedback about the foot massager. Though many recognised its effectiveness in providing foot therapy and pain relief, some faced challenges related to size, comfort, convenience, and intensity. A range of foot sizes from small to size 11 found discomfort, either due to sock liner size or pressure intensity, suggesting that the product's adaptability needs improvements. A possible solution could entail adjustable settings to accommodate different foot sizes and variable pressure levels. Some felt the air compression was too harsh on swollen feet, indicating the need for a sensitive setting tailored for inflammation conditions. There were also considerations about the product's weight, as some found it hard to move across rooms. A lighter, more portable design could overcome this issue. Finally, another potential addition could be the inclusion of a remote control for easier operation. While some reviews lacked explicit critical problems, it would be beneficial for future purchasers to take these aspects into account.",
+    "affiliateLink": "",
+    "affiliateLinkCart": ""
+}
+
+
+
+
+
+{
     "title": "The Keurig K-Classic Coffee Maker",
     "asin": "B018UQ5AMS",
     "description": "The Keurig K-Classic Coffee Maker is a versatile and easy-to-use appliance perfect for any coffee lover. This single-serve coffee maker brews K-Cup pods in multiple sizes (6, 8, 10 ounces), allowing you to choose the strength of your brew. The Keurig K-Classic is equipped with a large 48-ounce water reservoir, enabling you to brew over 6 cups before needing a refill. Moreover, the water reservoir is removable, simplifying the refilling process. \n\nThis coffee maker also features a descaling process which assists in the removal of calcium deposits or scale that accumulates over time inside the coffee maker. An auto-off feature is inculcated to conserve energy by turning off the coffee maker after 2 hours of inactivity. The simple button controls make it effortless to brew a cup of coffee under a minute, simply by inserting a pod and selecting the desired brew size. \n\nThe Keurig K-Classic is made of black plastic, adding a sleek and modern touch to your kitchen counter. It has an impressive average customer rating of 4.6 out of 5 stars, based on 97,258 ratings, demonstrating its high-quality performance and customer satisfaction. The Keurig K-Classic Coffee Maker is on sale for $109.99, down from its original price of $149.99, and includes free shipping. With its programmable and energy-saving features, the Keurig K-Classic Coffee Maker is fantastic value for money and a great addition to any kitchen.",
