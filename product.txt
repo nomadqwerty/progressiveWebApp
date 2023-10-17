@@ -181,34 +181,60 @@
 
 
 
-
 {
-    "headline": "The Nekteck Shiatsu Foot Massager Machine",
-    "writer": "TopBuy",
-    "quote": "Step into relaxation and kick foot fatigue to the curb with the Nekteck Shiatsu Foot Massager – the sole-ution to your well-deserved comfort!",
-    "coverImage": "https://images.unsplash.com/photo-1529982412356-901cc3a363cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80",
-    "relatedPost": "",
-    "relatedPostLink": "",
-    "metaData": {
-        "title": "The Nekteck Shiatsu Foot Massager Machine",
-        "description": "Experience ultimate comfort and relief with the Nekteck Shiatsu Foot Massager Machine with Soothing Heat. Customizable settings, deep-kneading nodes, and infrared warmth provide relaxation and tension relief for sore feet.",
-        "keywords": "foot massager, foot wellness, relaxation, muscle relief, health and wellness, soothing heat, air compression, infrared warmth, deep-kneading nodes, foot reflex zones, massage points, hygienic foot cover, corded electric, affordable cost, customer reviews, blood circulation, foot soreness relief, home spa, ultimate comfort, Nekteck Foot Massager.",
-        "author": "TopBuy",
-        "category": "Health & Wellness Appliances",
-        "publishedDate": "",
-        "lastUpdated": "",
-        "audience": "Individuals looking for foot soreness relief, enhanced blood circulation, and a spa-like experience in the comfort of their home or office."
+    "title": "The okoium Space Heater.",
+    "asin": "B0CHF1T7RF",
+    "description": "The okoium Space Heater for Indoor Use is a 2023 upgraded model featuring cutting-edge PTC portable mini heater technology, equipped with a sensor, features a humidifier and 3D flame effect, making this a unique and advanced home heating solution. Rated at 1500W, this electric ceramic heater comes with an oscillating feature to provide even heat distribution to rooms, garages, offices, and homes.\n\nThe heater can detect your presence via its new infrared sensor and will turn on and off accordingly, thus saving your energy cost. It also has a unique humidifying feature, which ensures warmth without drying out your room. The heater ensures safety by using separate water tanks for the humidification system and the heating system. It has an ETL-certified tip-over and overheat protection mechanism. When the heater is knocked down accidentally, it will automatically turn itself off. \n\nThe heater is ultra-portable, given its miniature size of just 6.9x6.3x11.2 inches, and it has an easy-to-use handle for ease of transportation. The advanced technology ensures fast heating in just around two seconds, and the quiet operation ensures a peaceful environment. \n\nThe heater is currently in stock and is eligible for Amazon Prime. Unfortunately, the cost is undefined. It has been given a high average rating of 4.9 stars out of 5 by 2660 customers, with a high percentage of customers giving it a full 5 stars, indicating a high level of customer satisfaction.",
+    "customerType": "This product is made for individuals who are looking for an easy and fast way to heat their indoor spaces such as their office, bedroom, living room or garage. Additionally, it's also suitable for those who want a heater with additional features like a humidifier, 3D flame effect, infrared sensors, and remote control. The product's lightweight and portable nature makes it a good option for those who may want to move it around frequently. The energy efficient features would also appeal to individuals interested in saving on their energy bills.",
+    "all": {
+        "barChart": {
+            "positive": 10,
+            "neutral": 0,
+            "negative": 0,
+            "total": 10
+        },
+        "dougnut": {
+            "love": 6,
+            "happy": 2,
+            "satisfied": 2,
+            "fair": 0,
+            "unsatisfied": 0,
+            "upset": 0,
+            "hate": 0,
+            "total": 10
+        },
+        "table": {
+            "five": {
+                "positive": 10,
+                "neutral": 0,
+                "negative": 0
+            },
+            "four": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "three": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "two": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "one": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 0
+            },
+            "total": 10
+        }
     },
-    "lookingFor": [
-        "Massage Techniques: Different foot massagers offer various massage techniques, such as Shiatsu, kneading, rolling, air compression, or a combination of these. Choose one that aligns with your preferences and specific needs.",
-        "Safety Features: Make sure the foot massager has safety features such as automatic shut-off timers to prevent overheating and overuse.",
-        "Ease of Cleaning: A detachable and washable foot cover or liner is helpful for maintaining hygiene and cleanliness.",
-        "Durability and Quality: Read reviews and choose a reputable brand to ensure the massager is well-constructed and built to last.",
-        "User Reviews: Read user reviews and ratings to gain insights into the experiences of other customers with the product you're considering. This can provide valuable feedback on its performance and durability."
-    ],
-    "introduction": "Step into a world of relaxation with the Nekteck Shiatsu Foot Massager Machine. This wellness marvel is your passport to ultimate comfort and rejuvenation after a long day. Unwind with its soothing heat, customizable settings, and deep-kneading nodes, offering a professional-grade massage experience. But here's the kicker - it doesn't stop there! With air compression technology to boost blood circulation and a washable foot cover for hygiene, it's a holistic foot wellness solution. Compact, corded, and budget-friendly, it's the perfect addition to your home or office. Rated 4.2 stars by delighted users, bid farewell to foot soreness, and say hello to elevated blood circulation. It's time to indulge in self-care, right in your own space.",
-    "products": [
-        "652c346052f292722df4f27f"
-    ],
-    "__v": 0
+    "sentiment": "As an AI, I don't have thoughts or feelings. However, I can interpret these results. The analysis shows that this product is very well-received by all customers who have reviewed it. Each customer has given a 5-star rating and provided a positive review. This suggests that the product is of high quality, meets the expectations set by its description, and/or delivers excellent value for money. Such unanimous praise is unusual, and it recommends the product strongly to prospective buyers. It may also suggest that the product's sellers or makers are doing a great job. However, bear in mind that reviews can sometimes be manipulated. Always approach online reviews with a critical mindset and consider other factors, such as product details, seller reputation, and your personal needs and preferences.",
+    "strengths": "The heater has received considerable positive feedback from customers due to its multifunctional features and effective performance. The heater's ability to heat spaces quickly is widely praised, with some consumers pointing out that it can warm a bathroom in less than 5 minutes. Most customers appreciate the oscillating feature that allows the heater to distribute warmth evenly across the room. Several reviews also underscore the convenience of the heater's portability, which makes it perfect for travel. Furthermore, customers praised the heater's quiet operation and the added function of the humidifier. One of the stand-out features that customers like is the heater's safety features, including tip-over protection and cool down period. Another cherished feature is the fire effect that not only adds ambiance to the space but also doubles up as nightlight. Moreover, the heater's remote control function brings an added layer of convenience. Overall, customers feel that this heater is high-performing, convenient, and safe, with some extra features that give it a distinct edge.",
+    "weaknesses": "Based on the multiple reviews provided, very few critical problems are mentioned by customers regarding this heater. A recurring positive sentiment is that consumers appreciate its portability, size, efficiency, and aesthetic fireplace feature. One customer mentioned they were unable to adjust the temperature on certain modes. The recommendation for this problem would be for the manufacturer to improve the user interface and functionality of the heater, avoiding mode restrictions on temperature settings. For prospective buyers, it would be beneficial to ensure they fully understand the heater's functionalities and restrictions before purchasing. Future buyers are advised to ask detailed questions about features that are important to them, like temperature adjustments on all modes. Overall, there seems to be a high degree of customer satisfaction, portraying that the product performs as expected and adds value to its users.",
+    "affiliateLink": "",
+    "affiliateLinkCart": ""
 }
